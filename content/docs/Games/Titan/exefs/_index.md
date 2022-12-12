@@ -6,7 +6,7 @@ weight: 1
 # bookHidden: false
 bookCollapseSection: false
 # bookComments: false
-# bookSearchExclude: false
+bookSearchExclude: true
 ---
 # Scarlet & Violet (ExeFS)
 

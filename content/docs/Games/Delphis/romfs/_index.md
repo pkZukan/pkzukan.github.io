@@ -6,5 +6,6 @@ weight: 1
 # bookHidden: false
 bookCollapseSection: true
 # bookComments: false
-# bookSearchExclude: false
+bookSearchExclude: true
 ---
+stub

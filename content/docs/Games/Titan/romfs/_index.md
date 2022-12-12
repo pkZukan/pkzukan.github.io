@@ -6,6 +6,8 @@ weight: 2
 # bookHidden: false
 bookCollapseSection: false
 # bookComments: false
-# bookSearchExclude: false
+bookSearchExclude: true
 ---
-test
+### Romfs contents:
+
+{{<csv-to-markdown file="data/titan_romfs.csv">}}

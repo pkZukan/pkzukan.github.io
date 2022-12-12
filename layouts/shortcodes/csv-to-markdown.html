@@ -1,0 +1,25 @@
+<!-- layouts/shortcodes/csv-to-markdown.html -->
+
+{{$url := (.Get "file")}}
+{{ $csvData := getCSV "," $url }}
+
+<table>
+  <thead>
+    <tr>
+      {{ range $i, $h := index $csvData 0 }}
+        <th>{{ $h }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $i, $row := $csvData }}
+      {{ if ne $i 0 }}
+        <tr>
+          {{ range $cell := $row }}
+            <td>{{ $cell | markdownify }}</td>
+          {{ end }}
+        </tr>
+      {{ end }}
+    {{ end }}
+  </tbody>
+</table>
