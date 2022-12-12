@@ -12,6 +12,9 @@ bookSearchExclude: true
 
 *Orion*
 
-#### Notable offsets:
+### Notable facts:
+ - stub
+
+### Notable offsets:
 
 {{<csv-to-markdown file="data/orion/exefs.csv">}}

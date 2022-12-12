@@ -12,6 +12,9 @@ bookSearchExclude: true
 
 *Delphis*
 
-#### Notable offsets:
+### Notable facts:
+ - Uses Unity engine
+
+### Notable offsets:
 
 {{<csv-to-markdown file="data/delphis/exefs.csv">}}

@@ -12,6 +12,9 @@ bookSearchExclude: true
 
 *Beluga*
 
-#### Notable offsets:
+### Notable facts:
+ - stub
+
+### Notable offsets:
 
 {{<csv-to-markdown file="data/beluga/exefs.csv">}}

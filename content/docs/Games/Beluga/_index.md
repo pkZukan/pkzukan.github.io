@@ -12,7 +12,7 @@ bookCollapseSection: true
 
 *Beluga*
 
-### Let's Go Pikachu Info:
+#### Let's Go Pikachu Info:
 
 TitleID: 010003F003A34000
 
@@ -22,7 +22,7 @@ Release Date: 11-16-2018
 
 ![Scarlet](/pikachu.jpg)
 
-### Let's Go Eevee Info:
+#### Let's Go Eevee Info:
 
 TitleID: 0100187003A36000
 

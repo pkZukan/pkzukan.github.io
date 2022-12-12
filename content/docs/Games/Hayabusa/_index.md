@@ -12,7 +12,7 @@ bookCollapseSection: true
 
 *Hayabusa*
 
-### Arceus Info:
+#### Arceus Info:
 
 TitleID: 01001F5010DFA000
 

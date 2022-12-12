@@ -12,12 +12,16 @@ bookSearchExclude: true
 
 *Titan*
 
-#### Notable facts:
+### Notable facts:
  - Uses new [trpfs](../filesystem) file system
  - Uses Lua 5.4
  - Game logic written in haxe and compiled to binary lua
  - A lot more game logic moved to haxe/lua than previous games
 
-#### Notable Lua offsets:
+### Notable Lua offsets:
 
 {{<csv-to-markdown file="data/titan/lua_offsets.csv">}}
+
+### Notable pml offsets:
+
+{{<csv-to-markdown file="data/titan/pml_offsets.csv">}}

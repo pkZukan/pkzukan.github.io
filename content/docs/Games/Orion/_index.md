@@ -12,7 +12,7 @@ bookCollapseSection: true
 
 *Orion*
 
-### Sword Info:
+#### Sword Info:
 
 TitleID: 0100ABF008968000
 
@@ -22,7 +22,7 @@ Release Date: 11-15-2019
 
 ![Sword](/sword.jpg)
 
-### Shield Info:
+#### Shield Info:
 
 TitleID: 01008DB008C2C000
 

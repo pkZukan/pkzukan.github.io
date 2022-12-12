@@ -12,7 +12,7 @@ bookCollapseSection: true
 
 *Titan*
 
-### Scarlet Info:
+#### Scarlet Info:
 
 TitleID: 0100A3D008C5C000
 
@@ -22,7 +22,7 @@ Release Date: 11-18-2022
 
 ![Scarlet](/scarlet.jpg)
 
-### Violet Info:
+#### Violet Info:
 
 TitleID: 01008F6008C5E000
 
