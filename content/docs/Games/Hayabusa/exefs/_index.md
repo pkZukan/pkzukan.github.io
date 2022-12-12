@@ -10,4 +10,4 @@ bookSearchExclude: true
 ---
 #### Notable offsets:
 
-{{<csv-to-markdown file="data/hayabusa_exefs.csv">}}
+{{<csv-to-markdown file="data/hayabusa/exefs.csv">}}

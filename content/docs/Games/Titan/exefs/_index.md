@@ -12,6 +12,6 @@ bookSearchExclude: true
 
 *Titan*
 
-#### Notable offsets:
+#### Notable Lua offsets:
 
-{{<csv-to-markdown file="data/titan_exefs.csv">}}
+{{<csv-to-markdown file="data/titan/lua_offsets.csv">}}

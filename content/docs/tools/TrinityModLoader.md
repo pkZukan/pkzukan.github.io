@@ -1,8 +1,8 @@
 ---
-title: "PkNx"
+title: "Trinity Mod Loader"
 weight: 1
 # bookFlatSection: false
-# bookToc: true
+bookToc: true
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
@@ -10,8 +10,8 @@ weight: 1
 ---
 ### Description:
 
-A package of Pokémon (Nintendo Switch) ROM Editing Tools, programmed in C#.
+A small utility to make and manage mods, while also providing file extraction utilities.
 
 ### Link:
 
-https://github.com/kwsch/pkNX
+https://github.com/pkZukan/gftool

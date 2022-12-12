@@ -1,8 +1,8 @@
 ---
-title: "PkNx"
+title: "Asset Assistant"
 weight: 1
 # bookFlatSection: false
-# bookToc: true
+bookToc: true
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
@@ -10,8 +10,8 @@ weight: 1
 ---
 ### Description:
 
-A package of Pokémon (Nintendo Switch) ROM Editing Tools, programmed in C#.
+A WIP re-impl of the AssetAssistant lib
 
 ### Link:
 
-https://github.com/kwsch/pkNX
+https://github.com/Reisyukaku/AssetAssistant

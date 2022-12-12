@@ -10,4 +10,4 @@ bookSearchExclude: true
 ---
 #### Notable offsets:
 
-{{<csv-to-markdown file="data/beluga_exefs.csv">}}
+{{<csv-to-markdown file="data/beluga/exefs.csv">}}

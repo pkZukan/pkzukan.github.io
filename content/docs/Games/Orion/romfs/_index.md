@@ -10,4 +10,4 @@ bookSearchExclude: true
 ---
 ### Romfs contents:
 
-{{<csv-to-markdown file="data/orion_romfs.csv">}}
+{{<csv-to-markdown file="data/orion/romfs.csv">}}

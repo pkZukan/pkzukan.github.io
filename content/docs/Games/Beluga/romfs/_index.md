@@ -10,4 +10,4 @@ bookSearchExclude: true
 ---
 ### Romfs contents:
 
-{{<csv-to-markdown file="data/beluga_romfs.csv">}}
+{{<csv-to-markdown file="data/beluga/romfs.csv">}}

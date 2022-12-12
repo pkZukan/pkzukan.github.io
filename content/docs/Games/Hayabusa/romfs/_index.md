@@ -10,4 +10,4 @@ bookSearchExclude: true
 ---
 ### Romfs contents:
 
-{{<csv-to-markdown file="data/hayabusa_romfs.csv">}}
+{{<csv-to-markdown file="data/hayabusa/romfs.csv">}}
