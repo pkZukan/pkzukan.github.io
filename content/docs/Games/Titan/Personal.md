@@ -15,4 +15,4 @@ Contains all the base stats, abilities, etc, as well as evo data.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/pml/personal.fbs" lang="language">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/pml/personal.fbs" lang="rb">}}

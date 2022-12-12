@@ -8,4 +8,6 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
-stub
+#### Notable offsets:
+
+{{<csv-to-markdown file="data/beluga_exefs.csv">}}

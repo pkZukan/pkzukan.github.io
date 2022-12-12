@@ -8,4 +8,6 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
-stub
+### Romfs contents:
+
+{{<csv-to-markdown file="data/delphis_romfs.csv">}}

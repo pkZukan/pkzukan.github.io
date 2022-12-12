@@ -1,0 +1,9 @@
+Function,Description,Offset (1.0.0),Offset (1.0.1),Offset (1.1.0)
+LuaNewState,Create a new LuaState struct,0xadae00,0x0,0x0
+LuaLoadbuffer,Loads a string of plaintext lua code,0xd69e70,0x0,0x0
+LuaPCall,Calls loaded function on the stack,0x99e3b0,0x0,0x0
+LuaToString,Pops string off the lua stack,0x9aeb10,0x0,0x0
+LuaSetTop,Sets Lua stack,0x99df80,0x0,0x0
+LuaGetTop,Gets Lua stack pos,0x99df60,0x0,0x0
+LuaType,Get Lua type,0xa4dd50,0x0,0x0
+LuaPrint,Prints lua value to stdout,0x45f80,0x0,0x0
