@@ -23,80 +23,80 @@ Schema: # struct SpeciesInfo { species_index: uint16; species_form: uint16; spec
 <strong>Personal</strong>
 <label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></aside></header><article class=markdown><h3 id=description>Description:
 <a class=anchor href=#description>#</a></h3><p>Contains all the base stats, abilities, etc, as well as evo data.</p><h3 id=schema>Schema:
-<a class=anchor href=#schema>#</a></h3><pre tabindex=0><code class=language-language data-lang=language>struct SpeciesInfo {
-    species_index: uint16;
-    species_form: uint16;
-    species_model: uint16;
-    color: uint8;
-    bodytype: uint8;
-    height: uint16;
-    weight: uint16;
-    res0: uint32;
-    res1: uint32;
-    res2: uint32;
-}
-
-struct StatInfo {
-    HP: uint8;
-    ATK: uint8;
-    DEF: uint8;
-    SPA: uint8;
-    SPD: uint8;
-    SPE: uint8;
-}
-
-struct GenderData {
-    group: uint8;
-    ratio: uint8;
-}
-
-struct EvoData {
-    species: uint16;
-    form: uint16;
-    region: uint16;
-    can_evolve: uint16;
-}
-
-struct ZukanData {
-    index: uint16;
-    group: uint8;
-}
-
-struct Move {
-    move: uint16;
-    level: int8;
-}
-
-table PersonalData {
-    species: SpeciesInfo;
-    is_present: bool;
-    dex: ZukanData;
-    type1: uint8;
-    type2: uint8;
-    ability1: uint16;
-    ability2: uint16;
-    ability3: uint16;
-    growth: uint8;
-    rate: uint8;
-    gender: GenderData;
-    group_1: uint8;
-    group_2: uint8;
-    evolution_data: EvoData;
-    hatch_steps: uint8;
-    base_friendship: uint8;
-    unk_value: uint16;
-    evo_stage: uint8;
-    unk_flag: uint8;
-    yield_info: StatInfo;
-    stats: StatInfo;
-    evo_table: uint32;
-    technical_machines: [uint16];
-    egg_moves: [uint16];
-    reminder_moves: [uint16];
-    learnset: [Move];
-}
-
-table PersonalTable {
-    entries:[PersonalData];
-}
-root_type PersonalTable;</code></pre></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></div></aside></main></body></html>
+<a class=anchor href=#schema>#</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-rb data-lang=rb><span style=display:flex><span>struct <span style=color:#66d9ef>SpeciesInfo</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>species_index</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>species_form</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>species_model</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>color</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>bodytype</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>height</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>weight</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>res0</span>: uint32;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>res1</span>: uint32;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>res2</span>: uint32;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>struct <span style=color:#66d9ef>StatInfo</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>HP</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>ATK</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>DEF</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>SPA</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>SPD</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>SPE</span>: uint8;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>struct <span style=color:#66d9ef>GenderData</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>group</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>ratio</span>: uint8;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>struct <span style=color:#66d9ef>EvoData</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>species</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>form</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>region</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>can_evolve</span>: uint16;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>struct <span style=color:#66d9ef>ZukanData</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>index</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>group</span>: uint8;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>struct <span style=color:#66d9ef>Move</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>move</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>level</span>: int8;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>table <span style=color:#66d9ef>PersonalData</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>species</span>: <span style=color:#66d9ef>SpeciesInfo</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>is_present</span>: bool;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>dex</span>: <span style=color:#66d9ef>ZukanData</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>type1</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>type2</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>ability1</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>ability2</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>ability3</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>growth</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>rate</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>gender</span>: <span style=color:#66d9ef>GenderData</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>group_1</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>group_2</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>evolution_data</span>: <span style=color:#66d9ef>EvoData</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>hatch_steps</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>base_friendship</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>unk_value</span>: uint16;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>evo_stage</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>unk_flag</span>: uint8;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>yield_info</span>: <span style=color:#66d9ef>StatInfo</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>stats</span>: <span style=color:#66d9ef>StatInfo</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>evo_table</span>: uint32;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>technical_machines</span>: <span style=color:#f92672>[</span>uint16<span style=color:#f92672>]</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>egg_moves</span>: <span style=color:#f92672>[</span>uint16<span style=color:#f92672>]</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>reminder_moves</span>: <span style=color:#f92672>[</span>uint16<span style=color:#f92672>]</span>;
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>learnset</span>: <span style=color:#f92672>[</span><span style=color:#66d9ef>Move</span><span style=color:#f92672>]</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>table <span style=color:#66d9ef>PersonalTable</span> {
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>entries</span>:<span style=color:#f92672>[</span><span style=color:#66d9ef>PersonalData</span><span style=color:#f92672>]</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>root_type <span style=color:#66d9ef>PersonalTable</span>;</span></span></code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></div></aside></main></body></html>
