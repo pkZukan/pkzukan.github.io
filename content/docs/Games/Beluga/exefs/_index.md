@@ -8,6 +8,10 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
+# Let's Go Pikachu & Eevee (ExeFS)
+
+*Beluga*
+
 #### Notable offsets:
 
 {{<csv-to-markdown file="data/beluga/exefs.csv">}}

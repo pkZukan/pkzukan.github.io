@@ -8,6 +8,10 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
+# Brilliant Diamond & Shining Pearl (ExeFS)
+
+*Delphis*
+
 #### Notable offsets:
 
 {{<csv-to-markdown file="data/delphis/exefs.csv">}}

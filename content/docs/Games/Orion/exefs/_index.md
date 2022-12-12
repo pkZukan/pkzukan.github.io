@@ -8,6 +8,10 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
+# Sword & Shield (ExeFS)
+
+*Orion*
+
 #### Notable offsets:
 
 {{<csv-to-markdown file="data/orion/exefs.csv">}}

@@ -1,7 +1,7 @@
 ---
 title: "Personal"
 weight: 1
-bookFlatSection: true
+# bookFlatSection: false
 # bookToc: true
 bookHidden: true
 bookCollapseSection: false
