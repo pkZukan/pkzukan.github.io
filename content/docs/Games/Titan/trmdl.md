@@ -1,5 +1,5 @@
 ---
-title: "Personal"
+title: "Trinity Model (trmdl)"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -8,12 +8,12 @@ bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Personal
+# Trinity Model (trmdl)
 
 ### Description:
 
-Contains all the base stats, abilities, etc, as well as evo data.
+Contains model stuff.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/pml/personal.fbs" lang="rb">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/model/trmdl.fbs" lang="rb">}}

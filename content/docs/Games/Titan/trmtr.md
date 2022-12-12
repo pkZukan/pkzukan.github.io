@@ -1,5 +1,5 @@
 ---
-title: "Personal"
+title: "Trinity Material (trmtr)"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -8,12 +8,12 @@ bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Personal
+# Trinity Material (trmtr)
 
 ### Description:
 
-Contains all the base stats, abilities, etc, as well as evo data.
+Contains material stuff.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/pml/personal.fbs" lang="rb">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/model/trmtr.fbs" lang="rb">}}
