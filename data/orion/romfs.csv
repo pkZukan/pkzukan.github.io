@@ -2,5 +2,5 @@ Path,File Type,Notes
 /bin/pml/personal/personal_total.bin,personal binary,
 /bin/pml/evolution/evo_XXX.bin,evo binary,
 /bin/pml/waza/wazaXXXX.wazabin,wazabin,
-/bin/pokemon/table/poke_resource_table.gfbpmcatalog,[gfbpmcatalog](../gfbpmcatalog),Defines pokemon
-/bin/pokemon/table/gpoke_resource_table.gfbpmcatalog,gfbpmcatalog,Defines gigantimax pokemon
+/bin/pokemon/table/poke_resource_table.gfbpmcatalog,[gfbpmcatalog](../formats/gfbpmcatalog),Defines pokemon
+/bin/pokemon/table/gpoke_resource_table.gfbpmcatalog,[gfbpmcatalog](../formats/gfbpmcatalog),Defines gigantimax pokemon
