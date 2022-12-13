@@ -16,6 +16,7 @@ bookSearchExclude: true
 
 ### Notable facts:
  - Uses Unity engine
+ - The AssetAssistant lib is used as both the code for the game as well as the Unity tool used to package assets.
 
 ### Notable offsets:
 

@@ -16,4 +16,4 @@ Contains model stuff.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/model/trmdl.fbs" lang="rb">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/model/trmdl.fbs" lang="ts">}}

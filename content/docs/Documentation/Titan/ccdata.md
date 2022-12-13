@@ -16,4 +16,4 @@ Contains entries pointing to [trmdl](../trmdl) and [trmtr](../trmtr) files.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/customization/ccdata.fbs" lang="rb">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/customization/ccdata.fbs" lang="ts">}}

@@ -16,4 +16,4 @@ Contains material stuff.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/model/trmtr.fbs" lang="rb">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/model/trmtr.fbs" lang="ts">}}

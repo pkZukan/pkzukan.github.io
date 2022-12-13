@@ -1,5 +1,5 @@
 ---
-title: "Personal"
+title: "Personal Binary (perbin)"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -8,12 +8,12 @@ bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Personal
+# Personal Binary (perbin)
 
 ### Description:
 
-Contains all the base stats, abilities, etc, as well as evo data.
+Stub
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/pml/personal.fbs" lang="ts">}}
+{{<github repo="pkZukan/PokeDocs" file="/LA/Flatbuffers/PokemonLib/personal.fbs" lang="ts">}}

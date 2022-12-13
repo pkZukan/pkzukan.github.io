@@ -16,4 +16,4 @@ Contains a list of the ccdata files.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/customization/ccdatam.fbs" lang="rb">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/customization/ccdatam.fbs" lang="ts">}}

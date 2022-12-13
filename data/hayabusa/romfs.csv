@@ -1,3 +1,4 @@
 Path,File Type,Notes
-/bin/pml/personal/personal_data_total.perbin,perbin,Previously known as Personal.bin
-/bin/pml/evolution/evolution_data_total.evobin,evobin,
+/bin/pml/personal/personal_data_total.perbin,[perbin](../perbin),Previously known as personal_total.bin
+/bin/pml/evolution/evolution_data_total.evobin,[evobin](../evobin),
+/bin/pml/waza/wazaXXXX.wazabin,[wazabin](../wazabin),
