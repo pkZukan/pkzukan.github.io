@@ -12,6 +12,8 @@ bookCollapseSection: true
 
 *Titan*
 
+------------------------------
+
 #### Scarlet Info:
 
 TitleID: 0100A3D008C5C000
@@ -21,6 +23,8 @@ Size: 6.7 GB
 Release Date: 11-18-2022
 
 ![Scarlet](/scarlet.jpg)
+
+------------------------------
 
 #### Violet Info:
 

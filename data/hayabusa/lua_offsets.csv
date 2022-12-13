@@ -1,0 +1,9 @@
+Function,Description,Offset (1.0.0)
+lua_newstate,Create a new LuaState struct,0x0006CF00
+luaL_loadbufferx,Loads a string of plaintext lua code,0x000555E0
+lua_pcallk,Calls loaded function on the stack,0x00052E10
+lua_tostring,Pops string off the lua stack,0x00050DA0
+lua_settop,Sets Lua stack,0x0004FF10
+lua_gettop,Gets Lua stack pos,0x0004FEF0
+lua_type,Get Lua type,0x00050310
+luaB_print,Prints lua value to stdout,0x00056880

@@ -8,6 +8,12 @@ bookCollapseSection: false
 # bookComments: false
 bookSearchExclude: true
 ---
+# Scarlet & Violet (RomFS)
+
+*Titan*
+
+------------------------------
+
 ### Romfs contents:
 
 {{<csv-to-markdown file="data/titan/romfs.csv">}}

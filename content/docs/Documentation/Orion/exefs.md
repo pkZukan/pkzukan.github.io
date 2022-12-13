@@ -8,13 +8,15 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
-# Let's Go Pikachu & Eevee (ExeFS)
+# Sword & Shield (ExeFS)
 
-*Beluga*
+*Orion*
+
+------------------------------
 
 ### Notable facts:
  - stub
 
 ### Notable offsets:
 
-{{<csv-to-markdown file="data/beluga/exefs.csv">}}
+{{<csv-to-markdown file="data/orion/exefs.csv">}}

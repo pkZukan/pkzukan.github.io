@@ -12,6 +12,8 @@ bookSearchExclude: true
 
 *Titan*
 
+------------------------------
+
 ### Notable facts:
  - Uses new [trpfs](../filesystem) file system
  - Uses Lua 5.4

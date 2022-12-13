@@ -12,6 +12,8 @@ bookCollapseSection: true
 
 *Delphis*
 
+------------------------------
+
 #### Brilliant Diamond Info:
 
 TitleID: 0100000011D90000
@@ -21,6 +23,8 @@ Size: 6.9 GB
 Release Date: 11-19-2021
 
 ![Brilliant Diamond](/diamond.jpg)
+
+------------------------------
 
 #### Shining Pearl Info:
 

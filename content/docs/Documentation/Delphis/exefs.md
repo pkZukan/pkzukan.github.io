@@ -8,13 +8,15 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
-# Sword & Shield (ExeFS)
+# Brilliant Diamond & Shining Pearl (ExeFS)
 
-*Orion*
+*Delphis*
+
+------------------------------
 
 ### Notable facts:
- - stub
+ - Uses Unity engine
 
 ### Notable offsets:
 
-{{<csv-to-markdown file="data/orion/exefs.csv">}}
+{{<csv-to-markdown file="data/delphis/exefs.csv">}}

@@ -8,6 +8,12 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
+# Let's Go Pikachu & Eevee (RomFS)
+
+*Beluga*
+
+------------------------------
+
 ### Romfs contents:
 
-{{<csv-to-markdown file="data/hayabusa/romfs.csv">}}
+{{<csv-to-markdown file="data/beluga/romfs.csv">}}

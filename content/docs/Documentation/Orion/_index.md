@@ -12,6 +12,8 @@ bookCollapseSection: true
 
 *Orion*
 
+------------------------------
+
 #### Sword Info:
 
 TitleID: 0100ABF008968000
@@ -21,6 +23,8 @@ Size: 12.4 GB
 Release Date: 11-15-2019
 
 ![Sword](/sword.jpg)
+
+------------------------------
 
 #### Shield Info:
 

@@ -8,13 +8,15 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
-# Brilliant Diamond & Shining Pearl (ExeFS)
+# Let's Go Pikachu & Eevee (ExeFS)
 
-*Delphis*
+*Beluga*
+
+------------------------------
 
 ### Notable facts:
- - Uses Unity engine
+ - stub
 
 ### Notable offsets:
 
-{{<csv-to-markdown file="data/delphis/exefs.csv">}}
+{{<csv-to-markdown file="data/beluga/exefs.csv">}}

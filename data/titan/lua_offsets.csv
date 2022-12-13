@@ -1,9 +1,9 @@
 Function,Description,Offset (1.0.0),Offset (1.0.1),Offset (1.1.0)
-LuaNewState,Create a new LuaState struct,0x00ADAE00,0x0003B420,0x0003B420
-LuaLoadbuffer,Loads a string of plaintext lua code,0x00D69E70,0x00D9EEF0,0x00DC6A80
-LuaPCall,Calls loaded function on the stack,0x0099E3B0,0x009B96C0,0x009C8B20
-LuaToString,Pops string off the lua stack,0x009AEB10,0x009CA610,0x009D99A0
-LuaSetTop,Sets Lua stack,0x0099DF80,0x009B9290,0x009C86F0
-LuaGetTop,Gets Lua stack pos,0x0099DF60,0x009B9270,0x009C86D0
-LuaType,Get Lua type,0x00A4DD50,0x00A96B40,0x00AAEA90
-LuaPrint,Prints lua value to stdout,0x00045F80,0x00046130,0x00046130
+lua_newstate,Create a new LuaState struct,0x00ADAE00,0x0003B420,0x0003B420
+luaL_loadbufferx,Loads a string of plaintext lua code,0x00D69E70,0x00D9EEF0,0x00DC6A80
+lua_pcallk,Calls loaded function on the stack,0x0099E3B0,0x009B96C0,0x009C8B20
+lua_tostring,Pops string off the lua stack,0x009AEB10,0x009CA610,0x009D99A0
+lua_settop,Sets Lua stack,0x0099DF80,0x009B9290,0x009C86F0
+lua_gettop,Gets Lua stack pos,0x0099DF60,0x009B9270,0x009C86D0
+lua_type,Get Lua type,0x00A4DD50,0x00A96B40,0x00AAEA90
+luaB_print,Prints lua value to stdout,0x00045F80,0x00046130,0x00046130

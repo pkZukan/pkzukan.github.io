@@ -8,6 +8,12 @@ bookCollapseSection: true
 # bookComments: false
 bookSearchExclude: true
 ---
+# Brilliant Diamond & Shining Pearl (RomFS)
+
+*Delphis*
+
+------------------------------
+
 ### Romfs contents:
 
 {{<csv-to-markdown file="data/delphis/romfs.csv">}}

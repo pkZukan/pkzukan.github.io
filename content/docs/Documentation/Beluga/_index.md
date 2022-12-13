@@ -12,6 +12,8 @@ bookCollapseSection: true
 
 *Beluga*
 
+------------------------------
+
 #### Let's Go Pikachu Info:
 
 TitleID: 010003F003A34000
@@ -21,6 +23,8 @@ Size: 4.2 GB
 Release Date: 11-16-2018
 
 ![Scarlet](/pikachu.jpg)
+
+------------------------------
 
 #### Let's Go Eevee Info:
 
