@@ -1,0 +1,130 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Trinity Animation (tranm)#Description:#Stub
+Schema:#struct sVec2 { u: int16; v: int16; } struct Vec2 { u: float; v: float; } struct Vec3 { x: float; y: float; z: float; } struct sVec3 { x:uint16; y:uint16; z:uint16; } struct Vec4 { x:float; y:float; z:float; w:float; } struct Transform { scale:Vec3; rotate:Vec4; translate:Vec3; } union VectorTrack { FixedVectorTrack, DynamicVectorTrack, Framed16VectorTrack, Framed8VectorTrack } table FixedVectorTrack { co: Vec3; } table DynamicVectorTrack { co: [Vec3]; } table Framed16VectorTrack { frames:[uint16]; co: [Vec3]; } table Framed8VectorTrack { frames:[uint8]; co:[Vec3]; } union RotationTrack { FixedRotationTrack, DynamicRotationTrack, Framed16RotationTrack, Framed8RotationTrack } table FixedRotationTrack { co:sVec3; } table DynamicRotationTrack { co:[sVec3]; } table Framed16RotationTrack { frames:[uint16]; co:[sVec3]; } table Framed8RotationTrack { frames:[uint8]; co:[sVec3]; } table BoneTrack { bone_name:string; scale:VectorTrack; rotate:RotationTrack; translate:VectorTrack; } table AnimationInfo { does_loop: uint32; animation_count: uint32; animation_rate: uint32; } table BoneInit { isInit:uint32; transform:Transform; } table BoneAnimation { tracks:[BoneTrack]; initData:BoneInit; } table TRANM { info: AnimationInfo; track: BoneAnimation; } root_type TRANM;"><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="Trinity Animation (tranm)"><meta property="og:description" content="Trinity Animation (tranm)#Description:#Stub
+Schema:#struct sVec2 { u: int16; v: int16; } struct Vec2 { u: float; v: float; } struct Vec3 { x: float; y: float; z: float; } struct sVec3 { x:uint16; y:uint16; z:uint16; } struct Vec4 { x:float; y:float; z:float; w:float; } struct Transform { scale:Vec3; rotate:Vec4; translate:Vec3; } union VectorTrack { FixedVectorTrack, DynamicVectorTrack, Framed16VectorTrack, Framed8VectorTrack } table FixedVectorTrack { co: Vec3; } table DynamicVectorTrack { co: [Vec3]; } table Framed16VectorTrack { frames:[uint16]; co: [Vec3]; } table Framed8VectorTrack { frames:[uint8]; co:[Vec3]; } union RotationTrack { FixedRotationTrack, DynamicRotationTrack, Framed16RotationTrack, Framed8RotationTrack } table FixedRotationTrack { co:sVec3; } table DynamicRotationTrack { co:[sVec3]; } table Framed16RotationTrack { frames:[uint16]; co:[sVec3]; } table Framed8RotationTrack { frames:[uint8]; co:[sVec3]; } table BoneTrack { bone_name:string; scale:VectorTrack; rotate:RotationTrack; translate:VectorTrack; } table AnimationInfo { does_loop: uint32; animation_count: uint32; animation_rate: uint32; } table BoneInit { isInit:uint32; transform:Transform; } table BoneAnimation { tracks:[BoneTrack]; initData:BoneInit; } table TRANM { info: AnimationInfo; track: BoneAnimation; } root_type TRANM;"><meta property="og:type" content="article"><meta property="og:url" content="http://example.org/docs/documentation/titan/formats/tranm/"><title>Trinity Animation (tranm) | Zukan Docs</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.f9816f402c2fe65c3ea1e9aa2a237821f416ae0f93477ea974ba874f45239322.css integrity="sha256-+YFvQCwv5lw+oemqKiN4IfQWrg+TR36pdLqHT0UjkyI=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script><script defer src=/en.search.min.fffec82f7b8d7aed52a0bba7e3fc481a659618012f4ae7e2919835bd08a6f9be.js integrity="sha256-//7IL3uNeu1SoLun4/xIGmWWGAEvSufikZg1vQim+b4=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.png alt=Logo><span>Zukan Docs</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><input type=checkbox id=section-530be22fd4254a920464f3c7d7a7004e class=toggle checked>
+<label for=section-530be22fd4254a920464f3c7d7a7004e class="flex justify-between"><a role=button>Documentation</a></label><ul><li><input type=checkbox id=section-facb84174acc29363d5fe9ac19b5d4f7 class=toggle>
+<label for=section-facb84174acc29363d5fe9ac19b5d4f7 class="flex justify-between"><a href=/docs/documentation/beluga/>Let's Go Pikachu & Eevee</a></label><ul><li><input type=checkbox id=section-75bc386c4d71d529a68aa03611c34799 class=toggle>
+<label for=section-75bc386c4d71d529a68aa03611c34799 class="flex justify-between"><a href=/docs/documentation/beluga/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class=toggle>
+<label for=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class="flex justify-between"><a href=/docs/documentation/beluga/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-64603753268bb5905a84ea27eee7603a class=toggle>
+<label for=section-64603753268bb5905a84ea27eee7603a class="flex justify-between"><a href=/docs/documentation/orion/>Sword & Shield</a></label><ul><li><input type=checkbox id=section-8d5ec920630be69d454f6583e8698724 class=toggle>
+<label for=section-8d5ec920630be69d454f6583e8698724 class="flex justify-between"><a href=/docs/documentation/orion/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-3030c441d129ebdedcb7ed3a737567a8 class=toggle>
+<label for=section-3030c441d129ebdedcb7ed3a737567a8 class="flex justify-between"><a href=/docs/documentation/orion/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-0f6bb44e1f3761ec770e3feb7e7b1653 class=toggle>
+<label for=section-0f6bb44e1f3761ec770e3feb7e7b1653 class="flex justify-between"><a href=/docs/documentation/delphis/>Brilliant Diamond & Shining Pearl</a></label><ul><li><input type=checkbox id=section-e65a09004b5a7ce473d1e246c264a73e class=toggle>
+<label for=section-e65a09004b5a7ce473d1e246c264a73e class="flex justify-between"><a href=/docs/documentation/delphis/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-92d4268332a079d4a13dafc01719c636 class=toggle>
+<label for=section-92d4268332a079d4a13dafc01719c636 class="flex justify-between"><a href=/docs/documentation/delphis/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-7687fce707e97c5b2d6012d30e464b5b class=toggle>
+<label for=section-7687fce707e97c5b2d6012d30e464b5b class="flex justify-between"><a href=/docs/documentation/hayabusa/>Legends Arceus</a></label><ul><li><a href=/docs/documentation/hayabusa/exefs/>ExeFS</a></li><li><a href=/docs/documentation/hayabusa/romfs/>RomFS</a></li></ul></li><li><input type=checkbox id=section-79f6cd272ec2a13b130db33d85700903 class=toggle checked>
+<label for=section-79f6cd272ec2a13b130db33d85700903 class="flex justify-between"><a href=/docs/documentation/titan/>Scarlet & Violet</a></label><ul><li><a href=/docs/documentation/titan/exefs/>ExeFS</a></li><li><a href=/docs/documentation/titan/romfs/>RomFS</a></li></ul></li></ul></li><li><input type=checkbox id=section-9d39ed70c9bc03841dbdbf3086001c87 class=toggle>
+<label for=section-9d39ed70c9bc03841dbdbf3086001c87 class="flex justify-between"><a role=button>Guides</a></label><ul><li><input type=checkbox id=section-ffdeae82027ce6ac73881b1d683f8f06 class=toggle>
+<label for=section-ffdeae82027ce6ac73881b1d683f8f06 class="flex justify-between"><a role=button>Hayabusa</a></label><ul><li><a href=/docs/guides/hayabusa/modelimporting/>Model Importing</a></li></ul></li></ul></li><li><input type=checkbox id=section-15c5fc14c5f463796098b2a69a8a83b5 class=toggle>
+<label for=section-15c5fc14c5f463796098b2a69a8a83b5 class="flex justify-between"><a role=button>Tools</a></label><ul><li><a href=/docs/tools/assetassistant/>Asset Assistant</a></li><li><a href=/docs/tools/pknx/>PkNx</a></li><li><a href=/docs/tools/switchtoolbox/>Switch Tool Box</a></li><li><a href=/docs/tools/trinitymodloader/>Trinity Mod Loader</a></li></ul></li></ul></nav><script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>Trinity Animation (tranm)</strong>
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></aside></header><article class=markdown><h1 id=trinity-animation-tranm>Trinity Animation (tranm)
+<a class=anchor href=#trinity-animation-tranm>#</a></h1><h3 id=description>Description:
+<a class=anchor href=#description>#</a></h3><p>Stub</p><h3 id=schema>Schema:
+<a class=anchor href=#schema>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ts data-lang=ts><span style=color:#a6e22e>struct</span> <span style=color:#a6e22e>sVec2</span> {
+  <span style=color:#a6e22e>u</span>: <span style=color:#66d9ef>int16</span>;
+  <span style=color:#a6e22e>v</span>: <span style=color:#66d9ef>int16</span>;
+}
+
+<span style=color:#a6e22e>struct</span> <span style=color:#a6e22e>Vec2</span> {
+  <span style=color:#a6e22e>u</span>: <span style=color:#66d9ef>float</span>;
+  <span style=color:#a6e22e>v</span>: <span style=color:#66d9ef>float</span>;
+}
+
+<span style=color:#a6e22e>struct</span> <span style=color:#a6e22e>Vec3</span> {
+  <span style=color:#a6e22e>x</span>: <span style=color:#66d9ef>float</span>;
+  <span style=color:#a6e22e>y</span>: <span style=color:#66d9ef>float</span>;
+  <span style=color:#a6e22e>z</span>: <span style=color:#66d9ef>float</span>;
+}
+
+<span style=color:#a6e22e>struct</span> <span style=color:#a6e22e>sVec3</span> {
+  <span style=color:#a6e22e>x</span>:<span style=color:#66d9ef>uint16</span>;
+  <span style=color:#a6e22e>y</span>:<span style=color:#66d9ef>uint16</span>;
+  <span style=color:#a6e22e>z</span>:<span style=color:#66d9ef>uint16</span>;
+}
+
+<span style=color:#a6e22e>struct</span> <span style=color:#a6e22e>Vec4</span> {
+  <span style=color:#a6e22e>x</span>:<span style=color:#66d9ef>float</span>;
+  <span style=color:#a6e22e>y</span>:<span style=color:#66d9ef>float</span>;
+  <span style=color:#a6e22e>z</span>:<span style=color:#66d9ef>float</span>;
+  <span style=color:#a6e22e>w</span>:<span style=color:#66d9ef>float</span>;
+}
+
+<span style=color:#a6e22e>struct</span> <span style=color:#a6e22e>Transform</span> {
+  <span style=color:#a6e22e>scale</span>:<span style=color:#66d9ef>Vec3</span>;
+  <span style=color:#a6e22e>rotate</span>:<span style=color:#66d9ef>Vec4</span>;
+  <span style=color:#a6e22e>translate</span>:<span style=color:#66d9ef>Vec3</span>;
+}
+
+<span style=color:#a6e22e>union</span> <span style=color:#a6e22e>VectorTrack</span> { <span style=color:#a6e22e>FixedVectorTrack</span>, <span style=color:#a6e22e>DynamicVectorTrack</span>,  <span style=color:#a6e22e>Framed16VectorTrack</span>, <span style=color:#a6e22e>Framed8VectorTrack</span> }
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>FixedVectorTrack</span> {
+    <span style=color:#a6e22e>co</span>: <span style=color:#66d9ef>Vec3</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>DynamicVectorTrack</span> {
+    <span style=color:#a6e22e>co</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>Vec3</span>];
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Framed16VectorTrack</span> {
+    <span style=color:#a6e22e>frames</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>uint16</span>];
+    <span style=color:#a6e22e>co</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>Vec3</span>];
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Framed8VectorTrack</span> {
+    <span style=color:#a6e22e>frames</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>uint8</span>];
+    <span style=color:#a6e22e>co</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>Vec3</span>];
+}
+
+<span style=color:#a6e22e>union</span> <span style=color:#a6e22e>RotationTrack</span> { <span style=color:#a6e22e>FixedRotationTrack</span>, <span style=color:#a6e22e>DynamicRotationTrack</span>, <span style=color:#a6e22e>Framed16RotationTrack</span>, <span style=color:#a6e22e>Framed8RotationTrack</span> }
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>FixedRotationTrack</span> {
+    <span style=color:#a6e22e>co</span>:<span style=color:#66d9ef>sVec3</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>DynamicRotationTrack</span> {
+    <span style=color:#a6e22e>co</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>sVec3</span>];
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Framed16RotationTrack</span> {
+    <span style=color:#a6e22e>frames</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>uint16</span>];
+    <span style=color:#a6e22e>co</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>sVec3</span>];
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Framed8RotationTrack</span> {
+    <span style=color:#a6e22e>frames</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>uint8</span>];
+    <span style=color:#a6e22e>co</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>sVec3</span>];
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>BoneTrack</span> {
+    <span style=color:#a6e22e>bone_name</span>:<span style=color:#66d9ef>string</span>;
+    <span style=color:#a6e22e>scale</span>:<span style=color:#66d9ef>VectorTrack</span>;
+    <span style=color:#a6e22e>rotate</span>:<span style=color:#66d9ef>RotationTrack</span>;
+    <span style=color:#a6e22e>translate</span>:<span style=color:#66d9ef>VectorTrack</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>AnimationInfo</span> {
+    <span style=color:#a6e22e>does_loop</span>: <span style=color:#66d9ef>uint32</span>;
+    <span style=color:#a6e22e>animation_count</span>: <span style=color:#66d9ef>uint32</span>;
+    <span style=color:#a6e22e>animation_rate</span>: <span style=color:#66d9ef>uint32</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>BoneInit</span> {
+    <span style=color:#a6e22e>isInit</span>:<span style=color:#66d9ef>uint32</span>;
+    <span style=color:#a6e22e>transform</span>:<span style=color:#66d9ef>Transform</span>; 
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>BoneAnimation</span> {
+    <span style=color:#a6e22e>tracks</span><span style=color:#f92672>:</span>[<span style=color:#a6e22e>BoneTrack</span>];
+    <span style=color:#a6e22e>initData</span>:<span style=color:#66d9ef>BoneInit</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>TRANM</span> {
+    <span style=color:#a6e22e>info</span>: <span style=color:#66d9ef>AnimationInfo</span>;
+    <span style=color:#a6e22e>track</span>: <span style=color:#66d9ef>BoneAnimation</span>;
+}
+
+<span style=color:#a6e22e>root_type</span> <span style=color:#a6e22e>TRANM</span>;
+</code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){if(window.getSelection().toString()){return;}
+select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></div></aside></main></body></html>

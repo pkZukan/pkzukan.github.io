@@ -1,0 +1,129 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Trinity Material (trmtr)#Description:#Contains material stuff.
+Schema:#namespace Titan.Model; file_extension &#34;trmtr&#34;; struct RGBA { r: float; g: float; b: float; a: float; } enum UVWrapMode: uint32 { //Time to test these as bit fields?  WRAP = 0, //0000  CLAMP = 1, //0001  MIRROR = 6, //0110  MIRROR_ONCE = 7, //0111 } table SamplerState { SamplerState_0: uint32 = 0x0; //Never used  SamplerState_1: uint32 = 0x0; //Never used  SamplerState_2: uint32 = 0x0; //Never used  SamplerState_3: uint32 = 0x0; //Never used  SamplerState_4: uint32 = 0x0; //Never used  SamplerState_5: uint32 = 0x0; //Never used  SamplerState_6: uint32 = 0x0; //Never used  SamplerState_7: uint32 = 0x0; //Never used  SamplerState_8: uint32 = 0x0; //Never used  repeat_u: UVWrapMode = WRAP; //0x1, 0x6 or 0x7  repeat_v: UVWrapMode = WRAP; //0x1, 0x6 or 0x7  repeat_w: UVWrapMode = WRAP; //Never used  border_color: RGBA; } table Float4Parameter { color_name: string; color_value: RGBA; } table FloatParameter { float_name: string; float_value: float; } table IntParameter { int_name: string; int_value: int32 = -1; } table StringParameter { string_name: string; string_value: string; } table Shader { shader_name: string; shader_values: [StringParameter]; } table Texture { texture_name: string; texture_file: string; texture_slot: uint32 = 0; } table Byte_Extra { //Only pm0448 has it as 0x0 in Transparent Shader  value: int8 = -1; } table Int_Extra { res_0: uint32; //0 when Transparent  //1 when NonDirectional  value: int32 = -1; } table Material{ name: string; shaders: [Shader]; textures: [Texture]; samplers: [SamplerState]; float_parameter: [FloatParameter]; unk_5: string; //Always empty  float4_light_parameter: [Float4Parameter]; float4_parameter: [Float4Parameter]; unk_8: string; //Always empty  int_parameter: [IntParameter]; unk_10: string; //Always empty  unk_11: string; //Always empty  unk_12: string; //Always empty  byte_extra: Byte_Extra; int_extra: Int_Extra; alpha_type: string; } table TRMTR{ res_0: uint32; materials: [Material]; } root_type TRMTR;"><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="Trinity Material (trmtr)"><meta property="og:description" content="Trinity Material (trmtr)#Description:#Contains material stuff.
+Schema:#namespace Titan.Model; file_extension &#34;trmtr&#34;; struct RGBA { r: float; g: float; b: float; a: float; } enum UVWrapMode: uint32 { //Time to test these as bit fields?  WRAP = 0, //0000  CLAMP = 1, //0001  MIRROR = 6, //0110  MIRROR_ONCE = 7, //0111 } table SamplerState { SamplerState_0: uint32 = 0x0; //Never used  SamplerState_1: uint32 = 0x0; //Never used  SamplerState_2: uint32 = 0x0; //Never used  SamplerState_3: uint32 = 0x0; //Never used  SamplerState_4: uint32 = 0x0; //Never used  SamplerState_5: uint32 = 0x0; //Never used  SamplerState_6: uint32 = 0x0; //Never used  SamplerState_7: uint32 = 0x0; //Never used  SamplerState_8: uint32 = 0x0; //Never used  repeat_u: UVWrapMode = WRAP; //0x1, 0x6 or 0x7  repeat_v: UVWrapMode = WRAP; //0x1, 0x6 or 0x7  repeat_w: UVWrapMode = WRAP; //Never used  border_color: RGBA; } table Float4Parameter { color_name: string; color_value: RGBA; } table FloatParameter { float_name: string; float_value: float; } table IntParameter { int_name: string; int_value: int32 = -1; } table StringParameter { string_name: string; string_value: string; } table Shader { shader_name: string; shader_values: [StringParameter]; } table Texture { texture_name: string; texture_file: string; texture_slot: uint32 = 0; } table Byte_Extra { //Only pm0448 has it as 0x0 in Transparent Shader  value: int8 = -1; } table Int_Extra { res_0: uint32; //0 when Transparent  //1 when NonDirectional  value: int32 = -1; } table Material{ name: string; shaders: [Shader]; textures: [Texture]; samplers: [SamplerState]; float_parameter: [FloatParameter]; unk_5: string; //Always empty  float4_light_parameter: [Float4Parameter]; float4_parameter: [Float4Parameter]; unk_8: string; //Always empty  int_parameter: [IntParameter]; unk_10: string; //Always empty  unk_11: string; //Always empty  unk_12: string; //Always empty  byte_extra: Byte_Extra; int_extra: Int_Extra; alpha_type: string; } table TRMTR{ res_0: uint32; materials: [Material]; } root_type TRMTR;"><meta property="og:type" content="article"><meta property="og:url" content="http://example.org/docs/documentation/titan/formats/trmtr/"><title>Trinity Material (trmtr) | Zukan Docs</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.f9816f402c2fe65c3ea1e9aa2a237821f416ae0f93477ea974ba874f45239322.css integrity="sha256-+YFvQCwv5lw+oemqKiN4IfQWrg+TR36pdLqHT0UjkyI=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script><script defer src=/en.search.min.fffec82f7b8d7aed52a0bba7e3fc481a659618012f4ae7e2919835bd08a6f9be.js integrity="sha256-//7IL3uNeu1SoLun4/xIGmWWGAEvSufikZg1vQim+b4=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.png alt=Logo><span>Zukan Docs</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><input type=checkbox id=section-530be22fd4254a920464f3c7d7a7004e class=toggle checked>
+<label for=section-530be22fd4254a920464f3c7d7a7004e class="flex justify-between"><a role=button>Documentation</a></label><ul><li><input type=checkbox id=section-facb84174acc29363d5fe9ac19b5d4f7 class=toggle>
+<label for=section-facb84174acc29363d5fe9ac19b5d4f7 class="flex justify-between"><a href=/docs/documentation/beluga/>Let's Go Pikachu & Eevee</a></label><ul><li><input type=checkbox id=section-75bc386c4d71d529a68aa03611c34799 class=toggle>
+<label for=section-75bc386c4d71d529a68aa03611c34799 class="flex justify-between"><a href=/docs/documentation/beluga/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class=toggle>
+<label for=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class="flex justify-between"><a href=/docs/documentation/beluga/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-64603753268bb5905a84ea27eee7603a class=toggle>
+<label for=section-64603753268bb5905a84ea27eee7603a class="flex justify-between"><a href=/docs/documentation/orion/>Sword & Shield</a></label><ul><li><input type=checkbox id=section-8d5ec920630be69d454f6583e8698724 class=toggle>
+<label for=section-8d5ec920630be69d454f6583e8698724 class="flex justify-between"><a href=/docs/documentation/orion/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-3030c441d129ebdedcb7ed3a737567a8 class=toggle>
+<label for=section-3030c441d129ebdedcb7ed3a737567a8 class="flex justify-between"><a href=/docs/documentation/orion/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-0f6bb44e1f3761ec770e3feb7e7b1653 class=toggle>
+<label for=section-0f6bb44e1f3761ec770e3feb7e7b1653 class="flex justify-between"><a href=/docs/documentation/delphis/>Brilliant Diamond & Shining Pearl</a></label><ul><li><input type=checkbox id=section-e65a09004b5a7ce473d1e246c264a73e class=toggle>
+<label for=section-e65a09004b5a7ce473d1e246c264a73e class="flex justify-between"><a href=/docs/documentation/delphis/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-92d4268332a079d4a13dafc01719c636 class=toggle>
+<label for=section-92d4268332a079d4a13dafc01719c636 class="flex justify-between"><a href=/docs/documentation/delphis/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-7687fce707e97c5b2d6012d30e464b5b class=toggle>
+<label for=section-7687fce707e97c5b2d6012d30e464b5b class="flex justify-between"><a href=/docs/documentation/hayabusa/>Legends Arceus</a></label><ul><li><a href=/docs/documentation/hayabusa/exefs/>ExeFS</a></li><li><a href=/docs/documentation/hayabusa/romfs/>RomFS</a></li></ul></li><li><input type=checkbox id=section-79f6cd272ec2a13b130db33d85700903 class=toggle checked>
+<label for=section-79f6cd272ec2a13b130db33d85700903 class="flex justify-between"><a href=/docs/documentation/titan/>Scarlet & Violet</a></label><ul><li><a href=/docs/documentation/titan/exefs/>ExeFS</a></li><li><a href=/docs/documentation/titan/romfs/>RomFS</a></li></ul></li></ul></li><li><input type=checkbox id=section-9d39ed70c9bc03841dbdbf3086001c87 class=toggle>
+<label for=section-9d39ed70c9bc03841dbdbf3086001c87 class="flex justify-between"><a role=button>Guides</a></label><ul><li><input type=checkbox id=section-ffdeae82027ce6ac73881b1d683f8f06 class=toggle>
+<label for=section-ffdeae82027ce6ac73881b1d683f8f06 class="flex justify-between"><a role=button>Hayabusa</a></label><ul><li><a href=/docs/guides/hayabusa/modelimporting/>Model Importing</a></li></ul></li></ul></li><li><input type=checkbox id=section-15c5fc14c5f463796098b2a69a8a83b5 class=toggle>
+<label for=section-15c5fc14c5f463796098b2a69a8a83b5 class="flex justify-between"><a role=button>Tools</a></label><ul><li><a href=/docs/tools/assetassistant/>Asset Assistant</a></li><li><a href=/docs/tools/pknx/>PkNx</a></li><li><a href=/docs/tools/switchtoolbox/>Switch Tool Box</a></li><li><a href=/docs/tools/trinitymodloader/>Trinity Mod Loader</a></li></ul></li></ul></nav><script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>Trinity Material (trmtr)</strong>
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></aside></header><article class=markdown><h1 id=trinity-material-trmtr>Trinity Material (trmtr)
+<a class=anchor href=#trinity-material-trmtr>#</a></h1><h3 id=description>Description:
+<a class=anchor href=#description>#</a></h3><p>Contains material stuff.</p><h3 id=schema>Schema:
+<a class=anchor href=#schema>#</a></h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ts data-lang=ts><span style=color:#66d9ef>namespace</span> <span style=color:#a6e22e>Titan</span>.<span style=color:#a6e22e>Model</span>;
+
+<span style=color:#a6e22e>file_extension</span> <span style=color:#e6db74>&#34;trmtr&#34;</span>;
+
+<span style=color:#a6e22e>struct</span> <span style=color:#a6e22e>RGBA</span> {
+        <span style=color:#a6e22e>r</span>: <span style=color:#66d9ef>float</span>;
+        <span style=color:#a6e22e>g</span>: <span style=color:#66d9ef>float</span>;
+        <span style=color:#a6e22e>b</span>: <span style=color:#66d9ef>float</span>;
+        <span style=color:#a6e22e>a</span>: <span style=color:#66d9ef>float</span>;
+}
+
+<span style=color:#66d9ef>enum</span> <span style=color:#a6e22e>UVWrapMode</span>: <span style=color:#66d9ef>uint32</span> {
+        <span style=color:#75715e>//Time to test these as bit fields?
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>WRAP</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>, <span style=color:#75715e>//0000
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>CLAMP</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>, <span style=color:#75715e>//0001
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>MIRROR</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>6</span>, <span style=color:#75715e>//0110
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>MIRROR_ONCE</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>7</span>, <span style=color:#75715e>//0111
+</span><span style=color:#75715e></span>}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>SamplerState</span> {
+        <span style=color:#a6e22e>SamplerState_0</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_1</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_2</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_3</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_4</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_5</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_6</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_7</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>SamplerState_8</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0x0</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>repeat_u</span>: <span style=color:#66d9ef>UVWrapMode</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>WRAP</span>; <span style=color:#75715e>//0x1, 0x6 or 0x7
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>repeat_v</span>: <span style=color:#66d9ef>UVWrapMode</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>WRAP</span>; <span style=color:#75715e>//0x1, 0x6 or 0x7
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>repeat_w</span>: <span style=color:#66d9ef>UVWrapMode</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>WRAP</span>; <span style=color:#75715e>//Never used
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>border_color</span>: <span style=color:#66d9ef>RGBA</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Float4Parameter</span> {
+        <span style=color:#a6e22e>color_name</span>: <span style=color:#66d9ef>string</span>;
+        <span style=color:#a6e22e>color_value</span>: <span style=color:#66d9ef>RGBA</span>; 
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>FloatParameter</span> {
+        <span style=color:#a6e22e>float_name</span>: <span style=color:#66d9ef>string</span>;
+        <span style=color:#a6e22e>float_value</span>: <span style=color:#66d9ef>float</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>IntParameter</span> {
+        <span style=color:#a6e22e>int_name</span>: <span style=color:#66d9ef>string</span>;
+        <span style=color:#a6e22e>int_value</span>: <span style=color:#66d9ef>int32</span> <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>StringParameter</span> {
+        <span style=color:#a6e22e>string_name</span>: <span style=color:#66d9ef>string</span>;
+        <span style=color:#a6e22e>string_value</span>: <span style=color:#66d9ef>string</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Shader</span> {
+        <span style=color:#a6e22e>shader_name</span>: <span style=color:#66d9ef>string</span>;
+        <span style=color:#a6e22e>shader_values</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>StringParameter</span>];
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Texture</span>  {
+        <span style=color:#a6e22e>texture_name</span>: <span style=color:#66d9ef>string</span>;
+        <span style=color:#a6e22e>texture_file</span>: <span style=color:#66d9ef>string</span>;
+        <span style=color:#a6e22e>texture_slot</span>: <span style=color:#66d9ef>uint32</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Byte_Extra</span> {
+        <span style=color:#75715e>//Only pm0448 has it as 0x0 in Transparent Shader
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>value</span>: <span style=color:#66d9ef>int8</span> <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>; 
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Int_Extra</span> {
+        <span style=color:#a6e22e>res_0</span>: <span style=color:#66d9ef>uint32</span>;
+        <span style=color:#75715e>//0 when Transparent
+</span><span style=color:#75715e></span>        <span style=color:#75715e>//1 when NonDirectional
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>value</span>: <span style=color:#66d9ef>int32</span> <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>Material</span>{
+        <span style=color:#a6e22e>name</span>: <span style=color:#66d9ef>string</span>; 
+        <span style=color:#a6e22e>shaders</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>Shader</span>]; 
+        <span style=color:#a6e22e>textures</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>Texture</span>];
+        <span style=color:#a6e22e>samplers</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>SamplerState</span>]; 
+        <span style=color:#a6e22e>float_parameter</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>FloatParameter</span>];
+        <span style=color:#a6e22e>unk_5</span>: <span style=color:#66d9ef>string</span>; <span style=color:#75715e>//Always empty
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>float4_light_parameter</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>Float4Parameter</span>];
+        <span style=color:#a6e22e>float4_parameter</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>Float4Parameter</span>];
+        <span style=color:#a6e22e>unk_8</span>: <span style=color:#66d9ef>string</span>; <span style=color:#75715e>//Always empty
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>int_parameter</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>IntParameter</span>];
+        <span style=color:#a6e22e>unk_10</span>: <span style=color:#66d9ef>string</span>; <span style=color:#75715e>//Always empty
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>unk_11</span>: <span style=color:#66d9ef>string</span>; <span style=color:#75715e>//Always empty
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>unk_12</span>: <span style=color:#66d9ef>string</span>; <span style=color:#75715e>//Always empty
+</span><span style=color:#75715e></span>        <span style=color:#a6e22e>byte_extra</span>: <span style=color:#66d9ef>Byte_Extra</span>;
+        <span style=color:#a6e22e>int_extra</span>: <span style=color:#66d9ef>Int_Extra</span>;
+        <span style=color:#a6e22e>alpha_type</span>: <span style=color:#66d9ef>string</span>;
+}
+
+<span style=color:#a6e22e>table</span> <span style=color:#a6e22e>TRMTR</span>{
+        <span style=color:#a6e22e>res_0</span>: <span style=color:#66d9ef>uint32</span>;
+        <span style=color:#a6e22e>materials</span><span style=color:#f92672>:</span> [<span style=color:#a6e22e>Material</span>];
+}
+
+<span style=color:#a6e22e>root_type</span> <span style=color:#a6e22e>TRMTR</span>;
+</code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){if(window.getSelection().toString()){return;}
+select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></div></aside></main></body></html>
