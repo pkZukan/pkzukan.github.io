@@ -1,5 +1,5 @@
 ---
-title: "Trinity Scene Point"
+title: "Trinity Model Material Table (trmmt)"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -8,7 +8,7 @@ bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Trinity Scene Point
+# Trinity Model Material Table (trmmt)
 
 ### Description:
 
@@ -16,4 +16,4 @@ Stub
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/scene/trinity_ScenePoint.fbs" lang="ts">}}
+{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/model/trmmt.fbs" lang="ts">}}
