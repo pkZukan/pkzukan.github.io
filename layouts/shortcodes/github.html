@@ -1,4 +1,4 @@
-{{ $dataJ := getJSON (printf "https://api.github.com/repos/%s/contents/%s" (.Get "repo") (.Get "file")) }}
+{{ $dataJ := getJSON (printf "https://api.github.com/repos/%s/contents/%s" (.Get "repo") (.Get "file")) (dict "Authorization" (printf "Bearer %s" .Site.Params.Token )) }}
 
 {{ $con := base64Decode $dataJ.content }}
 
