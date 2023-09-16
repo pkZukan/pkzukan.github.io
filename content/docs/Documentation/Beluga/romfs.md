@@ -17,3 +17,6 @@ bookSearchExclude: true
 ### Romfs contents:
 
 {{<csv-to-markdown file="data/beluga/romfs.csv">}}
+
+### Notes:
+1. Dummy

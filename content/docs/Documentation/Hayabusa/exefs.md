@@ -21,3 +21,6 @@ bookSearchExclude: true
 ### Notable Lua offsets:
 
 {{<csv-to-markdown file="data/hayabusa/lua_offsets.csv">}}
+
+### Notes:
+1. Dummy

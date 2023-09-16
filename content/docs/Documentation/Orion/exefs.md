@@ -20,3 +20,16 @@ bookSearchExclude: true
 ### Notable offsets:
 
 {{<csv-to-markdown file="data/orion/exefs.csv">}}
+
+### Notes:
+
+1. An array of `DexEntry`s that are as follows:
+    ```
+    struct {
+        ushort GalarNum;
+        ushort ArmorNum;
+        ushort TundraNum;
+        ushort unused;
+    } DexEntry;
+    ```
+2. test
