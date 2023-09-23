@@ -1,0 +1,165 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Binary Texture (bntx) # Description: # Nintendo Middleware binary texture format.
+Format: # meta: id: bntx file-extension: bntx endian: le seq: - id: header type: header - id: nx_header type: nx_header instances: blocks: pos: header.ptr_root type: block_header rlt: pos: header.ptr_rlt type: relocation_table types: header: seq: - id: magic size: 8 - id: version size: 4 - id: byte_order type: u2 - id: align type: u1 - id: size_align type: u1 - id: ptr_name type: u4 - id: bool_reloc type: u2 - id: ptr_root type: u2 - id: ptr_rlt type: u4 - id: size_file type: u4 block_header: seq: - id: magic type: str encoding: ASCII size: 4 - id: ofs_next type: u4 - id: len_block type: u4 - id: reserved type: u4 - id: block type: switch-on: magic cases: &#34;'BRTI'&#34;: brti_header &#34;'_STR'&#34;: string_block &#34;'_RLT'&#34;: relocation_table instances: next_block: pos: ofs_next type: block_header nx_header: seq: - id: magic contents: 'NX' - id: inner_version size: 2 - id: version size: 4 - id: noclue type: u8 - id: block size: noclue brti_header: seq: - id: unk size: 4 string_block: seq: - id: count type: u8 - id: strings type: string_entry repeat: expr repeat-expr: count types: string_entry: seq: - id: len_string type: u2 - id: string type: str size: len_string encoding: UTF-8 - id: alignment size: 1 + (_io."><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="Binary Texture (bntx)"><meta property="og:description" content="Binary Texture (bntx) # Description: # Nintendo Middleware binary texture format.
+Format: # meta: id: bntx file-extension: bntx endian: le seq: - id: header type: header - id: nx_header type: nx_header instances: blocks: pos: header.ptr_root type: block_header rlt: pos: header.ptr_rlt type: relocation_table types: header: seq: - id: magic size: 8 - id: version size: 4 - id: byte_order type: u2 - id: align type: u1 - id: size_align type: u1 - id: ptr_name type: u4 - id: bool_reloc type: u2 - id: ptr_root type: u2 - id: ptr_rlt type: u4 - id: size_file type: u4 block_header: seq: - id: magic type: str encoding: ASCII size: 4 - id: ofs_next type: u4 - id: len_block type: u4 - id: reserved type: u4 - id: block type: switch-on: magic cases: &#34;'BRTI'&#34;: brti_header &#34;'_STR'&#34;: string_block &#34;'_RLT'&#34;: relocation_table instances: next_block: pos: ofs_next type: block_header nx_header: seq: - id: magic contents: 'NX' - id: inner_version size: 2 - id: version size: 4 - id: noclue type: u8 - id: block size: noclue brti_header: seq: - id: unk size: 4 string_block: seq: - id: count type: u8 - id: strings type: string_entry repeat: expr repeat-expr: count types: string_entry: seq: - id: len_string type: u2 - id: string type: str size: len_string encoding: UTF-8 - id: alignment size: 1 + (_io."><meta property="og:type" content="article"><meta property="og:url" content="http://example.org/docs/documentation/middleware/bntx/"><meta property="article:section" content="docs"><title>Binary Texture (bntx) | Zukan Docs</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.dfbbf1d48101839ec6c9a981a29b603a0f383871071908d5e6ee913307e15c05.css integrity="sha256-37vx1IEBg57GyamBoptgOg84OHEHGQjV5u6RMwfhXAU=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script>
+<script defer src=/en.search.min.7190d252fcfb81dc118aee0f816c406c3799c12b30e48f8c24471bbe75fa2133.js integrity="sha256-cZDSUvz7gdwRiu4PgWxAbDeZwSsw5I+MJEcbvnX6ITM=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.png alt=Logo><span>Zukan Docs</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><input type=checkbox id=section-530be22fd4254a920464f3c7d7a7004e class=toggle checked>
+<label for=section-530be22fd4254a920464f3c7d7a7004e class="flex justify-between"><a role=button>Documentation</a></label><ul><li><input type=checkbox id=section-facb84174acc29363d5fe9ac19b5d4f7 class=toggle>
+<label for=section-facb84174acc29363d5fe9ac19b5d4f7 class="flex justify-between"><a href=/docs/documentation/beluga/>Let's Go Pikachu & Eevee</a></label><ul><li><input type=checkbox id=section-75bc386c4d71d529a68aa03611c34799 class=toggle>
+<label for=section-75bc386c4d71d529a68aa03611c34799 class="flex justify-between"><a href=/docs/documentation/beluga/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class=toggle>
+<label for=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class="flex justify-between"><a href=/docs/documentation/beluga/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-64603753268bb5905a84ea27eee7603a class=toggle>
+<label for=section-64603753268bb5905a84ea27eee7603a class="flex justify-between"><a href=/docs/documentation/orion/>Sword & Shield</a></label><ul><li><input type=checkbox id=section-8d5ec920630be69d454f6583e8698724 class=toggle>
+<label for=section-8d5ec920630be69d454f6583e8698724 class="flex justify-between"><a href=/docs/documentation/orion/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-3030c441d129ebdedcb7ed3a737567a8 class=toggle>
+<label for=section-3030c441d129ebdedcb7ed3a737567a8 class="flex justify-between"><a href=/docs/documentation/orion/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-0f6bb44e1f3761ec770e3feb7e7b1653 class=toggle>
+<label for=section-0f6bb44e1f3761ec770e3feb7e7b1653 class="flex justify-between"><a href=/docs/documentation/delphis/>Brilliant Diamond & Shining Pearl</a></label><ul><li><input type=checkbox id=section-e65a09004b5a7ce473d1e246c264a73e class=toggle>
+<label for=section-e65a09004b5a7ce473d1e246c264a73e class="flex justify-between"><a href=/docs/documentation/delphis/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-92d4268332a079d4a13dafc01719c636 class=toggle>
+<label for=section-92d4268332a079d4a13dafc01719c636 class="flex justify-between"><a href=/docs/documentation/delphis/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-7687fce707e97c5b2d6012d30e464b5b class=toggle>
+<label for=section-7687fce707e97c5b2d6012d30e464b5b class="flex justify-between"><a href=/docs/documentation/hayabusa/>Legends Arceus</a></label><ul><li><a href=/docs/documentation/hayabusa/exefs/>ExeFS</a></li><li><a href=/docs/documentation/hayabusa/romfs/>RomFS</a></li></ul></li><li><input type=checkbox id=section-79f6cd272ec2a13b130db33d85700903 class=toggle>
+<label for=section-79f6cd272ec2a13b130db33d85700903 class="flex justify-between"><a href=/docs/documentation/titan/>Scarlet & Violet</a></label><ul><li><a href=/docs/documentation/titan/exefs/>ExeFS</a></li><li><a href=/docs/documentation/titan/romfs/>RomFS</a></li></ul></li></ul></li><li><input type=checkbox id=section-64d0ac0e8a385a6091d238dd382da7cf class=toggle>
+<label for=section-64d0ac0e8a385a6091d238dd382da7cf class="flex justify-between"><a role=button>Guides</a></label><ul><li><input type=checkbox id=section-67669ff2a72f12eb644311513251dabf class=toggle>
+<label for=section-67669ff2a72f12eb644311513251dabf class="flex justify-between"><a role=button>Hayabusa</a></label><ul><li><a href=/docs/guides/hayabusa/modelimporting/>Model Importing</a></li></ul></li></ul></li><li><input type=checkbox id=section-a432bb056edf769c9f15f6893988f152 class=toggle>
+<label for=section-a432bb056edf769c9f15f6893988f152 class="flex justify-between"><a role=button>Tools</a></label><ul><li><a href=/docs/tools/assetassistant/>Asset Assistant</a></li><li><a href=/docs/tools/pknx/>PkNx</a></li><li><a href=/docs/tools/switchtoolbox/>Switch Tool Box</a></li><li><a href=/docs/tools/trinitymodloader/>Trinity Mod Loader</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>Binary Texture (bntx)</strong>
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#format>Format:</a></li></ul></li></ul></nav></aside></header><article class=markdown><h1 id=binary-texture-bntx>Binary Texture (bntx)
+<a class=anchor href=#binary-texture-bntx>#</a></h1><h3 id=description>Description:
+<a class=anchor href=#description>#</a></h3><p>Nintendo Middleware binary texture format.</p><h3 id=format>Format:
+<a class=anchor href=#format>#</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ts data-lang=ts><span style=display:flex><span><span style=color:#a6e22e>meta</span>:
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>id</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>bntx</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>file</span><span style=color:#f92672>-</span><span style=color:#a6e22e>extension</span>: <span style=color:#66d9ef>bntx</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>endian</span>: <span style=color:#66d9ef>le</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>header</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>header</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>nx_header</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>nx_header</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>instances</span>:
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>blocks</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>pos</span>: <span style=color:#66d9ef>header.ptr_root</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>block_header</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>rlt</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>pos</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>header</span>.<span style=color:#a6e22e>ptr_rlt</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>relocation_table</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>types</span>:
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>header</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>magic</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>8</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>version</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>byte_order</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>align</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>size_align</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>ptr_name</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>bool_reloc</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>ptr_root</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>ptr_rlt</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>size_file</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>block_header</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>magic</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>str</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>encoding</span>: <span style=color:#66d9ef>ASCII</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>ofs_next</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>len_block</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>reserved</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>block</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>switch</span><span style=color:#f92672>-</span><span style=color:#a6e22e>on</span>: <span style=color:#66d9ef>magic</span>
+</span></span><span style=display:flex><span>          <span style=color:#a6e22e>cases</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>            <span style=color:#e6db74>&#34;&#39;BRTI&#39;&#34;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>brti_header</span>
+</span></span><span style=display:flex><span>            <span style=color:#e6db74>&#34;&#39;_STR&#39;&#34;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>string_block</span>
+</span></span><span style=display:flex><span>            <span style=color:#e6db74>&#34;&#39;_RLT&#39;&#34;</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>relocation_table</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>instances</span>:
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>next_block</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>pos</span>: <span style=color:#66d9ef>ofs_next</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>block_header</span>
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>nx_header</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>magic</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>contents</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;NX&#39;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>inner_version</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>version</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>noclue</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u8</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>block</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>noclue</span>
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>brti_header</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>unk</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>4</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>string_block</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>count</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u8</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>strings</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>string_entry</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>count</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>types</span>:
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>string_entry</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>len_string</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>string</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>str</span>
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>len_string</span>
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>encoding</span>: <span style=color:#66d9ef>UTF</span><span style=color:#f92672>-</span><span style=color:#ae81ff>8</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>alignment</span>
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>1</span> <span style=color:#f92672>+</span> (<span style=color:#a6e22e>_io</span>.<span style=color:#a6e22e>pos</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>) <span style=color:#f92672>%</span> <span style=color:#ae81ff>2</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>relocation_table</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>magic</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>contents</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;_RLT&#39;</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>pos_rlt</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>count_section</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>sections</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>relocation_section</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>types</span>:
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>relocation_section</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>pos</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>size</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>index</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>count</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>instances</span>:
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>relocation_entries</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>relocation_entry</span>
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>pos</span>: <span style=color:#66d9ef>pos</span>
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>size</span>
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>count</span>
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>relocation_entry</span>:
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>position</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>count_structure</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>count_offset</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>          <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>count_padding</span>
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span></code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#format>Format:</a></li></ul></li></ul></nav></div></aside></main></body></html>
