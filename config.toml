@@ -2,6 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Zukan Docs'
 theme = "hugo-book"
+
 [params]
   BookLogo = 'logo.png'
   Token = ''

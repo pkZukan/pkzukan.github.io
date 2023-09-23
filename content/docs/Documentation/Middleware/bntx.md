@@ -16,4 +16,4 @@ Nintendo Middleware binary texture format.
 
 ### Format:
 
-{{<github repo="rh-hideout/rhh-docs" file="/NX/binary_templates/nintendo/bntx.ksy" lang="ts">}}
+{{<github repo="rh-hideout/rhh-docs" file="/NX/binary_templates/nintendo/bntx.ksy" lang="yaml">}}
