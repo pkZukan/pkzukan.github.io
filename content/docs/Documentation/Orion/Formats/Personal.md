@@ -1,5 +1,5 @@
 ---
-title: "Personal (Scarlet & Violet)"
+title: "Personal (Sword & Shield)"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -8,7 +8,7 @@ bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Personal (Scarlet & Violet)
+# Personal (Sword & Shield)
 
 ### Description:
 
@@ -16,4 +16,4 @@ Contains all the base stats, abilities, etc, as well as evo data.
 
 ### Schema:
 
-{{<github repo="pkZukan/PokeDocs" file="/SV/Flatbuffers/pml/personal.fbs" lang="ts">}}
+{{<github repo="rh-hideout/rhh-docs" file="/NX/binary_templates/pml/personal.v1.1.ksy" lang="ts">}}
