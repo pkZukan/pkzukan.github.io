@@ -1,0 +1,476 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content=" Personal (Sword & Shield) # Description: # Contains all the base stats, abilities, etc, as well as evo data.
+Schema: # meta: id: personal file-extension: bin endian: le seq: - id: entry size: 0xA8 type: entry repeat: eos types: entry: seq: - id: base_stats type: base_stats - id: type_1 type: u1 enum: types - id: type_2 type: u1 enum: types - id: catch_rate type: u1 - id: evo_stage type: u1 - id: effort_yield type: effort_yield size: 2 - id: items type: u2 repeat: expr repeat-expr: 3 - id: gender type: u1 - id: hatch_cycles type: u1 - id: base_friendship type: u1 - id: exp_growth type: u1 - id: egg_groups type: u1 enum: egg_group repeat: expr repeat-expr: 2 - id: abilities type: u2 enum: ability repeat: expr repeat-expr: 3 - id: sprite type: sprite_data - id: base_exp type: u2 - id: height type: u2 - id: weight type: u2 - id: tms type: b1 repeat: expr repeat-expr: 128 - id: movetutors type: b1 repeat: expr repeat-expr: 32 - id: trs type: b1 repeat: expr repeat-expr: 128 - id: model_id type: u4 - id: z_item type: u2 - id: z_base_move type: u2 - id: z_special_move type: u2 - id: evo_line type: u2 - id: ingame_form_count type: u2 - id: galar_flags type: galar_flags - id: pokedex_id type: u2 - id: form_id type: u2 - id: blob size: 72 types: base_stats: seq: - id: hp type: u1 - id: attack type: u1 - id: defense type: u1 - id: speed type: u1 - id: special_attack type: u1 - id: special_defense type: u1 effort_yield: seq: - id: effort_speed type: b2 - id: effort_defense type: b2 - id: effort_attack type: b2 - id: effort_hp type: b2 - id: effort_special_attack type: b2 - id: effort_special_defense type: b2 sprite_data: seq: - id: sprite type: u2 - id: forme_count type: u1 - id: sprite_forme type: b1 - id: bool_present type: b1 - id: color type: b6 enum: colors galar_flags: seq: - id: flag_reserved type: b4 - id: flag_not_gmax type: b2 - id: flag_has_regional type: b2 - id: flags_reserved type: u1 enums: colors: 0: red 1: blue 2: yellow 3: green 4: black 5: brown 6: purple 7: gray 8: white 9: pink types: 0: normal 1: fight 2: flying 3: poison 4: ground 5: rock 6: bug 7: ghost 8: steel 9: fire 10: water 11: grass 12: electric 13: psychic 14: ice 15: dragon 16: dark 17: fairy egg_group: 1: monster 2: water1 3: bug 4: flying 5: field 6: fairy 7: grass 8: biped 9: water3 10: mineral 11: amorphous 12: water2 13: ditto 14: dragon 15: undiscovered ability: 1: stench 2: drizzle 3: speed_boost 4: battle_armor 5: sturdy 6: damp 7: limber 8: sand_veil 9: static 10: volt_absorb 11: water_absorb 12: oblivious 13: cloud_nine 14: compound_eyes 15: insomnia 16: color_change 17: immunity 18: flash_fire 19: shield_dust 20: own_tempo 21: suction_cups 22: intimidate 23: shadow_tag 24: rough_skin 25: wonder_guard 26: levitate 27: effect_spore 28: synchronize 29: clear_body 30: natural_cure 31: lightning_rod 32: serene_grace 33: swift_swim 34: chlorophyll 35: illuminate 36: trace 37: huge_power 38: poison_point 39: inner_focus 40: magma_armor 41: water_veil 42: magnet_pull 43: soundproof 44: rain_dish 45: sand_stream 46: pressure 47: thick_fat 48: early_bird 49: flame_body 50: run_away 51: keen_eye 52: hyper_cutter 53: pickup 54: truant 55: hustle 56: cute_charm 57: plus 58: minus 59: forecast 60: sticky_hold 61: shed_skin 62: guts 63: marvel_scale 64: liquid_ooze 65: overgrow 66: blaze 67: torrent 68: swarm 69: rock_head 70: drought 71: arena_trap 72: vital_spirit 73: white_smoke 74: pure_power 75: shell_armor 76: air_lock 77: tangled_feet 78: motor_drive 79: rivalry 80: steadfast 81: snow_cloak 82: gluttony 83: anger_point 84: unburden 85: heatproof 86: simple 87: dry_skin 88: download 89: iron_fist 90: poison_heal 91: adaptability 92: skill_link 93: hydration 94: solar_power 95: quick_feet 96: normalize 97: sniper 98: magic_guard 99: no_guard 100: stall 101: technician 102: leaf_guard 103: klutz 104: mold_breaker 105: super_luck 106: aftermath 107: anticipation 108: forewarn 109: unaware 110: tinted_lens 111: filter 112: slow_start 113: scrappy 114: storm_drain 115: ice_body 116: solid_rock 117: snow_warning 118: honey_gather 119: frisk 120: reckless 121: multitype 122: flower_gift 123: bad_dreams 124: pickpocket 125: sheer_force 126: contrary 127: unnerve 128: defiant 129: defeatist 130: cursed_body 131: healer 132: friend_guard 133: weak_armor 134: heavy_metal 135: light_metal 136: multiscale 137: toxic_boost 138: flare_boost 139: harvest 140: telepathy 141: moody 142: overcoat 143: poison_touch 144: regenerator 145: big_pecks 146: sand_rush 147: wonder_skin 148: analytic 149: illusion 150: imposter 151: infiltrator 152: mummy 153: moxie 154: justified 155: rattled 156: magic_bounce 157: sap_sipper 158: prankster 159: sand_force 160: iron_barbs 161: zen_mode 162: victory_star 163: turboblaze 164: teravolt 165: aroma_veil 166: flower_veil 167: cheek_pouch 168: protean 169: fur_coat 170: magician 171: bulletproof 172: competitive 173: strong_jaw 174: refrigerate 175: sweet_veil 176: stance_change 177: gale_wings 178: mega_launcher 179: grass_pelt 180: symbiosis 181: tough_claws 182: pixilate 183: gooey 184: aerilate 185: parental_bond 186: dark_aura 187: fairy_aura 188: aura_break 189: primordial_sea 190: desolate_land 191: delta_stream 192: stamina 193: wimp_out 194: emergency_exit 195: water_compaction 196: merciless 197: shields_down 198: stakeout 199: water_bubble 200: steelworker 201: berserk 202: slush_rush 203: long_reach 204: liquid_voice 205: triage 206: galvanize 207: surge_surfer 208: schooling 209: disguise 210: battle_bond 211: power_construct 212: corrosion 213: comatose 214: queenly_majesty 215: innards_out 216: dancer 217: battery 218: fluffy 219: dazzling 220: soul_heart 221: tangling_hair 222: receiver 223: power_of_alchemy 224: beast_boost 225: rks_system 226: electric_surge 227: psychic_surge 228: misty_surge 229: grassy_surge 230: full_metal_body 231: shadow_shield 232: prism_armor 233: neuroforce 234: intrepid_sword 235: dauntless_shield 236: libero 237: ball_fetch 238: cotton_down 239: propeller_tail 240: mirror_armor 241: gulp_missile 242: stalwart 243: steam_engine 244: punk_rock 245: sand_spit 246: ice_scales 247: ripen 248: ice_face 249: power_spot 250: mimicry 251: screen_cleaner 252: steely_spirit 253: perish_body 254: wandering_spirit 255: gorilla_tactics 256: neutralizing_gas 257: pastel_veil 258: hunger_switch "><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="Personal (Sword & Shield)"><meta property="og:description" content=" Personal (Sword & Shield) # Description: # Contains all the base stats, abilities, etc, as well as evo data.
+Schema: # meta: id: personal file-extension: bin endian: le seq: - id: entry size: 0xA8 type: entry repeat: eos types: entry: seq: - id: base_stats type: base_stats - id: type_1 type: u1 enum: types - id: type_2 type: u1 enum: types - id: catch_rate type: u1 - id: evo_stage type: u1 - id: effort_yield type: effort_yield size: 2 - id: items type: u2 repeat: expr repeat-expr: 3 - id: gender type: u1 - id: hatch_cycles type: u1 - id: base_friendship type: u1 - id: exp_growth type: u1 - id: egg_groups type: u1 enum: egg_group repeat: expr repeat-expr: 2 - id: abilities type: u2 enum: ability repeat: expr repeat-expr: 3 - id: sprite type: sprite_data - id: base_exp type: u2 - id: height type: u2 - id: weight type: u2 - id: tms type: b1 repeat: expr repeat-expr: 128 - id: movetutors type: b1 repeat: expr repeat-expr: 32 - id: trs type: b1 repeat: expr repeat-expr: 128 - id: model_id type: u4 - id: z_item type: u2 - id: z_base_move type: u2 - id: z_special_move type: u2 - id: evo_line type: u2 - id: ingame_form_count type: u2 - id: galar_flags type: galar_flags - id: pokedex_id type: u2 - id: form_id type: u2 - id: blob size: 72 types: base_stats: seq: - id: hp type: u1 - id: attack type: u1 - id: defense type: u1 - id: speed type: u1 - id: special_attack type: u1 - id: special_defense type: u1 effort_yield: seq: - id: effort_speed type: b2 - id: effort_defense type: b2 - id: effort_attack type: b2 - id: effort_hp type: b2 - id: effort_special_attack type: b2 - id: effort_special_defense type: b2 sprite_data: seq: - id: sprite type: u2 - id: forme_count type: u1 - id: sprite_forme type: b1 - id: bool_present type: b1 - id: color type: b6 enum: colors galar_flags: seq: - id: flag_reserved type: b4 - id: flag_not_gmax type: b2 - id: flag_has_regional type: b2 - id: flags_reserved type: u1 enums: colors: 0: red 1: blue 2: yellow 3: green 4: black 5: brown 6: purple 7: gray 8: white 9: pink types: 0: normal 1: fight 2: flying 3: poison 4: ground 5: rock 6: bug 7: ghost 8: steel 9: fire 10: water 11: grass 12: electric 13: psychic 14: ice 15: dragon 16: dark 17: fairy egg_group: 1: monster 2: water1 3: bug 4: flying 5: field 6: fairy 7: grass 8: biped 9: water3 10: mineral 11: amorphous 12: water2 13: ditto 14: dragon 15: undiscovered ability: 1: stench 2: drizzle 3: speed_boost 4: battle_armor 5: sturdy 6: damp 7: limber 8: sand_veil 9: static 10: volt_absorb 11: water_absorb 12: oblivious 13: cloud_nine 14: compound_eyes 15: insomnia 16: color_change 17: immunity 18: flash_fire 19: shield_dust 20: own_tempo 21: suction_cups 22: intimidate 23: shadow_tag 24: rough_skin 25: wonder_guard 26: levitate 27: effect_spore 28: synchronize 29: clear_body 30: natural_cure 31: lightning_rod 32: serene_grace 33: swift_swim 34: chlorophyll 35: illuminate 36: trace 37: huge_power 38: poison_point 39: inner_focus 40: magma_armor 41: water_veil 42: magnet_pull 43: soundproof 44: rain_dish 45: sand_stream 46: pressure 47: thick_fat 48: early_bird 49: flame_body 50: run_away 51: keen_eye 52: hyper_cutter 53: pickup 54: truant 55: hustle 56: cute_charm 57: plus 58: minus 59: forecast 60: sticky_hold 61: shed_skin 62: guts 63: marvel_scale 64: liquid_ooze 65: overgrow 66: blaze 67: torrent 68: swarm 69: rock_head 70: drought 71: arena_trap 72: vital_spirit 73: white_smoke 74: pure_power 75: shell_armor 76: air_lock 77: tangled_feet 78: motor_drive 79: rivalry 80: steadfast 81: snow_cloak 82: gluttony 83: anger_point 84: unburden 85: heatproof 86: simple 87: dry_skin 88: download 89: iron_fist 90: poison_heal 91: adaptability 92: skill_link 93: hydration 94: solar_power 95: quick_feet 96: normalize 97: sniper 98: magic_guard 99: no_guard 100: stall 101: technician 102: leaf_guard 103: klutz 104: mold_breaker 105: super_luck 106: aftermath 107: anticipation 108: forewarn 109: unaware 110: tinted_lens 111: filter 112: slow_start 113: scrappy 114: storm_drain 115: ice_body 116: solid_rock 117: snow_warning 118: honey_gather 119: frisk 120: reckless 121: multitype 122: flower_gift 123: bad_dreams 124: pickpocket 125: sheer_force 126: contrary 127: unnerve 128: defiant 129: defeatist 130: cursed_body 131: healer 132: friend_guard 133: weak_armor 134: heavy_metal 135: light_metal 136: multiscale 137: toxic_boost 138: flare_boost 139: harvest 140: telepathy 141: moody 142: overcoat 143: poison_touch 144: regenerator 145: big_pecks 146: sand_rush 147: wonder_skin 148: analytic 149: illusion 150: imposter 151: infiltrator 152: mummy 153: moxie 154: justified 155: rattled 156: magic_bounce 157: sap_sipper 158: prankster 159: sand_force 160: iron_barbs 161: zen_mode 162: victory_star 163: turboblaze 164: teravolt 165: aroma_veil 166: flower_veil 167: cheek_pouch 168: protean 169: fur_coat 170: magician 171: bulletproof 172: competitive 173: strong_jaw 174: refrigerate 175: sweet_veil 176: stance_change 177: gale_wings 178: mega_launcher 179: grass_pelt 180: symbiosis 181: tough_claws 182: pixilate 183: gooey 184: aerilate 185: parental_bond 186: dark_aura 187: fairy_aura 188: aura_break 189: primordial_sea 190: desolate_land 191: delta_stream 192: stamina 193: wimp_out 194: emergency_exit 195: water_compaction 196: merciless 197: shields_down 198: stakeout 199: water_bubble 200: steelworker 201: berserk 202: slush_rush 203: long_reach 204: liquid_voice 205: triage 206: galvanize 207: surge_surfer 208: schooling 209: disguise 210: battle_bond 211: power_construct 212: corrosion 213: comatose 214: queenly_majesty 215: innards_out 216: dancer 217: battery 218: fluffy 219: dazzling 220: soul_heart 221: tangling_hair 222: receiver 223: power_of_alchemy 224: beast_boost 225: rks_system 226: electric_surge 227: psychic_surge 228: misty_surge 229: grassy_surge 230: full_metal_body 231: shadow_shield 232: prism_armor 233: neuroforce 234: intrepid_sword 235: dauntless_shield 236: libero 237: ball_fetch 238: cotton_down 239: propeller_tail 240: mirror_armor 241: gulp_missile 242: stalwart 243: steam_engine 244: punk_rock 245: sand_spit 246: ice_scales 247: ripen 248: ice_face 249: power_spot 250: mimicry 251: screen_cleaner 252: steely_spirit 253: perish_body 254: wandering_spirit 255: gorilla_tactics 256: neutralizing_gas 257: pastel_veil 258: hunger_switch "><meta property="og:type" content="article"><meta property="og:url" content="http://example.org/docs/documentation/orion/formats/personal/"><meta property="article:section" content="docs"><title>Personal (Sword & Shield) | Zukan Docs</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.dfbbf1d48101839ec6c9a981a29b603a0f383871071908d5e6ee913307e15c05.css integrity="sha256-37vx1IEBg57GyamBoptgOg84OHEHGQjV5u6RMwfhXAU=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script>
+<script defer src=/en.search.min.d4cbc478adfa4cd03ac2615c6e3de0d5d54677cdb6e0195002d170bcaed866fd.js integrity="sha256-1MvEeK36TNA6wmFcbj3g1dVGd8224BlQAtFwvK7YZv0=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.png alt=Logo><span>Zukan Docs</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><input type=checkbox id=section-530be22fd4254a920464f3c7d7a7004e class=toggle checked>
+<label for=section-530be22fd4254a920464f3c7d7a7004e class="flex justify-between"><a role=button>Documentation</a></label><ul><li><input type=checkbox id=section-facb84174acc29363d5fe9ac19b5d4f7 class=toggle>
+<label for=section-facb84174acc29363d5fe9ac19b5d4f7 class="flex justify-between"><a href=/docs/documentation/beluga/>Let's Go Pikachu & Eevee</a></label><ul><li><input type=checkbox id=section-75bc386c4d71d529a68aa03611c34799 class=toggle>
+<label for=section-75bc386c4d71d529a68aa03611c34799 class="flex justify-between"><a href=/docs/documentation/beluga/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class=toggle>
+<label for=section-c018d22e0ddcf242ec1c3bfb0cb44f30 class="flex justify-between"><a href=/docs/documentation/beluga/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-64603753268bb5905a84ea27eee7603a class=toggle checked>
+<label for=section-64603753268bb5905a84ea27eee7603a class="flex justify-between"><a href=/docs/documentation/orion/>Sword & Shield</a></label><ul><li><input type=checkbox id=section-8d5ec920630be69d454f6583e8698724 class=toggle>
+<label for=section-8d5ec920630be69d454f6583e8698724 class="flex justify-between"><a href=/docs/documentation/orion/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-3030c441d129ebdedcb7ed3a737567a8 class=toggle>
+<label for=section-3030c441d129ebdedcb7ed3a737567a8 class="flex justify-between"><a href=/docs/documentation/orion/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-0f6bb44e1f3761ec770e3feb7e7b1653 class=toggle>
+<label for=section-0f6bb44e1f3761ec770e3feb7e7b1653 class="flex justify-between"><a href=/docs/documentation/delphis/>Brilliant Diamond & Shining Pearl</a></label><ul><li><input type=checkbox id=section-e65a09004b5a7ce473d1e246c264a73e class=toggle>
+<label for=section-e65a09004b5a7ce473d1e246c264a73e class="flex justify-between"><a href=/docs/documentation/delphis/exefs/>ExeFS</a></label></li><li><input type=checkbox id=section-92d4268332a079d4a13dafc01719c636 class=toggle>
+<label for=section-92d4268332a079d4a13dafc01719c636 class="flex justify-between"><a href=/docs/documentation/delphis/romfs/>RomFS</a></label></li></ul></li><li><input type=checkbox id=section-7687fce707e97c5b2d6012d30e464b5b class=toggle>
+<label for=section-7687fce707e97c5b2d6012d30e464b5b class="flex justify-between"><a href=/docs/documentation/hayabusa/>Legends Arceus</a></label><ul><li><a href=/docs/documentation/hayabusa/exefs/>ExeFS</a></li><li><a href=/docs/documentation/hayabusa/romfs/>RomFS</a></li></ul></li><li><input type=checkbox id=section-79f6cd272ec2a13b130db33d85700903 class=toggle>
+<label for=section-79f6cd272ec2a13b130db33d85700903 class="flex justify-between"><a href=/docs/documentation/titan/>Scarlet & Violet</a></label><ul><li><a href=/docs/documentation/titan/exefs/>ExeFS</a></li><li><a href=/docs/documentation/titan/romfs/>RomFS</a></li></ul></li></ul></li><li><input type=checkbox id=section-64d0ac0e8a385a6091d238dd382da7cf class=toggle>
+<label for=section-64d0ac0e8a385a6091d238dd382da7cf class="flex justify-between"><a role=button>Guides</a></label><ul><li><input type=checkbox id=section-67669ff2a72f12eb644311513251dabf class=toggle>
+<label for=section-67669ff2a72f12eb644311513251dabf class="flex justify-between"><a role=button>Hayabusa</a></label><ul><li><a href=/docs/guides/hayabusa/modelimporting/>Model Importing</a></li></ul></li></ul></li><li><input type=checkbox id=section-a432bb056edf769c9f15f6893988f152 class=toggle>
+<label for=section-a432bb056edf769c9f15f6893988f152 class="flex justify-between"><a role=button>Tools</a></label><ul><li><a href=/docs/tools/assetassistant/>Asset Assistant</a></li><li><a href=/docs/tools/pknx/>PkNx</a></li><li><a href=/docs/tools/switchtoolbox/>Switch Tool Box</a></li><li><a href=/docs/tools/trinitymodloader/>Trinity Mod Loader</a></li></ul></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>Personal (Sword & Shield)</strong>
+<label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></aside></header><article class=markdown><h1 id=personal-sword--shield>Personal (Sword & Shield)
+<a class=anchor href=#personal-sword--shield>#</a></h1><h3 id=description>Description:
+<a class=anchor href=#description>#</a></h3><p>Contains all the base stats, abilities, etc, as well as evo data.</p><h3 id=schema>Schema:
+<a class=anchor href=#schema>#</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-ts data-lang=ts><span style=display:flex><span><span style=color:#a6e22e>meta</span>:
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>id</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>personal</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>file</span><span style=color:#f92672>-</span><span style=color:#a6e22e>extension</span>: <span style=color:#66d9ef>bin</span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>endian</span>: <span style=color:#66d9ef>le</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>entry</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>0xA8</span>
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>entry</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>eos</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>types</span>:
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>entry</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>base_stats</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>base_stats</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>type_1</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>enum</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>types</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>type_2</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>enum</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>types</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>catch_rate</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>evo_stage</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>effort_yield</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>effort_yield</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>items</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>3</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>gender</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>hatch_cycles</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>base_friendship</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>exp_growth</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>egg_groups</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>enum</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>egg_group</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>abilities</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>enum</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>ability</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>3</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>sprite</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>sprite_data</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>base_exp</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>height</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>weight</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>tms</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b1</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>128</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>movetutors</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b1</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>32</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>trs</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b1</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span>: <span style=color:#66d9ef>expr</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>repeat</span><span style=color:#f92672>-</span><span style=color:#a6e22e>expr</span>: <span style=color:#66d9ef>128</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>model_id</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u4</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>z_item</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>z_base_move</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>z_special_move</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>evo_line</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>ingame_form_count</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>galar_flags</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>galar_flags</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>pokedex_id</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>form_id</span>
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>blob</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>size</span>: <span style=color:#66d9ef>72</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>types</span>:
+</span></span><span style=display:flex><span>      <span style=color:#66d9ef>base_stats</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>hp</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>attack</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>defense</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>speed</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>special_attack</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>special_defense</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>effort_yield</span>:
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>effort_speed</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>effort_defense</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>effort_attack</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>effort_hp</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>effort_special_attack</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>effort_special_defense</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>sprite_data</span>:
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>sprite</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>forme_count</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>sprite_forme</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>bool_present</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b1</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>color</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b6</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>enum</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>colors</span>
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>galar_flags</span>:
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>seq</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>flag_reserved</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b4</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>flag_not_gmax</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>flag_has_regional</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>b2</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>-</span> <span style=color:#a6e22e>id</span>: <span style=color:#66d9ef>flags_reserved</span>
+</span></span><span style=display:flex><span>          <span style=color:#66d9ef>type</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>u1</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>enums</span>:
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>colors</span><span style=color:#f92672>:</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>0</span>: <span style=color:#66d9ef>red</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>1</span>: <span style=color:#66d9ef>blue</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>2</span>: <span style=color:#66d9ef>yellow</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>3</span>: <span style=color:#66d9ef>green</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>4</span>: <span style=color:#66d9ef>black</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>5</span>: <span style=color:#66d9ef>brown</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>6</span>: <span style=color:#66d9ef>purple</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>7</span>: <span style=color:#66d9ef>gray</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>8</span>: <span style=color:#66d9ef>white</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>9</span>: <span style=color:#66d9ef>pink</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>types</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>0</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>normal</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>1</span>: <span style=color:#66d9ef>fight</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>2</span>: <span style=color:#66d9ef>flying</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>3</span>: <span style=color:#66d9ef>poison</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>4</span>: <span style=color:#66d9ef>ground</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>5</span>: <span style=color:#66d9ef>rock</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>6</span>: <span style=color:#66d9ef>bug</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>7</span>: <span style=color:#66d9ef>ghost</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>8</span>: <span style=color:#66d9ef>steel</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>9</span>: <span style=color:#66d9ef>fire</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>10</span>: <span style=color:#66d9ef>water</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>11</span>: <span style=color:#66d9ef>grass</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>12</span>: <span style=color:#66d9ef>electric</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>13</span>: <span style=color:#66d9ef>psychic</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>14</span>: <span style=color:#66d9ef>ice</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>15</span>: <span style=color:#66d9ef>dragon</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>16</span>: <span style=color:#66d9ef>dark</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>17</span>: <span style=color:#66d9ef>fairy</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>egg_group</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>1</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>monster</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>2</span>: <span style=color:#66d9ef>water1</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>3</span>: <span style=color:#66d9ef>bug</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>4</span>: <span style=color:#66d9ef>flying</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>5</span>: <span style=color:#66d9ef>field</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>6</span>: <span style=color:#66d9ef>fairy</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>7</span>: <span style=color:#66d9ef>grass</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>8</span>: <span style=color:#66d9ef>biped</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>9</span>: <span style=color:#66d9ef>water3</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>10</span>: <span style=color:#66d9ef>mineral</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>11</span>: <span style=color:#66d9ef>amorphous</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>12</span>: <span style=color:#66d9ef>water2</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>13</span>: <span style=color:#66d9ef>ditto</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>14</span>: <span style=color:#66d9ef>dragon</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>15</span>: <span style=color:#66d9ef>undiscovered</span>
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>ability</span>:
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>1</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>stench</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>2</span>: <span style=color:#66d9ef>drizzle</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>3</span>: <span style=color:#66d9ef>speed_boost</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>4</span>: <span style=color:#66d9ef>battle_armor</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>5</span>: <span style=color:#66d9ef>sturdy</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>6</span>: <span style=color:#66d9ef>damp</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>7</span>: <span style=color:#66d9ef>limber</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>8</span>: <span style=color:#66d9ef>sand_veil</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>9</span>: <span style=color:#66d9ef>static</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>10</span>: <span style=color:#66d9ef>volt_absorb</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>11</span>: <span style=color:#66d9ef>water_absorb</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>12</span>: <span style=color:#66d9ef>oblivious</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>13</span>: <span style=color:#66d9ef>cloud_nine</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>14</span>: <span style=color:#66d9ef>compound_eyes</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>15</span>: <span style=color:#66d9ef>insomnia</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>16</span>: <span style=color:#66d9ef>color_change</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>17</span>: <span style=color:#66d9ef>immunity</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>18</span>: <span style=color:#66d9ef>flash_fire</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>19</span>: <span style=color:#66d9ef>shield_dust</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>20</span>: <span style=color:#66d9ef>own_tempo</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>21</span>: <span style=color:#66d9ef>suction_cups</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>22</span>: <span style=color:#66d9ef>intimidate</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>23</span>: <span style=color:#66d9ef>shadow_tag</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>24</span>: <span style=color:#66d9ef>rough_skin</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>25</span>: <span style=color:#66d9ef>wonder_guard</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>26</span>: <span style=color:#66d9ef>levitate</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>27</span>: <span style=color:#66d9ef>effect_spore</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>28</span>: <span style=color:#66d9ef>synchronize</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>29</span>: <span style=color:#66d9ef>clear_body</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>30</span>: <span style=color:#66d9ef>natural_cure</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>31</span>: <span style=color:#66d9ef>lightning_rod</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>32</span>: <span style=color:#66d9ef>serene_grace</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>33</span>: <span style=color:#66d9ef>swift_swim</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>34</span>: <span style=color:#66d9ef>chlorophyll</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>35</span>: <span style=color:#66d9ef>illuminate</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>36</span>: <span style=color:#66d9ef>trace</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>37</span>: <span style=color:#66d9ef>huge_power</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>38</span>: <span style=color:#66d9ef>poison_point</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>39</span>: <span style=color:#66d9ef>inner_focus</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>40</span>: <span style=color:#66d9ef>magma_armor</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>41</span>: <span style=color:#66d9ef>water_veil</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>42</span>: <span style=color:#66d9ef>magnet_pull</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>43</span>: <span style=color:#66d9ef>soundproof</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>44</span>: <span style=color:#66d9ef>rain_dish</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>45</span>: <span style=color:#66d9ef>sand_stream</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>46</span>: <span style=color:#66d9ef>pressure</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>47</span>: <span style=color:#66d9ef>thick_fat</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>48</span>: <span style=color:#66d9ef>early_bird</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>49</span>: <span style=color:#66d9ef>flame_body</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>50</span>: <span style=color:#66d9ef>run_away</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>51</span>: <span style=color:#66d9ef>keen_eye</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>52</span>: <span style=color:#66d9ef>hyper_cutter</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>53</span>: <span style=color:#66d9ef>pickup</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>54</span>: <span style=color:#66d9ef>truant</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>55</span>: <span style=color:#66d9ef>hustle</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>56</span>: <span style=color:#66d9ef>cute_charm</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>57</span>: <span style=color:#66d9ef>plus</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>58</span>: <span style=color:#66d9ef>minus</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>59</span>: <span style=color:#66d9ef>forecast</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>60</span>: <span style=color:#66d9ef>sticky_hold</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>61</span>: <span style=color:#66d9ef>shed_skin</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>62</span>: <span style=color:#66d9ef>guts</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>63</span>: <span style=color:#66d9ef>marvel_scale</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>64</span>: <span style=color:#66d9ef>liquid_ooze</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>65</span>: <span style=color:#66d9ef>overgrow</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>66</span>: <span style=color:#66d9ef>blaze</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>67</span>: <span style=color:#66d9ef>torrent</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>68</span>: <span style=color:#66d9ef>swarm</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>69</span>: <span style=color:#66d9ef>rock_head</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>70</span>: <span style=color:#66d9ef>drought</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>71</span>: <span style=color:#66d9ef>arena_trap</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>72</span>: <span style=color:#66d9ef>vital_spirit</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>73</span>: <span style=color:#66d9ef>white_smoke</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>74</span>: <span style=color:#66d9ef>pure_power</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>75</span>: <span style=color:#66d9ef>shell_armor</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>76</span>: <span style=color:#66d9ef>air_lock</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>77</span>: <span style=color:#66d9ef>tangled_feet</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>78</span>: <span style=color:#66d9ef>motor_drive</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>79</span>: <span style=color:#66d9ef>rivalry</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>80</span>: <span style=color:#66d9ef>steadfast</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>81</span>: <span style=color:#66d9ef>snow_cloak</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>82</span>: <span style=color:#66d9ef>gluttony</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>83</span>: <span style=color:#66d9ef>anger_point</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>84</span>: <span style=color:#66d9ef>unburden</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>85</span>: <span style=color:#66d9ef>heatproof</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>86</span>: <span style=color:#66d9ef>simple</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>87</span>: <span style=color:#66d9ef>dry_skin</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>88</span>: <span style=color:#66d9ef>download</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>89</span>: <span style=color:#66d9ef>iron_fist</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>90</span>: <span style=color:#66d9ef>poison_heal</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>91</span>: <span style=color:#66d9ef>adaptability</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>92</span>: <span style=color:#66d9ef>skill_link</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>93</span>: <span style=color:#66d9ef>hydration</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>94</span>: <span style=color:#66d9ef>solar_power</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>95</span>: <span style=color:#66d9ef>quick_feet</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>96</span>: <span style=color:#66d9ef>normalize</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>97</span>: <span style=color:#66d9ef>sniper</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>98</span>: <span style=color:#66d9ef>magic_guard</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>99</span>: <span style=color:#66d9ef>no_guard</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>100</span>: <span style=color:#66d9ef>stall</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>101</span>: <span style=color:#66d9ef>technician</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>102</span>: <span style=color:#66d9ef>leaf_guard</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>103</span>: <span style=color:#66d9ef>klutz</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>104</span>: <span style=color:#66d9ef>mold_breaker</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>105</span>: <span style=color:#66d9ef>super_luck</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>106</span>: <span style=color:#66d9ef>aftermath</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>107</span>: <span style=color:#66d9ef>anticipation</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>108</span>: <span style=color:#66d9ef>forewarn</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>109</span>: <span style=color:#66d9ef>unaware</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>110</span>: <span style=color:#66d9ef>tinted_lens</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>111</span>: <span style=color:#66d9ef>filter</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>112</span>: <span style=color:#66d9ef>slow_start</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>113</span>: <span style=color:#66d9ef>scrappy</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>114</span>: <span style=color:#66d9ef>storm_drain</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>115</span>: <span style=color:#66d9ef>ice_body</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>116</span>: <span style=color:#66d9ef>solid_rock</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>117</span>: <span style=color:#66d9ef>snow_warning</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>118</span>: <span style=color:#66d9ef>honey_gather</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>119</span>: <span style=color:#66d9ef>frisk</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>120</span>: <span style=color:#66d9ef>reckless</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>121</span>: <span style=color:#66d9ef>multitype</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>122</span>: <span style=color:#66d9ef>flower_gift</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>123</span>: <span style=color:#66d9ef>bad_dreams</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>124</span>: <span style=color:#66d9ef>pickpocket</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>125</span>: <span style=color:#66d9ef>sheer_force</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>126</span>: <span style=color:#66d9ef>contrary</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>127</span>: <span style=color:#66d9ef>unnerve</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>128</span>: <span style=color:#66d9ef>defiant</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>129</span>: <span style=color:#66d9ef>defeatist</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>130</span>: <span style=color:#66d9ef>cursed_body</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>131</span>: <span style=color:#66d9ef>healer</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>132</span>: <span style=color:#66d9ef>friend_guard</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>133</span>: <span style=color:#66d9ef>weak_armor</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>134</span>: <span style=color:#66d9ef>heavy_metal</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>135</span>: <span style=color:#66d9ef>light_metal</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>136</span>: <span style=color:#66d9ef>multiscale</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>137</span>: <span style=color:#66d9ef>toxic_boost</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>138</span>: <span style=color:#66d9ef>flare_boost</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>139</span>: <span style=color:#66d9ef>harvest</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>140</span>: <span style=color:#66d9ef>telepathy</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>141</span>: <span style=color:#66d9ef>moody</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>142</span>: <span style=color:#66d9ef>overcoat</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>143</span>: <span style=color:#66d9ef>poison_touch</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>144</span>: <span style=color:#66d9ef>regenerator</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>145</span>: <span style=color:#66d9ef>big_pecks</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>146</span>: <span style=color:#66d9ef>sand_rush</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>147</span>: <span style=color:#66d9ef>wonder_skin</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>148</span>: <span style=color:#66d9ef>analytic</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>149</span>: <span style=color:#66d9ef>illusion</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>150</span>: <span style=color:#66d9ef>imposter</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>151</span>: <span style=color:#66d9ef>infiltrator</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>152</span>: <span style=color:#66d9ef>mummy</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>153</span>: <span style=color:#66d9ef>moxie</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>154</span>: <span style=color:#66d9ef>justified</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>155</span>: <span style=color:#66d9ef>rattled</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>156</span>: <span style=color:#66d9ef>magic_bounce</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>157</span>: <span style=color:#66d9ef>sap_sipper</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>158</span>: <span style=color:#66d9ef>prankster</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>159</span>: <span style=color:#66d9ef>sand_force</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>160</span>: <span style=color:#66d9ef>iron_barbs</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>161</span>: <span style=color:#66d9ef>zen_mode</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>162</span>: <span style=color:#66d9ef>victory_star</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>163</span>: <span style=color:#66d9ef>turboblaze</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>164</span>: <span style=color:#66d9ef>teravolt</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>165</span>: <span style=color:#66d9ef>aroma_veil</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>166</span>: <span style=color:#66d9ef>flower_veil</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>167</span>: <span style=color:#66d9ef>cheek_pouch</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>168</span>: <span style=color:#66d9ef>protean</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>169</span>: <span style=color:#66d9ef>fur_coat</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>170</span>: <span style=color:#66d9ef>magician</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>171</span>: <span style=color:#66d9ef>bulletproof</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>172</span>: <span style=color:#66d9ef>competitive</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>173</span>: <span style=color:#66d9ef>strong_jaw</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>174</span>: <span style=color:#66d9ef>refrigerate</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>175</span>: <span style=color:#66d9ef>sweet_veil</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>176</span>: <span style=color:#66d9ef>stance_change</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>177</span>: <span style=color:#66d9ef>gale_wings</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>178</span>: <span style=color:#66d9ef>mega_launcher</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>179</span>: <span style=color:#66d9ef>grass_pelt</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>180</span>: <span style=color:#66d9ef>symbiosis</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>181</span>: <span style=color:#66d9ef>tough_claws</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>182</span>: <span style=color:#66d9ef>pixilate</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>183</span>: <span style=color:#66d9ef>gooey</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>184</span>: <span style=color:#66d9ef>aerilate</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>185</span>: <span style=color:#66d9ef>parental_bond</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>186</span>: <span style=color:#66d9ef>dark_aura</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>187</span>: <span style=color:#66d9ef>fairy_aura</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>188</span>: <span style=color:#66d9ef>aura_break</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>189</span>: <span style=color:#66d9ef>primordial_sea</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>190</span>: <span style=color:#66d9ef>desolate_land</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>191</span>: <span style=color:#66d9ef>delta_stream</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>192</span>: <span style=color:#66d9ef>stamina</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>193</span>: <span style=color:#66d9ef>wimp_out</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>194</span>: <span style=color:#66d9ef>emergency_exit</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>195</span>: <span style=color:#66d9ef>water_compaction</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>196</span>: <span style=color:#66d9ef>merciless</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>197</span>: <span style=color:#66d9ef>shields_down</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>198</span>: <span style=color:#66d9ef>stakeout</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>199</span>: <span style=color:#66d9ef>water_bubble</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>200</span>: <span style=color:#66d9ef>steelworker</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>201</span>: <span style=color:#66d9ef>berserk</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>202</span>: <span style=color:#66d9ef>slush_rush</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>203</span>: <span style=color:#66d9ef>long_reach</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>204</span>: <span style=color:#66d9ef>liquid_voice</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>205</span>: <span style=color:#66d9ef>triage</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>206</span>: <span style=color:#66d9ef>galvanize</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>207</span>: <span style=color:#66d9ef>surge_surfer</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>208</span>: <span style=color:#66d9ef>schooling</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>209</span>: <span style=color:#66d9ef>disguise</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>210</span>: <span style=color:#66d9ef>battle_bond</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>211</span>: <span style=color:#66d9ef>power_construct</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>212</span>: <span style=color:#66d9ef>corrosion</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>213</span>: <span style=color:#66d9ef>comatose</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>214</span>: <span style=color:#66d9ef>queenly_majesty</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>215</span>: <span style=color:#66d9ef>innards_out</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>216</span>: <span style=color:#66d9ef>dancer</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>217</span>: <span style=color:#66d9ef>battery</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>218</span>: <span style=color:#66d9ef>fluffy</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>219</span>: <span style=color:#66d9ef>dazzling</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>220</span>: <span style=color:#66d9ef>soul_heart</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>221</span>: <span style=color:#66d9ef>tangling_hair</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>222</span>: <span style=color:#66d9ef>receiver</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>223</span>: <span style=color:#66d9ef>power_of_alchemy</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>224</span>: <span style=color:#66d9ef>beast_boost</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>225</span>: <span style=color:#66d9ef>rks_system</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>226</span>: <span style=color:#66d9ef>electric_surge</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>227</span>: <span style=color:#66d9ef>psychic_surge</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>228</span>: <span style=color:#66d9ef>misty_surge</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>229</span>: <span style=color:#66d9ef>grassy_surge</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>230</span>: <span style=color:#66d9ef>full_metal_body</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>231</span>: <span style=color:#66d9ef>shadow_shield</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>232</span>: <span style=color:#66d9ef>prism_armor</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>233</span>: <span style=color:#66d9ef>neuroforce</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>234</span>: <span style=color:#66d9ef>intrepid_sword</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>235</span>: <span style=color:#66d9ef>dauntless_shield</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>236</span>: <span style=color:#66d9ef>libero</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>237</span>: <span style=color:#66d9ef>ball_fetch</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>238</span>: <span style=color:#66d9ef>cotton_down</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>239</span>: <span style=color:#66d9ef>propeller_tail</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>240</span>: <span style=color:#66d9ef>mirror_armor</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>241</span>: <span style=color:#66d9ef>gulp_missile</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>242</span>: <span style=color:#66d9ef>stalwart</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>243</span>: <span style=color:#66d9ef>steam_engine</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>244</span>: <span style=color:#66d9ef>punk_rock</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>245</span>: <span style=color:#66d9ef>sand_spit</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>246</span>: <span style=color:#66d9ef>ice_scales</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>247</span>: <span style=color:#66d9ef>ripen</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>248</span>: <span style=color:#66d9ef>ice_face</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>249</span>: <span style=color:#66d9ef>power_spot</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>250</span>: <span style=color:#66d9ef>mimicry</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>251</span>: <span style=color:#66d9ef>screen_cleaner</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>252</span>: <span style=color:#66d9ef>steely_spirit</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>253</span>: <span style=color:#66d9ef>perish_body</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>254</span>: <span style=color:#66d9ef>wandering_spirit</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>255</span>: <span style=color:#66d9ef>gorilla_tactics</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>256</span>: <span style=color:#66d9ef>neutralizing_gas</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>257</span>: <span style=color:#66d9ef>pastel_veil</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>258</span>: <span style=color:#66d9ef>hunger_switch</span></span></span></code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></div></aside></main></body></html>
