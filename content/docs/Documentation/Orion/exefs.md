@@ -14,8 +14,13 @@ bookSearchExclude: true
 
 ------------------------------
 
+### Dependencies and libraries:
+ - Lua 5.3
+ - sol2
+ - YEBIS
+
 ### Notable facts:
- - stub
+ - *stub*
 
 ### Notable offsets:
 
