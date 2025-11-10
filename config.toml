@@ -1,11 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://pkzukan.github.io/'
 languageCode = 'en-us'
 title = 'Zukan Docs'
 theme = "hugo-book"
-ignoreLogs = ["error-remote-getjson"]
 
 [params]
   BookLogo = 'logo.png'
   BookTheme = 'dark'
-  Token = ''
 

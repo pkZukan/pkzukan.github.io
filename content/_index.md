@@ -1,6 +1,7 @@
 ---
-title: "Home"
-date: 2022-10-28T21:41:40-04:00
+title: "Zukan Docs"
+description: "A Pokemon informational archive."
+image: "/banner.jpg"
 ---
 
 # Zukan Docs
