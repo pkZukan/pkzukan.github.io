@@ -1,3 +1,584 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sword &amp; Shield Formats on Zukan Docs</title><link>http://example.org/docs/documentation/orion/formats/</link><description>Recent content in Sword &amp; Shield Formats on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/documentation/orion/formats/index.xml" rel="self" type="application/rss+xml"/><item><title>GameFreak Pokemon Catalog (gfbpmcatalog)</title><link>http://example.org/docs/documentation/orion/formats/gfbpmcatalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/orion/formats/gfbpmcatalog/</guid><description>Trinity Model (trmdl) # Description: # Contains definitions for pokemon. These definitions point to model files.
-Schema: # include &amp;#34;species.fbs&amp;#34;; namespace GFLib.Pokemon; file_extension &amp;#34;gfbpokecfg&amp;#34;; table meshProperty { isVisible:bool = 0; meshName:string; } table meshEntries { entry:[meshProperty]; } table SpeciesSettings { SpeciesParamType:Size = 0; SpeciesSetting:[meshEntries]; } table materialEntry { materialName:string; } table gfbpokecfg { majorVer:uint32 = 0; //Might be a bit mask, either 3 or 5 minorVer:uint32; //Never defined speciesID:SpeciesID = 0; form_ID:uint16 = 0; //Used for female forms, alternate forms, GMax and Alolan forms name:string; //Always empty vec jp_name:string; //Always empty vec speciesType:SpeciesType = 0; size_index:Size = SIZE_S; //Height Info height:float = 1.</description></item><item><title>Personal (Sword &amp; Shield)</title><link>http://example.org/docs/documentation/orion/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/orion/formats/personal/</guid><description> Personal (Sword &amp;amp; Shield) # Description: # Contains all the base stats, abilities, etc, as well as evo data.
-Schema: # meta: id: personal file-extension: bin endian: le seq: - id: entry size: 0xA8 type: entry repeat: eos types: entry: seq: - id: base_stats type: base_stats - id: type_1 type: u1 enum: types - id: type_2 type: u1 enum: types - id: catch_rate type: u1 - id: evo_stage type: u1 - id: effort_yield type: effort_yield size: 2 - id: items type: u2 repeat: expr repeat-expr: 3 - id: gender type: u1 - id: hatch_cycles type: u1 - id: base_friendship type: u1 - id: exp_growth type: u1 - id: egg_groups type: u1 enum: egg_group repeat: expr repeat-expr: 2 - id: abilities type: u2 enum: ability repeat: expr repeat-expr: 3 - id: sprite type: sprite_data - id: base_exp type: u2 - id: height type: u2 - id: weight type: u2 - id: tms type: b1 repeat: expr repeat-expr: 128 - id: movetutors type: b1 repeat: expr repeat-expr: 32 - id: trs type: b1 repeat: expr repeat-expr: 128 - id: model_id type: u4 - id: z_item type: u2 - id: z_base_move type: u2 - id: z_special_move type: u2 - id: evo_line type: u2 - id: ingame_form_count type: u2 - id: galar_flags type: galar_flags - id: pokedex_id type: u2 - id: form_id type: u2 - id: blob size: 72 types: base_stats: seq: - id: hp type: u1 - id: attack type: u1 - id: defense type: u1 - id: speed type: u1 - id: special_attack type: u1 - id: special_defense type: u1 effort_yield: seq: - id: effort_speed type: b2 - id: effort_defense type: b2 - id: effort_attack type: b2 - id: effort_hp type: b2 - id: effort_special_attack type: b2 - id: effort_special_defense type: b2 sprite_data: seq: - id: sprite type: u2 - id: forme_count type: u1 - id: sprite_forme type: b1 - id: bool_present type: b1 - id: color type: b6 enum: colors galar_flags: seq: - id: flag_reserved type: b4 - id: flag_not_gmax type: b2 - id: flag_has_regional type: b2 - id: flags_reserved type: u1 enums: colors: 0: red 1: blue 2: yellow 3: green 4: black 5: brown 6: purple 7: gray 8: white 9: pink types: 0: normal 1: fight 2: flying 3: poison 4: ground 5: rock 6: bug 7: ghost 8: steel 9: fire 10: water 11: grass 12: electric 13: psychic 14: ice 15: dragon 16: dark 17: fairy egg_group: 1: monster 2: water1 3: bug 4: flying 5: field 6: fairy 7: grass 8: biped 9: water3 10: mineral 11: amorphous 12: water2 13: ditto 14: dragon 15: undiscovered ability: 1: stench 2: drizzle 3: speed_boost 4: battle_armor 5: sturdy 6: damp 7: limber 8: sand_veil 9: static 10: volt_absorb 11: water_absorb 12: oblivious 13: cloud_nine 14: compound_eyes 15: insomnia 16: color_change 17: immunity 18: flash_fire 19: shield_dust 20: own_tempo 21: suction_cups 22: intimidate 23: shadow_tag 24: rough_skin 25: wonder_guard 26: levitate 27: effect_spore 28: synchronize 29: clear_body 30: natural_cure 31: lightning_rod 32: serene_grace 33: swift_swim 34: chlorophyll 35: illuminate 36: trace 37: huge_power 38: poison_point 39: inner_focus 40: magma_armor 41: water_veil 42: magnet_pull 43: soundproof 44: rain_dish 45: sand_stream 46: pressure 47: thick_fat 48: early_bird 49: flame_body 50: run_away 51: keen_eye 52: hyper_cutter 53: pickup 54: truant 55: hustle 56: cute_charm 57: plus 58: minus 59: forecast 60: sticky_hold 61: shed_skin 62: guts 63: marvel_scale 64: liquid_ooze 65: overgrow 66: blaze 67: torrent 68: swarm 69: rock_head 70: drought 71: arena_trap 72: vital_spirit 73: white_smoke 74: pure_power 75: shell_armor 76: air_lock 77: tangled_feet 78: motor_drive 79: rivalry 80: steadfast 81: snow_cloak 82: gluttony 83: anger_point 84: unburden 85: heatproof 86: simple 87: dry_skin 88: download 89: iron_fist 90: poison_heal 91: adaptability 92: skill_link 93: hydration 94: solar_power 95: quick_feet 96: normalize 97: sniper 98: magic_guard 99: no_guard 100: stall 101: technician 102: leaf_guard 103: klutz 104: mold_breaker 105: super_luck 106: aftermath 107: anticipation 108: forewarn 109: unaware 110: tinted_lens 111: filter 112: slow_start 113: scrappy 114: storm_drain 115: ice_body 116: solid_rock 117: snow_warning 118: honey_gather 119: frisk 120: reckless 121: multitype 122: flower_gift 123: bad_dreams 124: pickpocket 125: sheer_force 126: contrary 127: unnerve 128: defiant 129: defeatist 130: cursed_body 131: healer 132: friend_guard 133: weak_armor 134: heavy_metal 135: light_metal 136: multiscale 137: toxic_boost 138: flare_boost 139: harvest 140: telepathy 141: moody 142: overcoat 143: poison_touch 144: regenerator 145: big_pecks 146: sand_rush 147: wonder_skin 148: analytic 149: illusion 150: imposter 151: infiltrator 152: mummy 153: moxie 154: justified 155: rattled 156: magic_bounce 157: sap_sipper 158: prankster 159: sand_force 160: iron_barbs 161: zen_mode 162: victory_star 163: turboblaze 164: teravolt 165: aroma_veil 166: flower_veil 167: cheek_pouch 168: protean 169: fur_coat 170: magician 171: bulletproof 172: competitive 173: strong_jaw 174: refrigerate 175: sweet_veil 176: stance_change 177: gale_wings 178: mega_launcher 179: grass_pelt 180: symbiosis 181: tough_claws 182: pixilate 183: gooey 184: aerilate 185: parental_bond 186: dark_aura 187: fairy_aura 188: aura_break 189: primordial_sea 190: desolate_land 191: delta_stream 192: stamina 193: wimp_out 194: emergency_exit 195: water_compaction 196: merciless 197: shields_down 198: stakeout 199: water_bubble 200: steelworker 201: berserk 202: slush_rush 203: long_reach 204: liquid_voice 205: triage 206: galvanize 207: surge_surfer 208: schooling 209: disguise 210: battle_bond 211: power_construct 212: corrosion 213: comatose 214: queenly_majesty 215: innards_out 216: dancer 217: battery 218: fluffy 219: dazzling 220: soul_heart 221: tangling_hair 222: receiver 223: power_of_alchemy 224: beast_boost 225: rks_system 226: electric_surge 227: psychic_surge 228: misty_surge 229: grassy_surge 230: full_metal_body 231: shadow_shield 232: prism_armor 233: neuroforce 234: intrepid_sword 235: dauntless_shield 236: libero 237: ball_fetch 238: cotton_down 239: propeller_tail 240: mirror_armor 241: gulp_missile 242: stalwart 243: steam_engine 244: punk_rock 245: sand_spit 246: ice_scales 247: ripen 248: ice_face 249: power_spot 250: mimicry 251: screen_cleaner 252: steely_spirit 253: perish_body 254: wandering_spirit 255: gorilla_tactics 256: neutralizing_gas 257: pastel_veil 258: hunger_switch</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sword &amp; Shield Formats on Zukan Docs</title><link>http://example.org/docs/documentation/orion/formats/</link><description>Recent content in Sword &amp; Shield Formats on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/documentation/orion/formats/index.xml" rel="self" type="application/rss+xml"/><item><title>GameFreak Pokemon Catalog (gfbpmcatalog)</title><link>http://example.org/docs/documentation/orion/formats/gfbpmcatalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/orion/formats/gfbpmcatalog/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;
+ Trinity Model (trmdl)
+ &lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Contains definitions for pokemon. These definitions point to model files.&lt;/p&gt;
+&lt;h3 id="schema"&gt;
+ Schema:
+ &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ts" data-lang="ts"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;include&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;species.fbs&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;namespace&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;GFLib&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;Pokemon&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;file_extension&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;gfbpokecfg&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;meshProperty&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;isVisible&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;bool&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;meshName&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;meshEntries&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entry&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;meshProperty&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;SpeciesSettings&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;SpeciesParamType&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;Size&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;SpeciesSetting&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;meshEntries&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;materialEntry&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;materialName&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;gfbpokecfg&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;majorVer&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Might be a bit mask, either 3 or 5
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;minorVer&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Never defined
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;speciesID&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;SpeciesID&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;form_ID&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;uint16&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Used for female forms, alternate forms, GMax and Alolan forms
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Always empty vec
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;jp_name&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Always empty vec
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;speciesType&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;SpeciesType&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;size_index&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;Size&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;SIZE_S&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;//Height Info
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;height&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;adjust_height&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;field_adjust&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;//Bounding Box
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;min_b_x&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;min_b_y&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;min_b_z&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;max_b_x&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;max_b_y&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;max_b_z&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;//Frame positioning (To be properly documented soon)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;inframe_height&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_vertical_rot_y_origin&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_bottom_y_offset&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_center_y_offset&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_left_rotation&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_right_rotation&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1.0&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;region_ID&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;uint16&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Reserved for Galarian forms/crossgens
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;//it&amp;#39;s 0.00 for some mon, 1.00 for most
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;wait_motion_b_rate&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;//1.00, 0.00 And 35345604608.0 for Eternatus
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;wait_motion_c_rate&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;undef_26&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;uint16&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Never defined
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;undef_27&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;uint16&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Never defined
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;materialEntries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;materialEntry&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;SpeciesSetting&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;SpeciesSettings&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;gfbpokecfg&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal (Sword &amp; Shield)</title><link>http://example.org/docs/documentation/orion/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/orion/formats/personal/</guid><description>&lt;h1 id="personal-sword--shield"&gt;
+ Personal (Sword &amp;amp; Shield)
+ &lt;a class="anchor" href="#personal-sword--shield"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Contains all the base stats, abilities, etc, as well as evo data.&lt;/p&gt;
+&lt;h3 id="schema"&gt;
+ Schema:
+ &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ts" data-lang="ts"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;meta&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;id&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;personal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;file&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;extension&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;endian&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;le&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;seq&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;entry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;0xA8&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;entry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;eos&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;types&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;entry&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;seq&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;base_stats&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;base_stats&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;type_1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;enum&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;types&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;type_2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;enum&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;types&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;catch_rate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;evo_stage&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effort_yield&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;effort_yield&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;items&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;expr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;expr&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gender&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hatch_cycles&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;base_friendship&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;exp_growth&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;egg_groups&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;enum&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;egg_group&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;expr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;expr&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;abilities&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;enum&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;ability&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;expr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;expr&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sprite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;sprite_data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;base_exp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;height&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;weight&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;tms&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;expr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;expr&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;128&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;movetutors&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;expr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;expr&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;32&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;trs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;expr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repeat&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;expr&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;128&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;model_id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;z_item&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;z_base_move&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;z_special_move&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;evo_line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ingame_form_count&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;galar_flags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;galar_flags&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pokedex_id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;form_id&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;blob&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;72&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;types&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;base_stats&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;seq&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;attack&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;defense&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;speed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;special_attack&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;special_defense&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;effort_yield&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;seq&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effort_speed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effort_defense&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effort_attack&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effort_hp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effort_special_attack&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effort_special_defense&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sprite_data&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;seq&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sprite&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;forme_count&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sprite_forme&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bool_present&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;color&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;enum&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;colors&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;galar_flags&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;seq&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flag_reserved&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flag_not_gmax&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flag_has_regional&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;b2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;-&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;id&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flags_reserved&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;u1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;enums&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;colors&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;0&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;red&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;1&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;blue&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;yellow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;green&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;4&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;black&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;5&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;brown&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;6&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;purple&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;7&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gray&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;8&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;white&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;9&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pink&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;types&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;0&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;normal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;1&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;fight&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flying&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;poison&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;4&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ground&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;5&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;rock&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;6&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bug&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;7&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ghost&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;8&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;steel&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;9&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;fire&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;10&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;11&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;grass&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;12&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;electric&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;13&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;psychic&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;14&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ice&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;15&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dragon&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;16&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dark&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;17&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;fairy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;egg_group&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;1&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;monster&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bug&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;4&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flying&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;5&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;field&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;6&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;fairy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;7&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;grass&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;8&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;biped&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;9&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;10&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;mineral&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;11&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;amorphous&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;12&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;13&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ditto&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;14&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dragon&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;15&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;undiscovered&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;ability&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;1&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;stench&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;drizzle&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;speed_boost&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;4&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;battle_armor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;5&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sturdy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;6&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;damp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;7&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;limber&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;8&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sand_veil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;9&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;static&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;10&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;volt_absorb&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;11&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water_absorb&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;12&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;oblivious&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;13&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;cloud_nine&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;14&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;compound_eyes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;15&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;insomnia&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;16&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;color_change&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;17&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;immunity&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;18&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flash_fire&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;19&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;shield_dust&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;20&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;own_tempo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;21&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;suction_cups&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;22&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;intimidate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;23&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;shadow_tag&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;24&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;rough_skin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;25&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;wonder_guard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;26&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;levitate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;27&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;effect_spore&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;28&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;synchronize&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;29&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;clear_body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;30&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;natural_cure&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;31&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;lightning_rod&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;32&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;serene_grace&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;33&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;swift_swim&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;34&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;chlorophyll&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;35&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;illuminate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;36&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;trace&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;37&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;huge_power&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;38&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;poison_point&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;39&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;inner_focus&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;40&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;magma_armor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;41&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water_veil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;42&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;magnet_pull&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;43&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;soundproof&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;44&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;rain_dish&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;45&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sand_stream&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;46&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pressure&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;47&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;thick_fat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;48&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;early_bird&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;49&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flame_body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;50&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;run_away&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;51&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;keen_eye&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;52&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hyper_cutter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;53&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pickup&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;54&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;truant&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;55&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hustle&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;56&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;cute_charm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;57&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;plus&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;58&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;minus&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;59&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;forecast&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;60&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sticky_hold&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;61&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;shed_skin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;62&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;guts&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;63&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;marvel_scale&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;64&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;liquid_ooze&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;65&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;overgrow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;66&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;blaze&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;67&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;torrent&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;68&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;swarm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;69&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;rock_head&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;70&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;drought&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;71&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;arena_trap&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;72&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;vital_spirit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;73&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;white_smoke&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;74&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pure_power&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;75&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;shell_armor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;76&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;air_lock&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;77&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;tangled_feet&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;78&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;motor_drive&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;79&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;rivalry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;80&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;steadfast&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;81&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;snow_cloak&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;82&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gluttony&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;83&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;anger_point&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;84&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;unburden&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;85&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;heatproof&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;86&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;simple&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;87&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dry_skin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;88&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;download&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;89&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;iron_fist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;90&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;poison_heal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;91&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;adaptability&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;92&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;skill_link&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;93&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hydration&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;94&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;solar_power&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;95&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;quick_feet&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;96&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;normalize&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;97&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sniper&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;98&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;magic_guard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;99&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;no_guard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;100&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;stall&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;101&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;technician&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;102&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;leaf_guard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;103&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;klutz&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;104&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;mold_breaker&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;105&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;super_luck&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;106&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;aftermath&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;107&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;anticipation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;108&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;forewarn&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;109&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;unaware&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;110&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;tinted_lens&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;111&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;filter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;112&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;slow_start&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;113&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;scrappy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;114&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;storm_drain&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;115&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ice_body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;116&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;solid_rock&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;117&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;snow_warning&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;118&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;honey_gather&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;119&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;frisk&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;120&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;reckless&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;121&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;multitype&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;122&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flower_gift&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;123&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bad_dreams&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;124&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pickpocket&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;125&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sheer_force&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;126&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;contrary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;127&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;unnerve&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;128&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;defiant&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;129&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;defeatist&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;130&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;cursed_body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;131&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;healer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;132&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;friend_guard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;133&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;weak_armor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;134&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;heavy_metal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;135&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;light_metal&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;136&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;multiscale&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;137&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;toxic_boost&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;138&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flare_boost&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;139&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;harvest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;140&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;telepathy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;141&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;moody&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;142&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;overcoat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;143&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;poison_touch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;144&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;regenerator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;145&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;big_pecks&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;146&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sand_rush&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;147&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;wonder_skin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;148&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;analytic&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;149&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;illusion&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;150&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;imposter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;151&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;infiltrator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;152&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;mummy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;153&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;moxie&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;154&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;justified&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;155&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;rattled&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;156&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;magic_bounce&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;157&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sap_sipper&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;158&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;prankster&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;159&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sand_force&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;160&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;iron_barbs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;161&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;zen_mode&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;162&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;victory_star&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;163&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;turboblaze&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;164&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;teravolt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;165&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;aroma_veil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;166&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;flower_veil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;167&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;cheek_pouch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;168&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;protean&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;169&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;fur_coat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;170&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;magician&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;171&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bulletproof&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;172&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;competitive&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;173&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;strong_jaw&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;174&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;refrigerate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;175&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sweet_veil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;176&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;stance_change&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;177&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gale_wings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;178&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;mega_launcher&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;179&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;grass_pelt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;180&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;symbiosis&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;181&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;tough_claws&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;182&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pixilate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;183&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gooey&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;184&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;aerilate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;185&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;parental_bond&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;186&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dark_aura&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;187&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;fairy_aura&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;188&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;aura_break&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;189&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;primordial_sea&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;190&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;desolate_land&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;191&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;delta_stream&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;192&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;stamina&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;193&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;wimp_out&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;194&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;emergency_exit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;195&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water_compaction&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;196&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;merciless&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;197&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;shields_down&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;198&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;stakeout&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;199&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;water_bubble&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;200&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;steelworker&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;201&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;berserk&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;202&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;slush_rush&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;203&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;long_reach&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;204&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;liquid_voice&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;205&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;triage&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;206&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;galvanize&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;207&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;surge_surfer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;208&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;schooling&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;209&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;disguise&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;210&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;battle_bond&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;211&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;power_construct&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;212&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;corrosion&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;213&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;comatose&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;214&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;queenly_majesty&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;215&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;innards_out&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;216&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dancer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;217&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;battery&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;218&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;fluffy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;219&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dazzling&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;220&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;soul_heart&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;221&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;tangling_hair&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;222&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;receiver&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;223&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;power_of_alchemy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;224&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;beast_boost&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;225&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;rks_system&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;226&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;electric_surge&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;227&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;psychic_surge&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;228&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;misty_surge&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;229&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;grassy_surge&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;230&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;full_metal_body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;231&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;shadow_shield&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;232&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;prism_armor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;233&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;neuroforce&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;234&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;intrepid_sword&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;235&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;dauntless_shield&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;236&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;libero&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;237&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ball_fetch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;238&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;cotton_down&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;239&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;propeller_tail&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;240&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;mirror_armor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;241&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gulp_missile&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;242&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;stalwart&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;243&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;steam_engine&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;244&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;punk_rock&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;245&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;sand_spit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;246&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ice_scales&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;247&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ripen&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;248&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ice_face&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;249&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;power_spot&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;250&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;mimicry&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;251&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;screen_cleaner&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;252&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;steely_spirit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;253&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;perish_body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;254&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;wandering_spirit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;255&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gorilla_tactics&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;256&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;neutralizing_gas&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;257&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pastel_veil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;258&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hunger_switch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>

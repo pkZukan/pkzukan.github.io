@@ -1,3 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brilliant Diamond &amp; Shining Pearl on Zukan Docs</title><link>http://example.org/docs/documentation/delphis/</link><description>Recent content in Brilliant Diamond &amp; Shining Pearl on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/documentation/delphis/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>http://example.org/docs/documentation/delphis/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/delphis/exefs/</guid><description> Brilliant Diamond &amp;amp; Shining Pearl (ExeFS) # Delphis
-Notable facts: # Uses Unity engine The AssetAssistant lib is used as both the code for the game as well as the Unity tool used to package assets. Notable offsets: # Function Description Offset Dummy Dummy 0x0 Notes: # Dummy</description></item><item><title>RomFS</title><link>http://example.org/docs/documentation/delphis/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/delphis/romfs/</guid><description> Brilliant Diamond &amp;amp; Shining Pearl (RomFS) # Delphis
-Romfs contents: # Path File Type Notes dummy dummy dummy Notes: # Dummy</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brilliant Diamond &amp; Shining Pearl on Zukan Docs</title><link>http://example.org/docs/documentation/delphis/</link><description>Recent content in Brilliant Diamond &amp; Shining Pearl on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/documentation/delphis/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>http://example.org/docs/documentation/delphis/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/delphis/exefs/</guid><description>&lt;h1 id="brilliant-diamond--shining-pearl-exefs"&gt;
+ Brilliant Diamond &amp;amp; Shining Pearl (ExeFS)
+ &lt;a class="anchor" href="#brilliant-diamond--shining-pearl-exefs"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Delphis&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="notable-facts"&gt;
+ Notable facts:
+ &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Uses Unity engine&lt;/li&gt;
+&lt;li&gt;The AssetAssistant lib is used as both the code for the game as well as the Unity tool used to package assets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="notable-offsets"&gt;
+ Notable offsets:
+ &lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset&lt;/th&gt;&lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="notes"&gt;
+ Notes:
+ &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Dummy&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>http://example.org/docs/documentation/delphis/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/delphis/romfs/</guid><description>&lt;h1 id="brilliant-diamond--shining-pearl-romfs"&gt;
+ Brilliant Diamond &amp;amp; Shining Pearl (RomFS)
+ &lt;a class="anchor" href="#brilliant-diamond--shining-pearl-romfs"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Delphis&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="romfs-contents"&gt;
+ Romfs contents:
+ &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="notes"&gt;
+ Notes:
+ &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Dummy&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>
