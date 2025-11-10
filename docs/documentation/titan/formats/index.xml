@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scarlet &amp; Violet Formats on Zukan Docs</title><link>http://example.org/docs/documentation/titan/formats/</link><description>Recent content in Scarlet &amp; Violet Formats on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/documentation/titan/formats/index.xml" rel="self" type="application/rss+xml"/><item><title>Character Customization Data (ccdata)</title><link>http://example.org/docs/documentation/titan/formats/ccdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/ccdata/</guid><description>&lt;h1 id="character-customization-data-ccdata"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scarlet &amp; Violet Formats on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/</link><description>Recent content in Scarlet &amp; Violet Formats on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/titan/formats/index.xml" rel="self" type="application/rss+xml"/><item><title>Character Customization Data (ccdata)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</guid><description>&lt;h1 id="character-customization-data-ccdata"&gt;
  Character Customization Data (ccdata)
  &lt;a class="anchor" href="#character-customization-data-ccdata"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -69,7 +69,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CharacterCreationData&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Character Customization Data Master (ccdatam)</title><link>http://example.org/docs/documentation/titan/formats/ccdatam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/ccdatam/</guid><description>&lt;h1 id="character-customization-data-master-ccdatam"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Character Customization Data Master (ccdatam)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdatam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdatam/</guid><description>&lt;h1 id="character-customization-data-master-ccdatam"&gt;
  Character Customization Data Master (ccdatam)
  &lt;a class="anchor" href="#character-customization-data-master-ccdatam"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -111,7 +111,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Entry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CharacterCreationDataMaster&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Jewel Location (jewelloc)</title><link>http://example.org/docs/documentation/titan/formats/jewelloc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/jewelloc/</guid><description>&lt;h1 id="jewel-location-jewelloc"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CharacterCreationDataMaster&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Jewel Location (jewelloc)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/jewelloc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/jewelloc/</guid><description>&lt;h1 id="jewel-location-jewelloc"&gt;
  Jewel Location (jewelloc)
  &lt;a class="anchor" href="#jewel-location-jewelloc"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -167,7 +167,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;JewelLoc&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;JewelLocs&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>http://example.org/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;JewelLocs&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;
  Personal (Scarlet &amp;amp; Violet)
  &lt;a class="anchor" href="#personal-scarlet--violet"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -284,7 +284,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;PersonalData&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>http://example.org/docs/documentation/titan/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;
  Trinity Animation (tranm)
  &lt;a class="anchor" href="#trinity-animation-tranm"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -418,7 +418,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRANM&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>http://example.org/docs/documentation/titan/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;
  Trinity Animation Channels (tracl)
  &lt;a class="anchor" href="#trinity-animation-channels-tracl"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -484,7 +484,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Node_Root&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>http://example.org/docs/documentation/titan/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;
  Trinity Animation CM (tracm)
  &lt;a class="anchor" href="#trinity-animation-cm-tracm"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -664,7 +664,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACM&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>http://example.org/docs/documentation/titan/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;
  Trinity Animation CN (tracn)
  &lt;a class="anchor" href="#trinity-animation-cn-tracn"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -705,7 +705,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;AnimationEntry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>http://example.org/docs/documentation/titan/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;
  Trinity Animation CP (tracp)
  &lt;a class="anchor" href="#trinity-animation-cp-tracp"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -769,7 +769,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root_node&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Entry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>http://example.org/docs/documentation/titan/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;
  Trinity Animation CR (tracr)
  &lt;a class="anchor" href="#trinity-animation-cr-tracr"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -833,7 +833,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;track_list&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;TrackList&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>http://example.org/docs/documentation/titan/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
  Trinity Technique (trtch)
  &lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -969,7 +969,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;states&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ChannelStates&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>http://example.org/docs/documentation/titan/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;
  Trinity Animation Effect (traef)
  &lt;a class="anchor" href="#trinity-animation-effect-traef"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1040,7 +1040,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRAEF&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>http://example.org/docs/documentation/titan/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;
  Trinity Animation LK (tralk)
  &lt;a class="anchor" href="#trinity-animation-lk-tralk"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1110,7 +1110,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bone_name&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>http://example.org/docs/documentation/titan/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;
  Trinity Bone IK (trbik)
  &lt;a class="anchor" href="#trinity-bone-ik-trbik"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1195,7 +1195,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bones&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;IKBone&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>http://example.org/docs/documentation/titan/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;
  Trinity BSM (trbsm)
  &lt;a class="anchor" href="#trinity-bsm-trbsm"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1258,7 +1258,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;UnkEntry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>http://example.org/docs/documentation/titan/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;
  Trinity Camera Animation (trcma)
  &lt;a class="anchor" href="#trinity-camera-animation-trcma"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1407,7 +1407,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRCMA&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>http://example.org/docs/documentation/titan/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
  Trinity File Descriptor (trpfd)
  &lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1460,7 +1460,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;packs&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Packinfo&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>http://example.org/docs/documentation/titan/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;
  Trinity FileSystem (trpfs)
  &lt;a class="anchor" href="#trinity-filesystem-trpfs"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1497,7 +1497,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;file_offsets&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;uint64&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Ground Placement Component</title><link>http://example.org/docs/documentation/titan/formats/trinity_groundplacecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_groundplacecomponent/</guid><description>&lt;h1 id="trinity-ground-placement-component"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Ground Placement Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_groundplacecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_groundplacecomponent/</guid><description>&lt;h1 id="trinity-ground-placement-component"&gt;
  Trinity Ground Placement Component
  &lt;a class="anchor" href="#trinity-ground-placement-component"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1533,7 +1533,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;index&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_GroundPlaceComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity LookupTables (trltt)</title><link>http://example.org/docs/documentation/titan/formats/trltt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trltt/</guid><description>&lt;h1 id="trinity-lookuptables-trltt"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_GroundPlaceComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity LookupTables (trltt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trltt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trltt/</guid><description>&lt;h1 id="trinity-lookuptables-trltt"&gt;
  Trinity LookupTables (trltt)
  &lt;a class="anchor" href="#trinity-lookuptables-trltt"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1595,7 +1595,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;LookupTable&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRLTT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>http://example.org/docs/documentation/titan/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRLTT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;
  Trinity Material (trmtr)
  &lt;a class="anchor" href="#trinity-material-trmtr"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1727,7 +1727,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;materials&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Material&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity MDT (trmdt)</title><link>http://example.org/docs/documentation/titan/formats/trmdt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trmdt/</guid><description>&lt;h1 id="trinity-mdt-trmdt"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity MDT (trmdt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmdt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmdt/</guid><description>&lt;h1 id="trinity-mdt-trmdt"&gt;
  Trinity MDT (trmdt)
  &lt;a class="anchor" href="#trinity-mdt-trmdt"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1763,7 +1763,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>http://example.org/docs/documentation/titan/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;
  Trinity Mesh (trmsh)
  &lt;a class="anchor" href="#trinity-mesh-trmsh"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -1955,7 +1955,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMSH&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>http://example.org/docs/documentation/titan/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;
  Trinity Model (trmdl)
  &lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2038,7 +2038,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDL&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>http://example.org/docs/documentation/titan/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;
  Trinity Model Buffer (trmbf)
  &lt;a class="anchor" href="#trinity-model-buffer-trmbf"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2099,7 +2099,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;buffers&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;Buffer&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>http://example.org/docs/documentation/titan/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;
  Trinity Model Material Table (trmmt)
  &lt;a class="anchor" href="#trinity-model-material-table-trmmt"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2171,7 +2171,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;material&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MMT&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Object Template</title><link>http://example.org/docs/documentation/titan/formats/trinity_objecttemplate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_objecttemplate/</guid><description>&lt;h1 id="trinity-object-template"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Object Template</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_objecttemplate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_objecttemplate/</guid><description>&lt;h1 id="trinity-object-template"&gt;
  Trinity Object Template
  &lt;a class="anchor" href="#trinity-object-template"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2212,7 +2212,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;object_bytes&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;uint8&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ObjectTemplate&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Particle Component</title><link>http://example.org/docs/documentation/titan/formats/trintity_particlecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trintity_particlecomponent/</guid><description>&lt;h1 id="trinity-particle-component"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ObjectTemplate&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Particle Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trintity_particlecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trintity_particlecomponent/</guid><description>&lt;h1 id="trinity-particle-component"&gt;
  Trinity Particle Component
  &lt;a class="anchor" href="#trinity-particle-component"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2252,7 +2252,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;particle_parent&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trintity_ParticleComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>http://example.org/docs/documentation/titan/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trintity_ParticleComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;
  Trinity Pokeconfig (trpokecfg)
  &lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2302,7 +2302,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_12&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Property Sheet</title><link>http://example.org/docs/documentation/titan/formats/trinity_propertysheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_propertysheet/</guid><description>&lt;h1 id="trinity-property-sheet"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Property Sheet</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</guid><description>&lt;h1 id="trinity-property-sheet"&gt;
  Trinity Property Sheet
  &lt;a class="anchor" href="#trinity-property-sheet"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2355,7 +2355,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Entry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_PropertySheet&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Object</title><link>http://example.org/docs/documentation/titan/formats/trinity_sceneobject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_sceneobject/</guid><description>&lt;h1 id="trinity-scene-object"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_PropertySheet&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Object</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_sceneobject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_sceneobject/</guid><description>&lt;h1 id="trinity-scene-object"&gt;
  Trinity Scene Object
  &lt;a class="anchor" href="#trinity-scene-object"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2401,7 +2401,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;unk7&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_SceneObject&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Point</title><link>http://example.org/docs/documentation/titan/formats/trinity_scenepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_scenepoint/</guid><description>&lt;h1 id="trinity-scene-point"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_SceneObject&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Point</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scenepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scenepoint/</guid><description>&lt;h1 id="trinity-scene-point"&gt;
  Trinity Scene Point
  &lt;a class="anchor" href="#trinity-scene-point"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2441,7 +2441,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;point_unk&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint8&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScenePoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene/Template (trscn/trsot)</title><link>http://example.org/docs/documentation/titan/formats/trinity_scene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_scene/</guid><description>&lt;h1 id="trinity-scenetemplate-trscntrsot"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScenePoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene/Template (trscn/trsot)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scene/</guid><description>&lt;h1 id="trinity-scenetemplate-trscntrsot"&gt;
  Trinity Scene/Template (trscn/trsot)
  &lt;a class="anchor" href="#trinity-scenetemplate-trscntrsot"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2665,7 +2665,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_6&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint8&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_Scene&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Script Component</title><link>http://example.org/docs/documentation/titan/formats/trinity_scriptcomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_scriptcomponent/</guid><description>&lt;h1 id="trinity-script-component"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_Scene&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Script Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scriptcomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scriptcomponent/</guid><description>&lt;h1 id="trinity-script-component"&gt;
  Trinity Script Component
  &lt;a class="anchor" href="#trinity-script-component"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2706,7 +2706,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;class_name&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScriptComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Shader (trsha)</title><link>http://example.org/docs/documentation/titan/formats/trsha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trsha/</guid><description>&lt;h1 id="trinity-shader-trsha"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScriptComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Shader (trsha)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trsha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trsha/</guid><description>&lt;h1 id="trinity-shader-trsha"&gt;
  Trinity Shader (trsha)
  &lt;a class="anchor" href="#trinity-shader-trsha"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2761,7 +2761,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;has_global_param&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bool&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//maybe contains global_param
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSHA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>http://example.org/docs/documentation/titan/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSHA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;
  Trinity Skeleton (trskl)
  &lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2862,7 +2862,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;rig_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>http://example.org/docs/documentation/titan/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;
  Trinity SPB (trspb)
  &lt;a class="anchor" href="#trinity-spb-trspb"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2910,7 +2910,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSPB&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Streaming Point</title><link>http://example.org/docs/documentation/titan/formats/trinity_streamingpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trinity_streamingpoint/</guid><description>&lt;h1 id="trinity-streaming-point"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Streaming Point</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_streamingpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_streamingpoint/</guid><description>&lt;h1 id="trinity-streaming-point"&gt;
  Trinity Streaming Point
  &lt;a class="anchor" href="#trinity-streaming-point"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -2963,7 +2963,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Entry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_StreamingPoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Technique (trtch)</title><link>http://example.org/docs/documentation/titan/formats/trtch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/titan/formats/trtch/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_StreamingPoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Technique (trtch)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trtch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trtch/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
  Trinity Technique (trtch)
  &lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;
 &lt;/h1&gt;

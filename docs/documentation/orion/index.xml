@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sword &amp; Shield on Zukan Docs</title><link>http://example.org/docs/documentation/orion/</link><description>Recent content in Sword &amp; Shield on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/documentation/orion/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>http://example.org/docs/documentation/orion/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/orion/exefs/</guid><description>&lt;h1 id="sword--shield-exefs"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sword &amp; Shield on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/orion/</link><description>Recent content in Sword &amp; Shield on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/orion/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/orion/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/exefs/</guid><description>&lt;h1 id="sword--shield-exefs"&gt;
  Sword &amp;amp; Shield (ExeFS)
  &lt;a class="anchor" href="#sword--shield-exefs"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -44,7 +44,7 @@
 } DexEntry;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;test&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>http://example.org/docs/documentation/orion/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/documentation/orion/romfs/</guid><description>&lt;h1 id="sword--shield-romfs"&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/orion/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/romfs/</guid><description>&lt;h1 id="sword--shield-romfs"&gt;
  Sword &amp;amp; Shield (RomFS)
  &lt;a class="anchor" href="#sword--shield-romfs"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
