@@ -1,12 +1,20 @@
-{{/* Fetch the remote JSON */}}
-{{ $url := printf "https://api.github.com/repos/%s/contents/%s" (.Get "repo") (.Get "file") }}
-{{ $headers := dict "Authorization" (printf "Bearer %s" .Site.Params.Token) }}
+{{/* Shortcode parameters */}}
+{{ $repo := .Get "repo" }}
+{{ $file := .Get "file" }}
+{{ $lang := .Get "lang" | default "text" }}
+{{ $options := .Get "options" | default "" }}
 
-{{ $resource := resources.GetRemote $url $headers }}
-{{ $data := $resource | transform.Unmarshal }}
+{{/* Build raw GitHub URL (public repo) */}}
+{{ $url := printf "https://raw.githubusercontent.com/%s/main/%s" $repo $file }}
 
-{{/* Decode the base64 content */}}
-{{ $con := base64Decode $data.content }}
+{{/* Fetch the file content */}}
+{{ $resource := resources.GetRemote $url }}
+{{ if not $resource }}
+  {{ errorf "github shortcode: failed to fetch %s" $url }}
+{{ end }}
+
+{{/* Get ASCII content as string */}}
+{{ $con := $resource.Content }}
 
 {{/* Highlight the code */}}
-{{ highlight $con (.Get "lang") (.Get "options") }}
+{{ highlight $con $lang $options }}
