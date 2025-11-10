@@ -8,13 +8,13 @@ bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# {{ .Page.Title }}
+# Legends Z-A
 
 *Ikkaku*
 
 ------------------------------
 
-#### {{ .Page.Title }} Info:
+#### Legends Z-A Info:
 
 TitleID: 0100F43008C44000
 

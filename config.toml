@@ -6,5 +6,6 @@ ignoreLogs = ["error-remote-getjson"]
 
 [params]
   BookLogo = 'logo.png'
+  BookTheme = 'dark'
   Token = ''
 

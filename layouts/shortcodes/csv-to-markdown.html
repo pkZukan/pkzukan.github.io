@@ -1,25 +1,43 @@
-<!-- layouts/shortcodes/csv-to-markdown.html -->
+{{- /*  layouts/shortcodes/csv-to-markdown.html  */ -}}
 
-{{$url := (.Get "file")}}
-{{ $csvData := getCSV "," $url }}
+{{- $src := .Get "file" | urls.Parse -}}          <!-- file= "/data/foo.csv"  or  "https://…" -->
+{{- $csv := slice -}}                             <!-- placeholder -->
 
+{{- /* 1.  decide whether it is remote or local  */ -}}
+{{- if $src.IsAbs -}}
+  {{- with resources.GetRemote $src.String -}}
+    {{- with transform.Unmarshal (dict "delimiter" ",") . -}}
+      {{- $csv = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- with resources.Get (strings.TrimPrefix "/" $src.Path) -}}
+    {{- with transform.Unmarshal (dict "delimiter" ",") . -}}
+      {{- $csv = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 2.  render the table if we got data  */ -}}
+{{- with $csv -}}
 <table>
   <thead>
     <tr>
-      {{ range $i, $h := index $csvData 0 }}
-        <th>{{ $h }}</th>
-      {{ end }}
+      {{- range index . 0 -}}
+        <th>{{ . | htmlEscape }}</th>
+      {{- end -}}
     </tr>
   </thead>
   <tbody>
-    {{ range $i, $row := $csvData }}
-      {{ if ne $i 0 }}
-        <tr>
-          {{ range $cell := $row }}
-            <td>{{ $cell | markdownify }}</td>
-          {{ end }}
-        </tr>
-      {{ end }}
-    {{ end }}
+    {{- range after 1 . -}}
+      <tr>
+        {{- range . -}}
+          <td>{{ . | markdownify }}</td>
+        {{- end -}}
+      </tr>
+    {{- end -}}
   </tbody>
 </table>
+{{- else -}}
+  {{- errorf "shortcode csv-table: could not read CSV %q" $src -}}
+{{- end -}}
