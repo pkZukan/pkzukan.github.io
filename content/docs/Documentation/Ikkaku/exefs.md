@@ -16,6 +16,10 @@ bookSearchExclude: true
 
 ### Dependencies and libraries:
  - Lua 5.4.3
+ - Havok 2022
+ - Wwise 2022
+ - Oodle 
+ - Boost
 
 ### Notable facts:
  - Uses [trpfs](../formats/trpfs) / [trpfd](../formats/trpfd) file system

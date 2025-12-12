@@ -1,11 +1,11 @@
-Function,Description,Offset (1.0.0),Offset (1.0.1)
-lua_newstate,Create a new LuaState struct,0x0167BAC0,0
-luaL_loadbufferx,Loads a string of plaintext lua code,0x01665FF0,0
-lua_pcallk,Calls loaded function on the stack,0x000D4DE0,0
-lua_tostring,Pops string off the lua stack,0x0069D650,0
-lua_settop,Sets Lua stack,0x000D4A20,0
-lua_gettop,Gets Lua stack pos,0x000D4800,0
-lua_type,Get Lua type,0x006F9230,0
-luaB_print,Prints lua value to stdout,0x01687300,0
-lua_touserdata,To userdata,0x0032AC10,0
-panic,Panic,0x016B26C4,0
+Function,Description,Offset (1.0.0),Offset (1.0.1),Offset (1.0.2),Offset (2.0.0)
+lua_newstate,Create a new LuaState struct,0x0167BAC0,0,0,0
+luaL_loadbufferx,Loads a string of plaintext lua code,0x01665FF0,0,0,0
+lua_pcallk,Calls loaded function on the stack,0x000D4DE0,0,0,0
+lua_tostring,Pops string off the lua stack,0x0069D650,0,0,0
+lua_settop,Sets Lua stack,0x000D4A20,0,0,0
+lua_gettop,Gets Lua stack pos,0x000D4800,0,0,0
+lua_type,Get Lua type,0x006F9230,0,0,0
+luaB_print,Prints lua value to stdout,0x01687300,0,0,0
+lua_touserdata,To userdata,0x0032AC10,0,0,0
+panic,Panic,0x016B26C4,0,0,0
