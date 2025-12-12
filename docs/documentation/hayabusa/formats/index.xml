@@ -1724,8 +1724,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;size_index&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;SpeciesSize&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_1&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;min_size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;max_size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_vertical_rot_y_origin&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
@@ -1741,7 +1741,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;unk_12_y_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Related to y offset (see mons that fly above the ground eg. zubat)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;
  Trinity Skeleton (trskl)
  &lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;
 &lt;/h1&gt;

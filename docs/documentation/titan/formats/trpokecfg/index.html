@@ -32,24 +32,37 @@ namespace Titan.Model;
 
 file_extension "trpokecfg";
 
-table TRPOKECFG {
-        unk_0: uint8;
-        unk_1: float;
-        unk_2: float;
-        unk_3: float;
-        unk_4: float;
-        unk_5: float;
-        unk_6: float;
-        unk_7: float;
-        unk_8: float;
-        unk_9: float;
-        unk_10: float;
-        unk_11: float;
-        unk_12: float;
+enum SpeciesSize : byte
+{
+    Size_S = 0,
+    Size_M = 1,
+    Size_L = 2,
+    Size_XL = 3,
 }
 
-root_type TRPOKECFG;'><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/"><meta property="og:site_name" content="Zukan Docs"><meta property="og:title" content="Trinity Pokeconfig (trpokecfg)"><meta property="og:description" content='Trinity Pokeconfig (trpokecfg) # Description: # Stub
-Schema: # namespace Titan.Model; file_extension "trpokecfg"; table TRPOKECFG { unk_0: uint8; unk_1: float; unk_2: float; unk_3: float; unk_4: float; unk_5: float; unk_6: float; unk_7: float; unk_8: float; unk_9: float; unk_10: float; unk_11: float; unk_12: float; } root_type TRPOKECFG;'><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>Trinity Pokeconfig (trpokecfg) | Zukan Docs</title><link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/><link rel=stylesheet href=/book.min.0761a9f055d7dd9c25e6c9ff3b0a377ed89777c64c56f406513d2265ac2d9296.css integrity="sha256-B2Gp8FXX3Zwl5sn/Owo3ftiXd8ZMVvQGUT0iZawtkpY=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.acd543acb86cd0e594d59751afde38ef4efdb9554a2794653f45ec445c4aa805.js integrity="sha256-rNVDrLhs0OWU1ZdRr9447079uVVKJ5RlP0XsRFxKqAU=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+table TRPOKECFG {
+    size_index: SpeciesSize;
+
+    min_size: float;
+    max_size: float;
+    unk_3: float;
+
+    inframe_vertical_rot_y_origin: float;
+    inframe_bottom_y_offset: float;
+    inframe_center_y_offset: float;
+
+    inframe_left_rotation: float;
+    inframe_right_rotation: float;
+    unk_9: float;
+
+    unk_10_y_offset: float; // Related to y offset (see mons that fly above the ground eg. zubat)
+    unk_11_y_offset: float; // Related to y offset (see mons that fly above the ground eg. zubat)
+    unk_12_y_offset: float; // Related to y offset (see mons that fly above the ground eg. zubat)
+}
+
+root_type TRPOKECFG;
+'><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/"><meta property="og:site_name" content="Zukan Docs"><meta property="og:title" content="Trinity Pokeconfig (trpokecfg)"><meta property="og:description" content='Trinity Pokeconfig (trpokecfg) # Description: # Stub
+Schema: # namespace Titan.Model; file_extension "trpokecfg"; enum SpeciesSize : byte { Size_S = 0, Size_M = 1, Size_L = 2, Size_XL = 3, } table TRPOKECFG { size_index: SpeciesSize; min_size: float; max_size: float; unk_3: float; inframe_vertical_rot_y_origin: float; inframe_bottom_y_offset: float; inframe_center_y_offset: float; inframe_left_rotation: float; inframe_right_rotation: float; unk_9: float; unk_10_y_offset: float; // Related to y offset (see mons that fly above the ground eg. zubat) unk_11_y_offset: float; // Related to y offset (see mons that fly above the ground eg. zubat) unk_12_y_offset: float; // Related to y offset (see mons that fly above the ground eg. zubat) } root_type TRPOKECFG;'><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="docs"><title>Trinity Pokeconfig (trpokecfg) | Zukan Docs</title><link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/><link rel=stylesheet href=/book.min.0761a9f055d7dd9c25e6c9ff3b0a377ed89777c64c56f406513d2265ac2d9296.css integrity="sha256-B2Gp8FXX3Zwl5sn/Owo3ftiXd8ZMVvQGUT0iZawtkpY=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.7cae2f445930702853fc3f26c04c7eb42f0a72a59c8448ab62931e72397bcf45.js integrity="sha256-fK4vRFkwcChT/D8mwEx+tC8KcqWchEirYpMecjl7z0U=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
 <input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/logo.png alt=Logo class=book-icon><span>Zukan Docs</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><input type=checkbox id=section-63d332b65d965a8fbd1149de8d767454 class=toggle checked>
 <label for=section-63d332b65d965a8fbd1149de8d767454 class="flex justify-between"><a role=button>Documentation</a></label><ul><li><input type=checkbox id=section-911fb42633a4c77634d1ae9dd13664c2 class=toggle>
 <label for=section-911fb42633a4c77634d1ae9dd13664c2 class="flex justify-between"><a href=/docs/documentation/beluga/>Let's Go Pikachu & Eevee</a></label><ul><li><input type=checkbox id=section-8409aced0a11be9b5b9ce83f5e472bef class=toggle>
@@ -73,20 +86,33 @@ Schema: # namespace Titan.Model; file_extension "trpokecfg"; table TRPOKECFG { u
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span><span style=color:#a6e22e>file_extension</span> <span style=color:#e6db74>&#34;trpokecfg&#34;</span>;
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>table</span> <span style=color:#a6e22e>TRPOKECFG</span> {
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_0</span>: <span style=color:#66d9ef>uint8</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_1</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_2</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_3</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_4</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_5</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_6</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_7</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_8</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_9</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_10</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_11</span>: <span style=color:#66d9ef>float</span>;
-</span></span><span style=display:flex><span>        <span style=color:#a6e22e>unk_12</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>enum</span> <span style=color:#a6e22e>SpeciesSize</span> : <span style=color:#66d9ef>byte</span>
+</span></span><span style=display:flex><span>{
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>Size_S</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>Size_M</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>Size_L</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>2</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>Size_XL</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>3</span>,
 </span></span><span style=display:flex><span>}
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#a6e22e>root_type</span> <span style=color:#a6e22e>TRPOKECFG</span>;</span></span></code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></div></aside></main></body></html>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>table</span> <span style=color:#a6e22e>TRPOKECFG</span> {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>size_index</span>: <span style=color:#66d9ef>SpeciesSize</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>min_size</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>max_size</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>unk_3</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>inframe_vertical_rot_y_origin</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>inframe_bottom_y_offset</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>inframe_center_y_offset</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>inframe_left_rotation</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>inframe_right_rotation</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>unk_9</span>: <span style=color:#66d9ef>float</span>;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>unk_10_y_offset</span>: <span style=color:#66d9ef>float</span>; <span style=color:#75715e>// Related to y offset (see mons that fly above the ground eg. zubat)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#a6e22e>unk_11_y_offset</span>: <span style=color:#66d9ef>float</span>; <span style=color:#75715e>// Related to y offset (see mons that fly above the ground eg. zubat)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#a6e22e>unk_12_y_offset</span>: <span style=color:#66d9ef>float</span>; <span style=color:#75715e>// Related to y offset (see mons that fly above the ground eg. zubat)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>root_type</span> <span style=color:#a6e22e>TRPOKECFG</span>;
+</span></span></code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><ul><li><a href=#description>Description:</a></li><li><a href=#schema>Schema:</a></li></ul></li></ul></nav></div></aside></main></body></html>

@@ -443,6 +443,10 @@
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lua 5.4.3&lt;/li&gt;
+&lt;li&gt;Havok 2022&lt;/li&gt;
+&lt;li&gt;Wwise 2022&lt;/li&gt;
+&lt;li&gt;Oodle&lt;/li&gt;
+&lt;li&gt;Boost&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="notable-facts"&gt;
  Notable facts:
@@ -458,9 +462,9 @@
 &lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
- &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.0.2)&lt;/th&gt;&lt;th&gt;Offset (2.0.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
- &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;lua_newstate&lt;/td&gt;&lt;td&gt;Create a new LuaState struct&lt;/td&gt;&lt;td&gt;0x0167BAC0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaL_loadbufferx&lt;/td&gt;&lt;td&gt;Loads a string of plaintext lua code&lt;/td&gt;&lt;td&gt;0x01665FF0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_pcallk&lt;/td&gt;&lt;td&gt;Calls loaded function on the stack&lt;/td&gt;&lt;td&gt;0x000D4DE0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_tostring&lt;/td&gt;&lt;td&gt;Pops string off the lua stack&lt;/td&gt;&lt;td&gt;0x0069D650&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_settop&lt;/td&gt;&lt;td&gt;Sets Lua stack&lt;/td&gt;&lt;td&gt;0x000D4A20&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_gettop&lt;/td&gt;&lt;td&gt;Gets Lua stack pos&lt;/td&gt;&lt;td&gt;0x000D4800&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_type&lt;/td&gt;&lt;td&gt;Get Lua type&lt;/td&gt;&lt;td&gt;0x006F9230&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaB_print&lt;/td&gt;&lt;td&gt;Prints lua value to stdout&lt;/td&gt;&lt;td&gt;0x01687300&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_touserdata&lt;/td&gt;&lt;td&gt;To userdata&lt;/td&gt;&lt;td&gt;0x0032AC10&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;panic&lt;/td&gt;&lt;td&gt;Panic&lt;/td&gt;&lt;td&gt;0x016B26C4&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
+ &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;lua_newstate&lt;/td&gt;&lt;td&gt;Create a new LuaState struct&lt;/td&gt;&lt;td&gt;0x0167BAC0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaL_loadbufferx&lt;/td&gt;&lt;td&gt;Loads a string of plaintext lua code&lt;/td&gt;&lt;td&gt;0x01665FF0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_pcallk&lt;/td&gt;&lt;td&gt;Calls loaded function on the stack&lt;/td&gt;&lt;td&gt;0x000D4DE0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_tostring&lt;/td&gt;&lt;td&gt;Pops string off the lua stack&lt;/td&gt;&lt;td&gt;0x0069D650&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_settop&lt;/td&gt;&lt;td&gt;Sets Lua stack&lt;/td&gt;&lt;td&gt;0x000D4A20&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_gettop&lt;/td&gt;&lt;td&gt;Gets Lua stack pos&lt;/td&gt;&lt;td&gt;0x000D4800&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_type&lt;/td&gt;&lt;td&gt;Get Lua type&lt;/td&gt;&lt;td&gt;0x006F9230&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaB_print&lt;/td&gt;&lt;td&gt;Prints lua value to stdout&lt;/td&gt;&lt;td&gt;0x01687300&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_touserdata&lt;/td&gt;&lt;td&gt;To userdata&lt;/td&gt;&lt;td&gt;0x0032AC10&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;panic&lt;/td&gt;&lt;td&gt;Panic&lt;/td&gt;&lt;td&gt;0x016B26C4&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id="notable-pml-offsets"&gt;
  Notable pml offsets:
@@ -468,7 +472,7 @@
 &lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
- &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.0.2)&lt;/th&gt;&lt;th&gt;Offset (2.0.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;/tbody&gt;
 &lt;/table&gt;
@@ -5064,8 +5068,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;size_index&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;SpeciesSize&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_1&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;min_size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;max_size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_vertical_rot_y_origin&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
@@ -5081,7 +5085,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;unk_12_y_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Related to y offset (see mons that fly above the ground eg. zubat)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;
  Trinity Pokeconfig (trpokecfg)
  &lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -5115,23 +5120,36 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;file_extension&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;trpokecfg&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_0&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint8&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_1&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_4&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_5&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_6&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_7&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_8&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_9&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_10&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_11&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_12&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;enum&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;SpeciesSize&lt;/span&gt; : &lt;span style="color:#66d9ef"&gt;byte&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;Size_S&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;Size_M&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;Size_L&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;Size_XL&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Property Sheet</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</guid><description>&lt;h1 id="trinity-property-sheet"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;size_index&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;SpeciesSize&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;min_size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;max_size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_3&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_vertical_rot_y_origin&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_bottom_y_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_center_y_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_left_rotation&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;inframe_right_rotation&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_9&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_10_y_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Related to y offset (see mons that fly above the ground eg. zubat)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;unk_11_y_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Related to y offset (see mons that fly above the ground eg. zubat)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;unk_12_y_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;float&lt;/span&gt;; &lt;span style="color:#75715e"&gt;// Related to y offset (see mons that fly above the ground eg. zubat)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Property Sheet</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</guid><description>&lt;h1 id="trinity-property-sheet"&gt;
  Trinity Property Sheet
  &lt;a class="anchor" href="#trinity-property-sheet"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
