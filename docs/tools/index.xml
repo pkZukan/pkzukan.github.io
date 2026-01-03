@@ -2,12 +2,30 @@
  Description:
  &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;A WIP re-impl of the AssetAssistant lib&lt;/p&gt;
+&lt;p&gt;A WIP re-impl of the AssetAssistant lib used in BDSP.&lt;/p&gt;
 &lt;h3 id="link"&gt;
  Link:
  &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/AssetAssistant"&gt;https://github.com/Reisyukaku/AssetAssistant&lt;/a&gt;&lt;/p&gt;</description></item><item><title>PkNx</title><link>https://pkzukan.github.io/docs/tools/pknx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/pknx/</guid><description>&lt;h3 id="description"&gt;
+&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/AssetAssistant"&gt;https://github.com/Reisyukaku/AssetAssistant&lt;/a&gt;&lt;/p&gt;</description></item><item><title>FlatbufferToolkit</title><link>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</guid><description>&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;A tool to aid in reverse engineering of Google&amp;rsquo;s flatbuffers used in modern pokemon games.&lt;/p&gt;
+&lt;h3 id="link"&gt;
+ Link:
+ &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/FlatbufferToolkit"&gt;https://github.com/Reisyukaku/FlatbufferToolkit&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GFTool</title><link>https://pkzukan.github.io/docs/tools/gftool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/gftool/</guid><description>&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;A monorepo of tools used for mod management, asset extraction, scene parsing, etc.&lt;/p&gt;
+&lt;h3 id="link"&gt;
+ Link:
+ &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pkZukan/gftool"&gt;https://github.com/pkZukan/gftool&lt;/a&gt;&lt;/p&gt;</description></item><item><title>PkNx</title><link>https://pkzukan.github.io/docs/tools/pknx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/pknx/</guid><description>&lt;h3 id="description"&gt;
  Description:
  &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
@@ -25,13 +43,4 @@
  Link:
  &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/KillzXGaming/Switch-Toolbox"&gt;https://github.com/KillzXGaming/Switch-Toolbox&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Trinity Mod Loader</title><link>https://pkzukan.github.io/docs/tools/trinitymodloader/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/trinitymodloader/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;A small utility to make and manage mods, while also providing file extraction utilities.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/pkZukan/gftool"&gt;https://github.com/pkZukan/gftool&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;a href="https://github.com/KillzXGaming/Switch-Toolbox"&gt;https://github.com/KillzXGaming/Switch-Toolbox&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
