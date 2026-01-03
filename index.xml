@@ -177,7 +177,16 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;count_padding&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Character Customization Data (ccdata)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</guid><description>&lt;h1 id="character-customization-data-ccdata"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Blender Importer</title><link>https://pkzukan.github.io/docs/tools/blenderimporter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/blenderimporter/</guid><description>&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Import scripts for Blender for switch Pokemon model formats.&lt;/p&gt;
+&lt;h3 id="link"&gt;
+ Link:
+ &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/"&gt;https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Character Customization Data (ccdata)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</guid><description>&lt;h1 id="character-customization-data-ccdata"&gt;
  Character Customization Data (ccdata)
  &lt;a class="anchor" href="#character-customization-data-ccdata"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
