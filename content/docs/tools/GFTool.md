@@ -1,5 +1,5 @@
 ---
-title: "Trinity Mod Loader"
+title: "GFTool"
 weight: 1
 # bookFlatSection: false
 bookToc: true
@@ -10,7 +10,7 @@ bookToc: true
 ---
 ### Description:
 
-A small utility to make and manage mods, while also providing file extraction utilities.
+A monorepo of tools used for mod management, asset extraction, scene parsing, etc.
 
 ### Link:
 

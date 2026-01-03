@@ -1,5 +1,5 @@
 ---
-title: "Asset Assistant"
+title: "FlatbufferToolkit"
 weight: 1
 # bookFlatSection: false
 bookToc: true
@@ -10,8 +10,8 @@ bookToc: true
 ---
 ### Description:
 
-A WIP re-impl of the AssetAssistant lib used in BDSP.
+A tool to aid in reverse engineering of Google's flatbuffers used in modern pokemon games.
 
 ### Link:
 
-https://github.com/Reisyukaku/AssetAssistant
+https://github.com/Reisyukaku/FlatbufferToolkit
