@@ -1,0 +1,180 @@
+{{- $src := .Get "file" -}}
+{{- $treeData := dict -}}
+
+{{- if not $src -}}
+    {{- errorf "shortcode csv-folder-table: missing required parameter 'file'" -}}
+{{- end -}}
+
+{{- $data := resources.Get $src -}}
+{{- if $data -}}
+    {{- with $data | transform.Unmarshal -}}
+        {{- $treeData = . -}}
+    {{- end -}}
+{{- else -}}
+    {{- $parts := split $src "/" -}}
+    {{- $currentData := .Site.Data -}}
+    {{- range $i, $part := $parts -}}
+        {{- $key := replace $part ".json" "" -}}
+        {{- if not (index $currentData $key) -}}
+            {{- $currentData = nil -}}
+            {{- break -}}
+        {{- end -}}
+        {{- $currentData = index $currentData $key -}}
+    {{- end -}}
+    {{- if $currentData -}}
+        {{- $treeData = $currentData -}}
+    {{- else -}}
+        {{- errorf "shortcode csv-folder-table: could not load JSON file %q. Checked resources and data directory." $src -}}
+    {{- end -}}
+{{- end -}}
+
+
+{{- define "folder-tree-recursive" -}}
+    {{- $node := . -}}
+    {{- $dirOnlyChildren := where $node.children "is_file" false -}}
+    {{- $fileOnlyChildren := where $node.children "is_file" true -}}
+
+    {{- if not $node.is_file -}}
+        {{- /* Render a Folder Node (Details/Summary) */ -}}
+        {{- if not (eq $node.name "/") -}}
+            <details class="vscode-folder-item">
+                <summary class="vscode-folder-summary">
+                    <span class="folder-name">{{ $node.name }}</span>
+                    {{- if $fileOnlyChildren -}}
+                        <span class="file-count-badge">{{ len $fileOnlyChildren }} file{{ if ne (len $fileOnlyChildren) 1 }}s{{ end }}</span>
+                    {{- end -}}
+                </summary>
+                
+                <div class="vscode-folder-content">
+                    {{- /* 1. Render Child Folders (Recursively via template) */ -}}
+                    {{- range $dirOnlyChildren -}}
+                        {{ template "folder-tree-recursive" . }}
+                    {{- end -}}
+
+                    {{- /* 2. Render Files in this folder (The Table Leaf Node) */ -}}
+                    {{- if $fileOnlyChildren -}}
+                        <div class="vscode-file-list-container">
+                            <table class="vscode-nested-files files-leaf-node">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 30%;">Filename</th>
+                                        <th style="width: 15%;">Type</th>
+                                        <th style="width: 55%;">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {{- range $fileOnlyChildren -}}
+                                    <tr>
+                                        <td>
+                                            <code>{{ .name }}</code>
+                                        </td>
+                                        <td>{{ if .type }}{{ .type | markdownify }}{{ else }}—{{ end }}</td>
+                                        <td>{{ if .desc }}{{ .desc }}{{ else }}—{{ end }}</td>
+                                    </tr>
+                                {{- end -}}
+                                </tbody>
+                            </table>
+                        </div>
+                    {{- end -}}
+                </div>
+            </details>
+        {{- else -}}
+            {{- /* Root Node - Directly render children */ -}}
+            {{- range $node.children -}}
+                {{ template "folder-tree-recursive" . }}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+
+<div class="vscode-folder-tree">
+    {{- if $treeData -}}
+        {{ template "folder-tree-recursive" $treeData }}
+    {{- end -}}
+</div>
+
+{{/* --- Embed Styling for VS Code Look --- */}}
+<style>
+:root {
+  --vscode-border: #333333;
+}
+
+.vscode-folder-tree {
+  margin: 1.5rem 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+}
+
+.vscode-folder-item {
+  margin: 0;
+  padding: 0;
+}
+
+.vscode-folder-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.2rem 0.75rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  border-radius: 2px;
+}
+
+.vscode-folder-summary:hover {
+  background-color: var(--vscode-select-bg);
+}
+
+.vscode-folder-summary::-webkit-details-marker { display: none; }
+.vscode-folder-summary::before {
+  content: '▶';
+  margin-right: 0.5rem;
+  font-size: 0.7em;
+  line-height: 1;
+  transition: transform 0.2s;
+}
+
+.vscode-folder-item[open] .vscode-folder-summary::before { content: '▼'; }
+
+.vscode-folder-content {
+  padding-left: 1rem; /* Indentation per level */
+}
+
+.folder-name {
+  flex-grow: 1;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-count-badge {
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  flex-shrink: 0;
+}
+
+.vscode-file-list-container {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.vscode-nested-files {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vscode-nested-files tbody tr:hover {
+  background-color: var(--vscode-select-bg);
+}
+
+.vscode-nested-files code {
+  background-color: transparent;
+  color: var(--vscode-fg);
+  padding: 0;
+}
+</style>

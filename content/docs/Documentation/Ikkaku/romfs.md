@@ -16,7 +16,7 @@ bookSearchExclude: true
 
 ### Romfs contents:
 
-{{<csv-to-markdown file="data/ikkaku/romfs.csv">}}
+{{<romfs-table file="data/ikkaku/romfs.json">}}
 
 
 ### Notes:

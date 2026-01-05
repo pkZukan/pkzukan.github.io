@@ -1,0 +1,119 @@
+{
+  "name": "/",
+  "children": [
+    {
+      "name": "avalon",
+      "is_file": false,
+      "children": [
+        {
+          "name": "data",
+          "is_file": false,
+          "children": [
+            {
+              "name": "personal_array.bin",
+              "is_file": true,
+              "type": "[Personal](../formats/personal)",
+              "desc": "Previously known as personal_total.bin"
+            },
+            {
+              "name": "waza_array.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            },
+            {
+              "name": "tokusei_array.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            },
+            {
+              "name": "ai_common_raid01.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            },
+            {
+              "name": "growTable.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "script",
+      "is_file": false,
+      "children": [
+        {
+          "name": "lua",
+          "is_file": false,
+          "children": [
+            {
+              "name": "bin",
+              "is_file": false,
+              "children": [
+                {
+                  "name": "release",
+                  "is_file": false,
+                  "children": [
+                    {
+                      "name": "dll_util",
+                      "is_file": false,
+                      "children": [
+                        {
+                          "name": "dll_util.blua",
+                          "is_file": true,
+                          "type": "—",
+                          "desc": "—"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "event_ik",
+                      "is_file": false,
+                      "children": [
+                        {
+                          "name": "event_ik.blua",
+                          "is_file": true,
+                          "type": "—",
+                          "desc": "—"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "main_dynamic",
+                      "is_file": false,
+                      "children": [
+                        {
+                          "name": "main_dynamic.blua",
+                          "is_file": true,
+                          "type": "—",
+                          "desc": "—"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "main",
+                      "is_file": false,
+                      "children": [
+                        {
+                          "name": "main.blua",
+                          "is_file": true,
+                          "type": "—",
+                          "desc": "—"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
