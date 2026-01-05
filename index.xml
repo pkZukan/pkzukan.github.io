@@ -7731,12 +7731,251 @@
  Romfs contents:
  &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-&lt;table&gt;
+&lt;div class="vscode-folder-tree"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;avalon&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;data&lt;/span&gt;&lt;span class="file-count-badge"&gt;5 files&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
  &lt;thead&gt;
- &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
  &lt;/thead&gt;
- &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/personal_array.bin&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/personal"&gt;Personal&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Previously known as personal_total.bin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/waza_array.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/tokusei_array.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/ai_common_raid01.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/growTable.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
-&lt;/table&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;personal_array.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;&lt;a href="../formats/personal"&gt;Personal&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Previously known as personal_total.bin&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;waza_array.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;tokusei_array.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;ai_common_raid01.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;growTable.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;script&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;lua&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;bin&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;release&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;dll_util&lt;/span&gt;&lt;span class="file-count-badge"&gt;1 file&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;dll_util.blua&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;event_ik&lt;/span&gt;&lt;span class="file-count-badge"&gt;1 file&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;event_ik.blua&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;main_dynamic&lt;/span&gt;&lt;span class="file-count-badge"&gt;1 file&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;main_dynamic.blua&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;main&lt;/span&gt;&lt;span class="file-count-badge"&gt;1 file&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;main.blua&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+
+
+&lt;style&gt;
+:root {
+ --vscode-border: #333333;
+}
+
+.vscode-folder-tree {
+ margin: 1.5rem 0;
+ font-family: 'Segoe UI', Arial, sans-serif;
+ font-size: 0.9rem;
+ padding: 0.25rem 0;
+}
+
+.vscode-folder-item {
+ margin: 0;
+ padding: 0;
+}
+
+.vscode-folder-summary {
+ cursor: pointer;
+ list-style: none;
+ padding: 0.2rem 0.75rem;
+ margin: 0;
+ display: flex;
+ align-items: center;
+ user-select: none;
+ border-radius: 2px;
+}
+
+.vscode-folder-summary:hover {
+ background-color: var(--vscode-select-bg);
+}
+
+.vscode-folder-summary::-webkit-details-marker { display: none; }
+.vscode-folder-summary::before {
+ content: '▶';
+ margin-right: 0.5rem;
+ font-size: 0.7em;
+ line-height: 1;
+ transition: transform 0.2s;
+}
+
+.vscode-folder-item[open] .vscode-folder-summary::before { content: '▼'; }
+
+.vscode-folder-content {
+ padding-left: 1rem; 
+}
+
+.folder-name {
+ flex-grow: 1;
+ font-weight: 500;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+
+.file-count-badge {
+ padding: 0.1rem 0.4rem;
+ border-radius: 3px;
+ font-size: 0.8rem;
+ margin-left: 0.5rem;
+ flex-shrink: 0;
+}
+
+.vscode-file-list-container {
+ margin-top: 0.5rem;
+ padding: 0.5rem 0.5rem;
+}
+
+.vscode-nested-files {
+ width: 100%;
+ border-collapse: collapse;
+}
+
+.vscode-nested-files tbody tr:hover {
+ background-color: var(--vscode-select-bg);
+}
+
+.vscode-nested-files code {
+ background-color: transparent;
+ color: var(--vscode-fg);
+ padding: 0;
+}
+&lt;/style&gt;
 &lt;h3 id="notes"&gt;
  Notes:
  &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
