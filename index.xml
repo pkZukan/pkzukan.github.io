@@ -768,7 +768,9 @@
  Description:
  &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.&lt;/p&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;
+&lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.
+The engine uses the trpfd (file descriptor) to find the trpak the file belongs to and then reads the trpfs for the trpak.&lt;/p&gt;
+&lt;p&gt;If the file hash doesn&amp;rsquo;t exist in the trpfd, it defaults to reading the file path from &lt;code&gt;data:/&lt;/code&gt; which is the root of the romfs.&lt;/p&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;
  Personal (Scarlet &amp;amp; Violet)
  &lt;a class="anchor" href="#personal-scarlet--violet"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -7998,12 +8000,239 @@
  Romfs contents:
  &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-&lt;table&gt;
+&lt;div class="vscode-folder-tree"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;avalon&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;data&lt;/span&gt;&lt;span class="file-count-badge"&gt;5 files&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
  &lt;thead&gt;
- &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
  &lt;/thead&gt;
- &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/personal_array.bin&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/personal"&gt;Personal&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Previously known as personal_total.bin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/waza_array.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/tokusei_array.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/ai_common_raid01.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/avalon/data/growTable.bin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/appli/tex/pokedex_capture_thum/pokedex_capture_thum_XXXX/pokedex_capture_thum_XXXX.bntx&lt;/td&gt;&lt;td&gt;&lt;a href="../../middleware/bntx"&gt;bntx&lt;/a&gt;&lt;/td&gt;&lt;td&gt;pokedex book covers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/appli/tex/original_book_pic/original_book_pic_XX/original/book_pic_XX.bntx&lt;/td&gt;&lt;td&gt;&lt;a href="../../middleware/bntx"&gt;bntx&lt;/a&gt;&lt;/td&gt;&lt;td&gt;scarlet/violet book images&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/appli/tex/waza_thumb/waza_thumb_XXX/waza_thumb_XXX.bntx&lt;/td&gt;&lt;td&gt;&lt;a href="../../middleware/bntx"&gt;bntx&lt;/a&gt;&lt;/td&gt;&lt;td&gt;TM Machine move images&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
-&lt;/table&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;personal_array.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;&lt;a href="../formats/personal"&gt;Personal&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Previously known as personal_total.bin&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;waza_array.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;tokusei_array.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;ai_common_raid01.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;growTable.bin&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;td&gt;—&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;appli&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;tex&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;pokedex_capture_thum&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;pokedex_capture_thum_XXXX&lt;/span&gt;&lt;span class="file-count-badge"&gt;1 file&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;pokedex_capture_thum_XXXX.bntx&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://pkzukan.github.io/docs/documentation/middleware/bntx/"&gt;bntx&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;pokedex book covers&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;original_book_pic&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;original_book_pic_XX&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;original&lt;/span&gt;&lt;span class="file-count-badge"&gt;1 file&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;book_pic_XX.bntx&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://pkzukan.github.io/docs/documentation/middleware/bntx/"&gt;bntx&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;scarlet/violet book images&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;waza_thumb&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;details class="vscode-folder-item"&gt;
+ &lt;summary class="vscode-folder-summary"&gt;
+ &lt;span class="folder-name"&gt;waza_thumb_XXX&lt;/span&gt;&lt;span class="file-count-badge"&gt;1 file&lt;/span&gt;&lt;/summary&gt;
+ 
+ &lt;div class="vscode-folder-content"&gt;&lt;div class="vscode-file-list-container"&gt;
+ &lt;table class="vscode-nested-files files-leaf-node"&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th style="width: 30%;"&gt;Filename&lt;/th&gt;
+ &lt;th style="width: 15%;"&gt;Type&lt;/th&gt;
+ &lt;th style="width: 55%;"&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+ &lt;td&gt;
+ &lt;code&gt;waza_thumb_XXX.bntx&lt;/code&gt;
+ &lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://pkzukan.github.io/docs/documentation/middleware/bntx/"&gt;bntx&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;TM Machine move images&lt;/td&gt;
+ &lt;/tr&gt;&lt;/tbody&gt;
+ &lt;/table&gt;
+ &lt;/div&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+ &lt;/details&gt;&lt;/div&gt;
+
+
+&lt;style&gt;
+:root {
+ --vscode-border: #333333;
+}
+
+.vscode-folder-tree {
+ margin: 1.5rem 0;
+ font-family: 'Segoe UI', Arial, sans-serif;
+ font-size: 0.9rem;
+ padding: 0.25rem 0;
+}
+
+.vscode-folder-item {
+ margin: 0;
+ padding: 0;
+}
+
+.vscode-folder-summary {
+ cursor: pointer;
+ list-style: none;
+ padding: 0.2rem 0.75rem;
+ margin: 0;
+ display: flex;
+ align-items: center;
+ user-select: none;
+ border-radius: 2px;
+}
+
+.vscode-folder-summary:hover {
+ background-color: var(--vscode-select-bg);
+}
+
+.vscode-folder-summary::-webkit-details-marker { display: none; }
+.vscode-folder-summary::before {
+ content: '▶';
+ margin-right: 0.5rem;
+ font-size: 0.7em;
+ line-height: 1;
+ transition: transform 0.2s;
+}
+
+.vscode-folder-item[open] .vscode-folder-summary::before { content: '▼'; }
+
+.vscode-folder-content {
+ padding-left: 1rem; 
+}
+
+.folder-name {
+ flex-grow: 1;
+ font-weight: 500;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
+
+.file-count-badge {
+ padding: 0.1rem 0.4rem;
+ border-radius: 3px;
+ font-size: 0.8rem;
+ margin-left: 0.5rem;
+ flex-shrink: 0;
+}
+
+.vscode-file-list-container {
+ margin-top: 0.5rem;
+ padding: 0.5rem 0.5rem;
+}
+
+.vscode-nested-files {
+ width: 100%;
+ border-collapse: collapse;
+}
+
+.vscode-nested-files tbody tr:hover {
+ background-color: var(--vscode-select-bg);
+}
+
+.vscode-nested-files code {
+ background-color: transparent;
+ color: var(--vscode-fg);
+ padding: 0;
+}
+&lt;/style&gt;
 &lt;h3 id="notes"&gt;
  Notes:
  &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;

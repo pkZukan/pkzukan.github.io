@@ -176,7 +176,9 @@
  Description:
  &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
-&lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.&lt;/p&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
+&lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.
+The engine uses the trpfd (file descriptor) to find the trpak the file belongs to and then reads the trpfs for the trpak.&lt;/p&gt;
+&lt;p&gt;If the file hash doesn&amp;rsquo;t exist in the trpfd, it defaults to reading the file path from &lt;code&gt;data:/&lt;/code&gt; which is the root of the romfs.&lt;/p&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
  Trinity File Descriptor (trpfd)
  &lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
