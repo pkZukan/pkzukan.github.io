@@ -1,5 +1,5 @@
 ---
-title: "Hayabusa"
+title: "Legends Arceus"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -8,3 +8,6 @@ bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
+# Legends Arceus
+
+WRITE ME

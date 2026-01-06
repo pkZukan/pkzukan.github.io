@@ -20,4 +20,4 @@ bookSearchExclude: true
 
 
 ### Notes:
-1. Dummy
+1. Uses Onepack (trpfs) file system.

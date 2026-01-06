@@ -22,7 +22,6 @@ bookSearchExclude: true
  - Boost
 
 ### Notable facts:
- - Uses [trpfs](../formats/trpfs) / [trpfd](../formats/trpfd) file system
  - Game logic written in haxe and compiled to binary lua
 
 ### Notable Lua offsets:

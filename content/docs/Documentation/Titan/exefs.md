@@ -19,7 +19,6 @@ bookSearchExclude: true
  - Haxe 3.4.7
 
 ### Notable facts:
- - Uses new [trpfs](../formats/trpfs) / [trpfd](../formats/trpfd) file system
  - Game logic written in haxe and compiled to binary lua
  - A lot more game logic moved to haxe/lua than previous games
 
