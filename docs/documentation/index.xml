@@ -168,4 +168,102 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;count_padding&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Onepack filesystem</title><link>https://pkzukan.github.io/docs/documentation/common/onepack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/onepack/</guid><description>&lt;h1 id="onepack-filesystem"&gt;
+ Onepack filesystem
+ &lt;a class="anchor" href="#onepack-filesystem"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.&lt;/p&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
+ Trinity File Descriptor (trpfd)
+ &lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The trpfd describes the packs and files inside &lt;a href="../trpfs"&gt;trpfs&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="schema"&gt;
+ Schema:
+ &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ts" data-lang="ts"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;namespace&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Titan&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;FileSystem&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;EmptyTable&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;FileInfo&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;pack_index&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint64&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;unk_1&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;EmptyTable&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Packinfo&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;file_size&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint64&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;file_count&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint64&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;file_hashes&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;uint64&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;pack_strings&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;files&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;FileInfo&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;packs&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Packinfo&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;
+ Trinity FileSystem (trpfs)
+ &lt;a class="anchor" href="#trinity-filesystem-trpfs"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;The trpfs contains most of the game&amp;rsquo;s assets. The &lt;a href="../trpfd"&gt;trpfd&lt;/a&gt; is the descriptor that points to files in trpfs.&lt;/p&gt;
+&lt;h3 id="schema"&gt;
+ Schema:
+ &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-ts" data-lang="ts"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;namespace&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Titan&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;FileSystem&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFS&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;file_hashes&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;uint64&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;file_offsets&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;uint64&lt;/span&gt;];
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>

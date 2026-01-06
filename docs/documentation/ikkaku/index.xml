@@ -20,7 +20,6 @@
  &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Uses &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; / &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; file system&lt;/li&gt;
 &lt;li&gt;Game logic written in haxe and compiled to binary lua&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="notable-lua-offsets"&gt;
@@ -309,5 +308,5 @@
  &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Dummy&lt;/li&gt;
+&lt;li&gt;Uses Onepack (trpfs) file system.&lt;/li&gt;
 &lt;/ol&gt;</description></item></channel></rss>

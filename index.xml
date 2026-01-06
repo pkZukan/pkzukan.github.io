@@ -462,7 +462,6 @@
  &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Uses &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; / &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; file system&lt;/li&gt;
 &lt;li&gt;Game logic written in haxe and compiled to binary lua&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="notable-lua-offsets"&gt;
@@ -556,7 +555,6 @@
  &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Uses new &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; / &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; file system&lt;/li&gt;
 &lt;li&gt;Game logic written in haxe and compiled to binary lua&lt;/li&gt;
 &lt;li&gt;A lot more game logic moved to haxe/lua than previous games&lt;/li&gt;
 &lt;/ul&gt;
@@ -762,7 +760,15 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;JewelLoc&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;JewelLocs&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Model Importing</title><link>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</guid><description>&lt;p&gt;Hellos&lt;/p&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;JewelLocs&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Model Importing</title><link>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</guid><description>&lt;p&gt;Hellos&lt;/p&gt;</description></item><item><title>Onepack filesystem</title><link>https://pkzukan.github.io/docs/documentation/common/onepack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/onepack/</guid><description>&lt;h1 id="onepack-filesystem"&gt;
+ Onepack filesystem
+ &lt;a class="anchor" href="#onepack-filesystem"&gt;#&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h3 id="description"&gt;
+ Description:
+ &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.&lt;/p&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;
  Personal (Scarlet &amp;amp; Violet)
  &lt;a class="anchor" href="#personal-scarlet--violet"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -3769,7 +3775,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRCMA&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
  Trinity File Descriptor (trpfd)
  &lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -3822,7 +3828,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;packs&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Packinfo&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;
  Trinity FileSystem (trpfs)
  &lt;a class="anchor" href="#trinity-filesystem-trpfs"&gt;#&lt;/a&gt;
 &lt;/h1&gt;
@@ -7981,7 +7987,7 @@
  &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Dummy&lt;/li&gt;
+&lt;li&gt;Uses Onepack (trpfs) file system.&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/titan/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/romfs/</guid><description>&lt;h1 id="scarlet--violet-romfs"&gt;
  Scarlet &amp;amp; Violet (RomFS)
  &lt;a class="anchor" href="#scarlet--violet-romfs"&gt;#&lt;/a&gt;
@@ -8003,5 +8009,6 @@
  &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
 &lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Migrating models from PLA works fairly well with minor changes. The main difference being the file hierarchy (The engine hardcodes paths so this hierarchy must be followed). Some parameters for &lt;a href="../formats/trmtr"&gt;trmtr&lt;/a&gt; have changed as well. PLA pokemon uses a int param &amp;ldquo;CategoryLabel&amp;rdquo; of 2 whereas SV uses 6 for lighting. UV wrap enums may have changed as well.&lt;/li&gt;
+&lt;li&gt;Uses new &lt;a href="https://pkzukan.github.io/docs/documentation/common/onepack/"&gt;Onepack&lt;/a&gt; file system.&lt;/li&gt;
+&lt;li&gt;Migrating models from PLA described &lt;a href="https://pkzukan.github.io/docs/guides/titan/"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;</description></item></channel></rss>
