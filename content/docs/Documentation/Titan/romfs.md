@@ -16,7 +16,7 @@ bookSearchExclude: true
 
 ### Romfs contents:
 
-{{<csv-to-markdown file="data/titan/romfs.csv">}}
+{{<romfs-table file="data/titan/romfs.json">}}
 
 
 ### Notes:

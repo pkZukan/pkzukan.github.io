@@ -1,7 +1,6 @@
 ---
 title: "Zukan Docs"
 description: "A Pokemon informational archive."
-image: "/banner.jpg"
 ---
 
 # Zukan Docs

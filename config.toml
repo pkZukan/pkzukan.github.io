@@ -6,4 +6,4 @@ theme = "hugo-book"
 [params]
   BookLogo = 'logo.png'
   BookTheme = 'dark'
-
+  images = ['banner.jpg']

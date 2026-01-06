@@ -1,0 +1,119 @@
+{
+  "name": "/",
+  "children": [
+    {
+      "name": "avalon",
+      "is_file": false,
+      "children": [
+        {
+          "name": "data",
+          "is_file": false,
+          "children": [
+            {
+              "name": "personal_array.bin",
+              "is_file": true,
+              "type": "[Personal](../formats/personal)",
+              "desc": "Previously known as personal_total.bin"
+            },
+            {
+              "name": "waza_array.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            },
+            {
+              "name": "tokusei_array.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            },
+            {
+              "name": "ai_common_raid01.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            },
+            {
+              "name": "growTable.bin",
+              "is_file": true,
+              "type": "—",
+              "desc": "—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "appli",
+      "is_file": false,
+      "children": [
+        {
+          "name": "tex",
+          "is_file": false,
+          "children": [
+            {
+              "name": "pokedex_capture_thum",
+              "is_file": false,
+              "children": [
+                {
+                  "name": "pokedex_capture_thum_XXXX",
+                  "is_file": false,
+                  "children": [
+                    {
+                      "name": "pokedex_capture_thum_XXXX.bntx",
+                      "is_file": true,
+                      "type": "[bntx]({{<ref \"docs/Documentation/middleware/bntx\">}})",
+                      "desc": "pokedex book covers"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "original_book_pic",
+              "is_file": false,
+              "children": [
+                {
+                  "name": "original_book_pic_XX",
+                  "is_file": false,
+                  "children": [
+                    {
+                      "name": "original",
+                      "is_file": false,
+                      "children": [
+                        {
+                          "name": "book_pic_XX.bntx",
+                          "is_file": true,
+                          "type": "[bntx]({{<ref \"docs/Documentation/middleware/bntx\">}})",
+                          "desc": "scarlet/violet book images"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "waza_thumb",
+              "is_file": false,
+              "children": [
+                {
+                  "name": "waza_thumb_XXX",
+                  "is_file": false,
+                  "children": [
+                    {
+                      "name": "waza_thumb_XXX.bntx",
+                      "is_file": true,
+                      "type": "[bntx]({{<ref \"docs/Documentation/middleware/bntx\">}})",
+                      "desc": "TM Machine move images"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
