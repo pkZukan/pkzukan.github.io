@@ -1,13 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Legends Z-A on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/</link><description>Recent content in Legends Z-A on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/ikkaku/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</guid><description>&lt;h1 id="legends-z-a-exefs"&gt;
- Legends Z-A (ExeFS)
- &lt;a class="anchor" href="#legends-z-a-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Legends Z-A on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/</link><description>Recent content in Legends Z-A on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/ikkaku/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</guid><description>&lt;h1 id="legends-z-a-exefs"&gt;Legends Z-A (ExeFS)&lt;a class="anchor" href="#legends-z-a-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;ikkaku&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="dependencies-and-libraries"&gt;
- Dependencies and libraries:
- &lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="dependencies-and-libraries"&gt;Dependencies and libraries:&lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lua 5.4.3&lt;/li&gt;
 &lt;li&gt;Havok 2022&lt;/li&gt;
@@ -15,49 +9,31 @@
 &lt;li&gt;Oodle&lt;/li&gt;
 &lt;li&gt;Boost&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Game logic written in haxe and compiled to binary lua&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-lua-offsets"&gt;
- Notable Lua offsets:
- &lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-lua-offsets"&gt;Notable Lua offsets:&lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.0.2)&lt;/th&gt;&lt;th&gt;Offset (2.0.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;lua_newstate&lt;/td&gt;&lt;td&gt;Create a new LuaState struct&lt;/td&gt;&lt;td&gt;0x0167BAC0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaL_loadbufferx&lt;/td&gt;&lt;td&gt;Loads a string of plaintext lua code&lt;/td&gt;&lt;td&gt;0x01665FF0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_pcallk&lt;/td&gt;&lt;td&gt;Calls loaded function on the stack&lt;/td&gt;&lt;td&gt;0x000D4DE0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_tostring&lt;/td&gt;&lt;td&gt;Pops string off the lua stack&lt;/td&gt;&lt;td&gt;0x0069D650&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_settop&lt;/td&gt;&lt;td&gt;Sets Lua stack&lt;/td&gt;&lt;td&gt;0x000D4A20&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_gettop&lt;/td&gt;&lt;td&gt;Gets Lua stack pos&lt;/td&gt;&lt;td&gt;0x000D4800&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_type&lt;/td&gt;&lt;td&gt;Get Lua type&lt;/td&gt;&lt;td&gt;0x006F9230&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaB_print&lt;/td&gt;&lt;td&gt;Prints lua value to stdout&lt;/td&gt;&lt;td&gt;0x01687300&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_touserdata&lt;/td&gt;&lt;td&gt;To userdata&lt;/td&gt;&lt;td&gt;0x0032AC10&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;panic&lt;/td&gt;&lt;td&gt;Panic&lt;/td&gt;&lt;td&gt;0x016B26C4&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notable-pml-offsets"&gt;
- Notable pml offsets:
- &lt;a class="anchor" href="#notable-pml-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-pml-offsets"&gt;Notable pml offsets:&lt;a class="anchor" href="#notable-pml-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.0.2)&lt;/th&gt;&lt;th&gt;Offset (2.0.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</guid><description>&lt;h1 id="legends-z-a-romfs"&gt;
- Legends Z-A (RomFS)
- &lt;a class="anchor" href="#legends-z-a-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</guid><description>&lt;h1 id="legends-z-a-romfs"&gt;Legends Z-A (RomFS)&lt;a class="anchor" href="#legends-z-a-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;ikkaku&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="vscode-folder-tree"&gt;&lt;details class="vscode-folder-item"&gt;
  &lt;summary class="vscode-folder-summary"&gt;
  &lt;span class="folder-name"&gt;avalon&lt;/span&gt;&lt;/summary&gt;
@@ -303,10 +279,7 @@
  padding: 0;
 }
 &lt;/style&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Uses Onepack (trpfs) file system.&lt;/li&gt;
 &lt;/ol&gt;</description></item></channel></rss>

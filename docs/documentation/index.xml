@@ -1,16 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/</link><description>Recent content in Documentation on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Binary Texture (bntx)</title><link>https://pkzukan.github.io/docs/documentation/middleware/bntx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/middleware/bntx/</guid><description>&lt;h1 id="binary-texture-bntx"&gt;
- Binary Texture (bntx)
- &lt;a class="anchor" href="#binary-texture-bntx"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/</link><description>Recent content in Documentation on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Binary Texture (bntx)</title><link>https://pkzukan.github.io/docs/documentation/middleware/bntx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/middleware/bntx/</guid><description>&lt;h1 id="binary-texture-bntx"&gt;Binary Texture (bntx)&lt;a class="anchor" href="#binary-texture-bntx"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Nintendo Middleware binary texture format.&lt;/p&gt;
-&lt;h3 id="format"&gt;
- Format:
- &lt;a class="anchor" href="#format"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="format"&gt;Format:&lt;a class="anchor" href="#format"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -168,29 +159,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;count_padding&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Onepack filesystem</title><link>https://pkzukan.github.io/docs/documentation/common/onepack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/onepack/</guid><description>&lt;h1 id="onepack-filesystem"&gt;
- Onepack filesystem
- &lt;a class="anchor" href="#onepack-filesystem"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Onepack filesystem</title><link>https://pkzukan.github.io/docs/documentation/common/onepack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/onepack/</guid><description>&lt;h1 id="onepack-filesystem"&gt;Onepack filesystem&lt;a class="anchor" href="#onepack-filesystem"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.
 The engine uses the trpfd (file descriptor) to find the trpak the file belongs to and then reads the trpfs for the trpak.&lt;/p&gt;
-&lt;p&gt;If the file hash doesn&amp;rsquo;t exist in the trpfd, it defaults to reading the file path from &lt;code&gt;data:/&lt;/code&gt; which is the root of the romfs.&lt;/p&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
- Trinity File Descriptor (trpfd)
- &lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;p&gt;If the file hash doesn&amp;rsquo;t exist in the trpfd, it defaults to reading the file path from &lt;code&gt;data:/&lt;/code&gt; which is the root of the romfs.&lt;/p&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;Trinity File Descriptor (trpfd)&lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The trpfd describes the packs and files inside &lt;a href="../trpfs"&gt;trpfs&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -231,19 +207,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;packs&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Packinfo&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;
- Trinity FileSystem (trpfs)
- &lt;a class="anchor" href="#trinity-filesystem-trpfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;Trinity FileSystem (trpfs)&lt;a class="anchor" href="#trinity-filesystem-trpfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The trpfs contains most of the game&amp;rsquo;s assets. The &lt;a href="../trpfd"&gt;trpfd&lt;/a&gt; is the descriptor that points to files in trpfs.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 

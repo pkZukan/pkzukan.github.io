@@ -1,39 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sword &amp; Shield on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/orion/</link><description>Recent content in Sword &amp; Shield on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/orion/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/orion/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/exefs/</guid><description>&lt;h1 id="sword--shield-exefs"&gt;
- Sword &amp;amp; Shield (ExeFS)
- &lt;a class="anchor" href="#sword--shield-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sword &amp; Shield on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/orion/</link><description>Recent content in Sword &amp; Shield on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/orion/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/orion/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/exefs/</guid><description>&lt;h1 id="sword--shield-exefs"&gt;Sword &amp;amp; Shield (ExeFS)&lt;a class="anchor" href="#sword--shield-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Orion&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="dependencies-and-libraries"&gt;
- Dependencies and libraries:
- &lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="dependencies-and-libraries"&gt;Dependencies and libraries:&lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lua 5.3&lt;/li&gt;
 &lt;li&gt;sol2&lt;/li&gt;
 &lt;li&gt;YEBIS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;stub&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-offsets"&gt;
- Notable offsets:
- &lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-offsets"&gt;Notable offsets:&lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.3.2)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;Pokedex array [1]&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;td&gt;0x0206fa8c&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;An array of &lt;code&gt;DexEntry&lt;/code&gt;s that are as follows:
 &lt;pre tabindex="0"&gt;&lt;code&gt;struct {
@@ -41,29 +26,19 @@
  ushort ArmorNum;
  ushort TundraNum;
  ushort unused;
-} DexEntry;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+} DexEntry;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;test&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/orion/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/romfs/</guid><description>&lt;h1 id="sword--shield-romfs"&gt;
- Sword &amp;amp; Shield (RomFS)
- &lt;a class="anchor" href="#sword--shield-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/orion/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/romfs/</guid><description>&lt;h1 id="sword--shield-romfs"&gt;Sword &amp;amp; Shield (RomFS)&lt;a class="anchor" href="#sword--shield-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Orion&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/personal/personal_total.bin&lt;/td&gt;&lt;td&gt;personal binary&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/evolution/evo_XXX.bin&lt;/td&gt;&lt;td&gt;evo binary&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/waza/wazaXXXX.wazabin&lt;/td&gt;&lt;td&gt;wazabin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pokemon/table/poke_resource_table.gfbpmcatalog&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/gfbpmcatalog"&gt;gfbpmcatalog&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Defines pokemon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pokemon/table/gpoke_resource_table.gfbpmcatalog&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/gfbpmcatalog"&gt;gfbpmcatalog&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Defines gigantimax pokemon&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
 &lt;/ol&gt;</description></item></channel></rss>

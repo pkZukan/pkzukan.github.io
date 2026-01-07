@@ -1,52 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Let's Go Pikachu &amp; Eevee on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/beluga/</link><description>Recent content in Let's Go Pikachu &amp; Eevee on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/beluga/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/exefs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-exefs"&gt;
- Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (ExeFS)
- &lt;a class="anchor" href="#lets-go-pikachu--eevee-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Let's Go Pikachu &amp; Eevee on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/beluga/</link><description>Recent content in Let's Go Pikachu &amp; Eevee on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/beluga/index.xml" rel="self" type="application/rss+xml"/><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/exefs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-exefs"&gt;Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (ExeFS)&lt;a class="anchor" href="#lets-go-pikachu--eevee-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Beluga&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;stub&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-offsets"&gt;
- Notable offsets:
- &lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-offsets"&gt;Notable offsets:&lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/romfs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-romfs"&gt;
- Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (RomFS)
- &lt;a class="anchor" href="#lets-go-pikachu--eevee-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/romfs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-romfs"&gt;Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (RomFS)&lt;a class="anchor" href="#lets-go-pikachu--eevee-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Beluga&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
 &lt;/ol&gt;</description></item></channel></rss>

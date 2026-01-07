@@ -1,25 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zukan Docs</title><link>https://pkzukan.github.io/</link><description>Recent content on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Asset Assistant</title><link>https://pkzukan.github.io/docs/tools/assetassistant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/assetassistant/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zukan Docs</title><link>https://pkzukan.github.io/</link><description>Recent content on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Asset Assistant</title><link>https://pkzukan.github.io/docs/tools/assetassistant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/assetassistant/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A WIP re-impl of the AssetAssistant lib used in BDSP.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/AssetAssistant"&gt;https://github.com/Reisyukaku/AssetAssistant&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Binary Texture (bntx)</title><link>https://pkzukan.github.io/docs/documentation/middleware/bntx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/middleware/bntx/</guid><description>&lt;h1 id="binary-texture-bntx"&gt;
- Binary Texture (bntx)
- &lt;a class="anchor" href="#binary-texture-bntx"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/AssetAssistant"&gt;https://github.com/Reisyukaku/AssetAssistant&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Binary Texture (bntx)</title><link>https://pkzukan.github.io/docs/documentation/middleware/bntx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/middleware/bntx/</guid><description>&lt;h1 id="binary-texture-bntx"&gt;Binary Texture (bntx)&lt;a class="anchor" href="#binary-texture-bntx"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Nintendo Middleware binary texture format.&lt;/p&gt;
-&lt;h3 id="format"&gt;
- Format:
- &lt;a class="anchor" href="#format"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="format"&gt;Format:&lt;a class="anchor" href="#format"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -177,28 +162,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;id&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;count_padding&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;type&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;u1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Blender Importer</title><link>https://pkzukan.github.io/docs/tools/blenderimporter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/blenderimporter/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Blender Importer</title><link>https://pkzukan.github.io/docs/tools/blenderimporter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/blenderimporter/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Import scripts for Blender for switch Pokemon model formats.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/"&gt;https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Character Customization Data (ccdata)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</guid><description>&lt;h1 id="character-customization-data-ccdata"&gt;
- Character Customization Data (ccdata)
- &lt;a class="anchor" href="#character-customization-data-ccdata"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/"&gt;https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Character Customization Data (ccdata)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdata/</guid><description>&lt;h1 id="character-customization-data-ccdata"&gt;Character Customization Data (ccdata)&lt;a class="anchor" href="#character-customization-data-ccdata"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains entries pointing to &lt;a href="../trmdl"&gt;trmdl&lt;/a&gt; and &lt;a href="../trmtr"&gt;trmtr&lt;/a&gt; files.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -257,19 +227,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CharacterCreationData&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Character Customization Data Master (ccdatam)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdatam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdatam/</guid><description>&lt;h1 id="character-customization-data-master-ccdatam"&gt;
- Character Customization Data Master (ccdatam)
- &lt;a class="anchor" href="#character-customization-data-master-ccdatam"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Character Customization Data Master (ccdatam)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/ccdatam/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/ccdatam/</guid><description>&lt;h1 id="character-customization-data-master-ccdatam"&gt;Character Customization Data Master (ccdatam)&lt;a class="anchor" href="#character-customization-data-master-ccdatam"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains a list of the ccdata files.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -299,19 +260,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Entry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CharacterCreationDataMaster&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Evolution Binary (evobin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</guid><description>&lt;h1 id="evolution-binary-evobin"&gt;
- Evolution Binary (evobin)
- &lt;a class="anchor" href="#evolution-binary-evobin"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CharacterCreationDataMaster&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Evolution Binary (evobin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</guid><description>&lt;h1 id="evolution-binary-evobin"&gt;Evolution Binary (evobin)&lt;a class="anchor" href="#evolution-binary-evobin"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -351,105 +303,63 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;evos&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Evo&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;EvoBin&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/exefs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-exefs"&gt;
- Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (ExeFS)
- &lt;a class="anchor" href="#lets-go-pikachu--eevee-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;EvoBin&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/exefs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-exefs"&gt;Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (ExeFS)&lt;a class="anchor" href="#lets-go-pikachu--eevee-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Beluga&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;stub&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-offsets"&gt;
- Notable offsets:
- &lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-offsets"&gt;Notable offsets:&lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/delphis/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/delphis/exefs/</guid><description>&lt;h1 id="brilliant-diamond--shining-pearl-exefs"&gt;
- Brilliant Diamond &amp;amp; Shining Pearl (ExeFS)
- &lt;a class="anchor" href="#brilliant-diamond--shining-pearl-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/delphis/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/delphis/exefs/</guid><description>&lt;h1 id="brilliant-diamond--shining-pearl-exefs"&gt;Brilliant Diamond &amp;amp; Shining Pearl (ExeFS)&lt;a class="anchor" href="#brilliant-diamond--shining-pearl-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Delphis&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Uses Unity engine&lt;/li&gt;
 &lt;li&gt;The AssetAssistant lib is used as both the code for the game as well as the Unity tool used to package assets.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-offsets"&gt;
- Notable offsets:
- &lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-offsets"&gt;Notable offsets:&lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;Dummy&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/exefs/</guid><description>&lt;h1 id="legends-arceus-exefs"&gt;
- Legends Arceus (ExeFS)
- &lt;a class="anchor" href="#legends-arceus-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/exefs/</guid><description>&lt;h1 id="legends-arceus-exefs"&gt;Legends Arceus (ExeFS)&lt;a class="anchor" href="#legends-arceus-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Hayabusa&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Uses Lua 5.3&lt;/li&gt;
 &lt;li&gt;Uses Sol for reflection between lua and cpp&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-lua-offsets"&gt;
- Notable Lua offsets:
- &lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-lua-offsets"&gt;Notable Lua offsets:&lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;lua_newstate&lt;/td&gt;&lt;td&gt;Create a new LuaState struct&lt;/td&gt;&lt;td&gt;0x0006CF00&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaL_loadbufferx&lt;/td&gt;&lt;td&gt;Loads a string of plaintext lua code&lt;/td&gt;&lt;td&gt;0x000555E0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_pcallk&lt;/td&gt;&lt;td&gt;Calls loaded function on the stack&lt;/td&gt;&lt;td&gt;0x00052E10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_tostring&lt;/td&gt;&lt;td&gt;Pops string off the lua stack&lt;/td&gt;&lt;td&gt;0x00050DA0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_settop&lt;/td&gt;&lt;td&gt;Sets Lua stack&lt;/td&gt;&lt;td&gt;0x0004FF10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_gettop&lt;/td&gt;&lt;td&gt;Gets Lua stack pos&lt;/td&gt;&lt;td&gt;0x0004FEF0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_type&lt;/td&gt;&lt;td&gt;Get Lua type&lt;/td&gt;&lt;td&gt;0x00050310&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaB_print&lt;/td&gt;&lt;td&gt;Prints lua value to stdout&lt;/td&gt;&lt;td&gt;0x00056880&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</guid><description>&lt;h1 id="legends-z-a-exefs"&gt;
- Legends Z-A (ExeFS)
- &lt;a class="anchor" href="#legends-z-a-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/exefs/</guid><description>&lt;h1 id="legends-z-a-exefs"&gt;Legends Z-A (ExeFS)&lt;a class="anchor" href="#legends-z-a-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;ikkaku&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="dependencies-and-libraries"&gt;
- Dependencies and libraries:
- &lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="dependencies-and-libraries"&gt;Dependencies and libraries:&lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lua 5.4.3&lt;/li&gt;
 &lt;li&gt;Havok 2022&lt;/li&gt;
@@ -457,75 +367,48 @@
 &lt;li&gt;Oodle&lt;/li&gt;
 &lt;li&gt;Boost&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Game logic written in haxe and compiled to binary lua&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-lua-offsets"&gt;
- Notable Lua offsets:
- &lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-lua-offsets"&gt;Notable Lua offsets:&lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.0.2)&lt;/th&gt;&lt;th&gt;Offset (2.0.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;lua_newstate&lt;/td&gt;&lt;td&gt;Create a new LuaState struct&lt;/td&gt;&lt;td&gt;0x0167BAC0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaL_loadbufferx&lt;/td&gt;&lt;td&gt;Loads a string of plaintext lua code&lt;/td&gt;&lt;td&gt;0x01665FF0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_pcallk&lt;/td&gt;&lt;td&gt;Calls loaded function on the stack&lt;/td&gt;&lt;td&gt;0x000D4DE0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_tostring&lt;/td&gt;&lt;td&gt;Pops string off the lua stack&lt;/td&gt;&lt;td&gt;0x0069D650&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_settop&lt;/td&gt;&lt;td&gt;Sets Lua stack&lt;/td&gt;&lt;td&gt;0x000D4A20&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_gettop&lt;/td&gt;&lt;td&gt;Gets Lua stack pos&lt;/td&gt;&lt;td&gt;0x000D4800&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_type&lt;/td&gt;&lt;td&gt;Get Lua type&lt;/td&gt;&lt;td&gt;0x006F9230&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaB_print&lt;/td&gt;&lt;td&gt;Prints lua value to stdout&lt;/td&gt;&lt;td&gt;0x01687300&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_touserdata&lt;/td&gt;&lt;td&gt;To userdata&lt;/td&gt;&lt;td&gt;0x0032AC10&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;panic&lt;/td&gt;&lt;td&gt;Panic&lt;/td&gt;&lt;td&gt;0x016B26C4&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notable-pml-offsets"&gt;
- Notable pml offsets:
- &lt;a class="anchor" href="#notable-pml-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-pml-offsets"&gt;Notable pml offsets:&lt;a class="anchor" href="#notable-pml-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.0.2)&lt;/th&gt;&lt;th&gt;Offset (2.0.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/orion/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/exefs/</guid><description>&lt;h1 id="sword--shield-exefs"&gt;
- Sword &amp;amp; Shield (ExeFS)
- &lt;a class="anchor" href="#sword--shield-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/orion/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/exefs/</guid><description>&lt;h1 id="sword--shield-exefs"&gt;Sword &amp;amp; Shield (ExeFS)&lt;a class="anchor" href="#sword--shield-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Orion&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="dependencies-and-libraries"&gt;
- Dependencies and libraries:
- &lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="dependencies-and-libraries"&gt;Dependencies and libraries:&lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lua 5.3&lt;/li&gt;
 &lt;li&gt;sol2&lt;/li&gt;
 &lt;li&gt;YEBIS&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;stub&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-offsets"&gt;
- Notable offsets:
- &lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-offsets"&gt;Notable offsets:&lt;a class="anchor" href="#notable-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.3.2)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;Pokedex array [1]&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;td&gt;0x0206fa8c&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;An array of &lt;code&gt;DexEntry&lt;/code&gt;s that are as follows:
 &lt;pre tabindex="0"&gt;&lt;code&gt;struct {
@@ -533,79 +416,45 @@
  ushort ArmorNum;
  ushort TundraNum;
  ushort unused;
-} DexEntry;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+} DexEntry;&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;test&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/titan/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/exefs/</guid><description>&lt;h1 id="scarlet--violet-exefs"&gt;
- Scarlet &amp;amp; Violet (ExeFS)
- &lt;a class="anchor" href="#scarlet--violet-exefs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>ExeFS</title><link>https://pkzukan.github.io/docs/documentation/titan/exefs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/exefs/</guid><description>&lt;h1 id="scarlet--violet-exefs"&gt;Scarlet &amp;amp; Violet (ExeFS)&lt;a class="anchor" href="#scarlet--violet-exefs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Titan&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="dependencies-and-libraries"&gt;
- Dependencies and libraries:
- &lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="dependencies-and-libraries"&gt;Dependencies and libraries:&lt;a class="anchor" href="#dependencies-and-libraries"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lua 5.4&lt;/li&gt;
 &lt;li&gt;Haxe 3.4.7&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-facts"&gt;
- Notable facts:
- &lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-facts"&gt;Notable facts:&lt;a class="anchor" href="#notable-facts"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Game logic written in haxe and compiled to binary lua&lt;/li&gt;
 &lt;li&gt;A lot more game logic moved to haxe/lua than previous games&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="notable-lua-offsets"&gt;
- Notable Lua offsets:
- &lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-lua-offsets"&gt;Notable Lua offsets:&lt;a class="anchor" href="#notable-lua-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.1.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;lua_newstate&lt;/td&gt;&lt;td&gt;Create a new LuaState struct&lt;/td&gt;&lt;td&gt;0x00ADAE00&lt;/td&gt;&lt;td&gt;0x0003B420&lt;/td&gt;&lt;td&gt;0x0003B420&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaL_loadbufferx&lt;/td&gt;&lt;td&gt;Loads a string of plaintext lua code&lt;/td&gt;&lt;td&gt;0x00D69E70&lt;/td&gt;&lt;td&gt;0x00D9EEF0&lt;/td&gt;&lt;td&gt;0x00DC6A80&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_pcallk&lt;/td&gt;&lt;td&gt;Calls loaded function on the stack&lt;/td&gt;&lt;td&gt;0x0099E3B0&lt;/td&gt;&lt;td&gt;0x009B96C0&lt;/td&gt;&lt;td&gt;0x009C8B20&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_tostring&lt;/td&gt;&lt;td&gt;Pops string off the lua stack&lt;/td&gt;&lt;td&gt;0x009AEB10&lt;/td&gt;&lt;td&gt;0x009CA610&lt;/td&gt;&lt;td&gt;0x009D99A0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_settop&lt;/td&gt;&lt;td&gt;Sets Lua stack&lt;/td&gt;&lt;td&gt;0x0099DF80&lt;/td&gt;&lt;td&gt;0x009B9290&lt;/td&gt;&lt;td&gt;0x009C86F0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_gettop&lt;/td&gt;&lt;td&gt;Gets Lua stack pos&lt;/td&gt;&lt;td&gt;0x0099DF60&lt;/td&gt;&lt;td&gt;0x009B9270&lt;/td&gt;&lt;td&gt;0x009C86D0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lua_type&lt;/td&gt;&lt;td&gt;Get Lua type&lt;/td&gt;&lt;td&gt;0x00A4DD50&lt;/td&gt;&lt;td&gt;0x00A96B40&lt;/td&gt;&lt;td&gt;0x00AAEA90&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;luaB_print&lt;/td&gt;&lt;td&gt;Prints lua value to stdout&lt;/td&gt;&lt;td&gt;0x00045F80&lt;/td&gt;&lt;td&gt;0x00046130&lt;/td&gt;&lt;td&gt;0x00046130&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notable-pml-offsets"&gt;
- Notable pml offsets:
- &lt;a class="anchor" href="#notable-pml-offsets"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notable-pml-offsets"&gt;Notable pml offsets:&lt;a class="anchor" href="#notable-pml-offsets"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Function&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;Offset (1.0.0)&lt;/th&gt;&lt;th&gt;Offset (1.0.1)&lt;/th&gt;&lt;th&gt;Offset (1.1.0)&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;pml::pokepara::Factory::InitCoreData&lt;/td&gt;&lt;td&gt;Generate pokemon on battle&lt;/td&gt;&lt;td&gt;0x00CD1FE8&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;td&gt;0x0&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>FlatbufferToolkit</title><link>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/ol&gt;</description></item><item><title>FlatbufferToolkit</title><link>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A tool to aid in reverse engineering of Google&amp;rsquo;s flatbuffers used in modern pokemon games.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/FlatbufferToolkit"&gt;https://github.com/Reisyukaku/FlatbufferToolkit&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GameFreak Pokemon Catalog (gfbpmcatalog)</title><link>https://pkzukan.github.io/docs/documentation/orion/formats/gfbpmcatalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/formats/gfbpmcatalog/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;
- Trinity Model (trmdl)
- &lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/FlatbufferToolkit"&gt;https://github.com/Reisyukaku/FlatbufferToolkit&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GameFreak Pokemon Catalog (gfbpmcatalog)</title><link>https://pkzukan.github.io/docs/documentation/orion/formats/gfbpmcatalog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/formats/gfbpmcatalog/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;Trinity Model (trmdl)&lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains definitions for pokemon. These definitions point to model files.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -695,28 +544,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;SpeciesSetting&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;SpeciesSettings&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;gfbpokecfg&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>GFTool</title><link>https://pkzukan.github.io/docs/tools/gftool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/gftool/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>GFTool</title><link>https://pkzukan.github.io/docs/tools/gftool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/gftool/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A monorepo of tools used for mod management, asset extraction, scene parsing, etc.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/pkZukan/gftool"&gt;https://github.com/pkZukan/gftool&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Jewel Location (jewelloc)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/jewelloc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/jewelloc/</guid><description>&lt;h1 id="jewel-location-jewelloc"&gt;
- Jewel Location (jewelloc)
- &lt;a class="anchor" href="#jewel-location-jewelloc"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pkZukan/gftool"&gt;https://github.com/pkZukan/gftool&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Jewel Location (jewelloc)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/jewelloc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/jewelloc/</guid><description>&lt;h1 id="jewel-location-jewelloc"&gt;Jewel Location (jewelloc)&lt;a class="anchor" href="#jewel-location-jewelloc"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -760,29 +594,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;JewelLoc&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;JewelLocs&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Model Importing</title><link>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</guid><description>&lt;p&gt;Hellos&lt;/p&gt;</description></item><item><title>Onepack filesystem</title><link>https://pkzukan.github.io/docs/documentation/common/onepack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/onepack/</guid><description>&lt;h1 id="onepack-filesystem"&gt;
- Onepack filesystem
- &lt;a class="anchor" href="#onepack-filesystem"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;JewelLocs&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Model Importing</title><link>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/guides/hayabusa/modelimporting/</guid><description>&lt;p&gt;Hellos&lt;/p&gt;</description></item><item><title>Onepack filesystem</title><link>https://pkzukan.github.io/docs/documentation/common/onepack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/onepack/</guid><description>&lt;h1 id="onepack-filesystem"&gt;Onepack filesystem&lt;a class="anchor" href="#onepack-filesystem"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A file system used in the trinity engine. It&amp;rsquo;s comprised of &lt;a href="../formats/trpfs"&gt;trpfs&lt;/a&gt; &amp;amp; &lt;a href="../formats/trpfd"&gt;trpfd&lt;/a&gt; files.
 The engine uses the trpfd (file descriptor) to find the trpak the file belongs to and then reads the trpfs for the trpak.&lt;/p&gt;
-&lt;p&gt;If the file hash doesn&amp;rsquo;t exist in the trpfd, it defaults to reading the file path from &lt;code&gt;data:/&lt;/code&gt; which is the root of the romfs.&lt;/p&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;
- Personal (Scarlet &amp;amp; Violet)
- &lt;a class="anchor" href="#personal-scarlet--violet"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;p&gt;If the file hash doesn&amp;rsquo;t exist in the trpfd, it defaults to reading the file path from &lt;code&gt;data:/&lt;/code&gt; which is the root of the romfs.&lt;/p&gt;</description></item><item><title>Personal (Scarlet &amp; Violet)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/personal/</guid><description>&lt;h1 id="personal-scarlet--violet"&gt;Personal (Scarlet &amp;amp; Violet)&lt;a class="anchor" href="#personal-scarlet--violet"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains all the base stats, abilities, etc, as well as evo data.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -887,19 +706,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;PersonalData&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal (Sword &amp; Shield)</title><link>https://pkzukan.github.io/docs/documentation/orion/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/formats/personal/</guid><description>&lt;h1 id="personal-sword--shield"&gt;
- Personal (Sword &amp;amp; Shield)
- &lt;a class="anchor" href="#personal-sword--shield"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal (Sword &amp; Shield)</title><link>https://pkzukan.github.io/docs/documentation/orion/formats/personal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/formats/personal/</guid><description>&lt;h1 id="personal-sword--shield"&gt;Personal (Sword &amp;amp; Shield)&lt;a class="anchor" href="#personal-sword--shield"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains all the base stats, abilities, etc, as well as evo data.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1368,19 +1178,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;255&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;gorilla_tactics&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;256&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;neutralizing_gas&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;257&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;pastel_veil&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;258&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hunger_switch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal Binary (perbin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</guid><description>&lt;h1 id="personal-binary-perbin"&gt;
- Personal Binary (perbin)
- &lt;a class="anchor" href="#personal-binary-perbin"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;258&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;hunger_switch&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal Binary (perbin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</guid><description>&lt;h1 id="personal-binary-perbin"&gt;Personal Binary (perbin)&lt;a class="anchor" href="#personal-binary-perbin"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1482,103 +1283,55 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;PersonalData&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>PkNx</title><link>https://pkzukan.github.io/docs/tools/pknx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/pknx/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>PkNx</title><link>https://pkzukan.github.io/docs/tools/pknx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/pknx/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A package of Pokémon (Nintendo Switch) ROM Editing Tools, programmed in C#.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/kwsch/pkNX"&gt;https://github.com/kwsch/pkNX&lt;/a&gt;&lt;/p&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/romfs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-romfs"&gt;
- Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (RomFS)
- &lt;a class="anchor" href="#lets-go-pikachu--eevee-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/kwsch/pkNX"&gt;https://github.com/kwsch/pkNX&lt;/a&gt;&lt;/p&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/beluga/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/beluga/romfs/</guid><description>&lt;h1 id="lets-go-pikachu--eevee-romfs"&gt;Let&amp;rsquo;s Go Pikachu &amp;amp; Eevee (RomFS)&lt;a class="anchor" href="#lets-go-pikachu--eevee-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Beluga&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/delphis/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/delphis/romfs/</guid><description>&lt;h1 id="brilliant-diamond--shining-pearl-romfs"&gt;
- Brilliant Diamond &amp;amp; Shining Pearl (RomFS)
- &lt;a class="anchor" href="#brilliant-diamond--shining-pearl-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/delphis/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/delphis/romfs/</guid><description>&lt;h1 id="brilliant-diamond--shining-pearl-romfs"&gt;Brilliant Diamond &amp;amp; Shining Pearl (RomFS)&lt;a class="anchor" href="#brilliant-diamond--shining-pearl-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Delphis&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;td&gt;dummy&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/orion/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/romfs/</guid><description>&lt;h1 id="sword--shield-romfs"&gt;
- Sword &amp;amp; Shield (RomFS)
- &lt;a class="anchor" href="#sword--shield-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/orion/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/orion/romfs/</guid><description>&lt;h1 id="sword--shield-romfs"&gt;Sword &amp;amp; Shield (RomFS)&lt;a class="anchor" href="#sword--shield-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Orion&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/personal/personal_total.bin&lt;/td&gt;&lt;td&gt;personal binary&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/evolution/evo_XXX.bin&lt;/td&gt;&lt;td&gt;evo binary&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/waza/wazaXXXX.wazabin&lt;/td&gt;&lt;td&gt;wazabin&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pokemon/table/poke_resource_table.gfbpmcatalog&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/gfbpmcatalog"&gt;gfbpmcatalog&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Defines pokemon&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pokemon/table/gpoke_resource_table.gfbpmcatalog&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/gfbpmcatalog"&gt;gfbpmcatalog&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Defines gigantimax pokemon&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Switch Tool Box</title><link>https://pkzukan.github.io/docs/tools/switchtoolbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/switchtoolbox/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/ol&gt;</description></item><item><title>Switch Tool Box</title><link>https://pkzukan.github.io/docs/tools/switchtoolbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/switchtoolbox/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A tool to edit many formats of Nintendo Switch, 3DS and Wii U.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/KillzXGaming/Switch-Toolbox"&gt;https://github.com/KillzXGaming/Switch-Toolbox&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;
- Trinity Animation (tranm)
- &lt;a class="anchor" href="#trinity-animation-tranm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/KillzXGaming/Switch-Toolbox"&gt;https://github.com/KillzXGaming/Switch-Toolbox&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;Trinity Animation (tranm)&lt;a class="anchor" href="#trinity-animation-tranm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1704,19 +1457,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRANM&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;
- Trinity Animation (tranm)
- &lt;a class="anchor" href="#trinity-animation-tranm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;Trinity Animation (tranm)&lt;a class="anchor" href="#trinity-animation-tranm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1838,19 +1582,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRANM&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;
- Trinity Animation Channels (tracl)
- &lt;a class="anchor" href="#trinity-animation-channels-tracl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;Trinity Animation Channels (tracl)&lt;a class="anchor" href="#trinity-animation-channels-tracl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1908,19 +1643,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Node_Root&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;
- Trinity Animation Channels (tracl)
- &lt;a class="anchor" href="#trinity-animation-channels-tracl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;Trinity Animation Channels (tracl)&lt;a class="anchor" href="#trinity-animation-channels-tracl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1974,19 +1700,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Node_Root&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;
- Trinity Animation CM (tracm)
- &lt;a class="anchor" href="#trinity-animation-cm-tracm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;Trinity Animation CM (tracm)&lt;a class="anchor" href="#trinity-animation-cm-tracm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2091,19 +1808,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;len_2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint8&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Related to length of tracks?
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;
- Trinity Animation CM (tracm)
- &lt;a class="anchor" href="#trinity-animation-cm-tracm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;Trinity Animation CM (tracm)&lt;a class="anchor" href="#trinity-animation-cm-tracm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2271,19 +1979,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACM&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;
- Trinity Animation CN (tracn)
- &lt;a class="anchor" href="#trinity-animation-cn-tracn"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;Trinity Animation CN (tracn)&lt;a class="anchor" href="#trinity-animation-cn-tracn"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2314,19 +2013,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;AnimationEntry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;
- Trinity Animation CN (tracn)
- &lt;a class="anchor" href="#trinity-animation-cn-tracn"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;Trinity Animation CN (tracn)&lt;a class="anchor" href="#trinity-animation-cn-tracn"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2355,19 +2045,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;AnimationEntry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;
- Trinity Animation CP (tracp)
- &lt;a class="anchor" href="#trinity-animation-cp-tracp"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;Trinity Animation CP (tracp)&lt;a class="anchor" href="#trinity-animation-cp-tracp"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2423,19 +2104,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root_node&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Entry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;
- Trinity Animation CP (tracp)
- &lt;a class="anchor" href="#trinity-animation-cp-tracp"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;Trinity Animation CP (tracp)&lt;a class="anchor" href="#trinity-animation-cp-tracp"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2487,19 +2159,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root_node&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Entry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;
- Trinity Animation CR (tracr)
- &lt;a class="anchor" href="#trinity-animation-cr-tracr"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;Trinity Animation CR (tracr)&lt;a class="anchor" href="#trinity-animation-cr-tracr"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2553,19 +2216,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;track_list&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;TrackList&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;
- Trinity Animation CR (tracr)
- &lt;a class="anchor" href="#trinity-animation-cr-tracr"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;Trinity Animation CR (tracr)&lt;a class="anchor" href="#trinity-animation-cr-tracr"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2617,19 +2271,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;track_list&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;TrackList&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
- Trinity Technique (trtch)
- &lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;Trinity Technique (trtch)&lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2756,19 +2401,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;states&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ChannelStates&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
- Trinity Technique (trtch)
- &lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;Trinity Technique (trtch)&lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2892,19 +2528,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;states&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ChannelStates&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;
- Trinity Animation Effect (traef)
- &lt;a class="anchor" href="#trinity-animation-effect-traef"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;Trinity Animation Effect (traef)&lt;a class="anchor" href="#trinity-animation-effect-traef"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -2967,19 +2594,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRAEF&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;
- Trinity Animation Effect (traef)
- &lt;a class="anchor" href="#trinity-animation-effect-traef"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;Trinity Animation Effect (traef)&lt;a class="anchor" href="#trinity-animation-effect-traef"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3038,19 +2656,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRAEF&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;
- Trinity Animation LK (tralk)
- &lt;a class="anchor" href="#trinity-animation-lk-tralk"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;Trinity Animation LK (tralk)&lt;a class="anchor" href="#trinity-animation-lk-tralk"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3112,19 +2721,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bone_name&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;
- Trinity Animation LK (tralk)
- &lt;a class="anchor" href="#trinity-animation-lk-tralk"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;Trinity Animation LK (tralk)&lt;a class="anchor" href="#trinity-animation-lk-tralk"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3182,19 +2782,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bone_name&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;
- Trinity Bone IK (trbik)
- &lt;a class="anchor" href="#trinity-bone-ik-trbik"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;Trinity Bone IK (trbik)&lt;a class="anchor" href="#trinity-bone-ik-trbik"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3271,19 +2862,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bones&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;IKBone&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;
- Trinity Bone IK (trbik)
- &lt;a class="anchor" href="#trinity-bone-ik-trbik"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;Trinity Bone IK (trbik)&lt;a class="anchor" href="#trinity-bone-ik-trbik"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3356,19 +2938,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bones&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;IKBone&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;
- Trinity BSM (trbsm)
- &lt;a class="anchor" href="#trinity-bsm-trbsm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;Trinity BSM (trbsm)&lt;a class="anchor" href="#trinity-bsm-trbsm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3417,19 +2990,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;UnkEntry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;
- Trinity BSM (trbsm)
- &lt;a class="anchor" href="#trinity-bsm-trbsm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;Trinity BSM (trbsm)&lt;a class="anchor" href="#trinity-bsm-trbsm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3480,19 +3044,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;UnkEntry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;
- Trinity Camera Animation (trcma)
- &lt;a class="anchor" href="#trinity-camera-animation-trcma"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;Trinity Camera Animation (trcma)&lt;a class="anchor" href="#trinity-camera-animation-trcma"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3628,19 +3183,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;anim&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;CamAnimation&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRCMA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;
- Trinity Camera Animation (trcma)
- &lt;a class="anchor" href="#trinity-camera-animation-trcma"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRCMA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;Trinity Camera Animation (trcma)&lt;a class="anchor" href="#trinity-camera-animation-trcma"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3777,19 +3323,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRCMA&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;
- Trinity File Descriptor (trpfd)
- &lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity File Descriptor (trpfd)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfd/</guid><description>&lt;h1 id="trinity-file-descriptor-trpfd"&gt;Trinity File Descriptor (trpfd)&lt;a class="anchor" href="#trinity-file-descriptor-trpfd"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The trpfd describes the packs and files inside &lt;a href="../trpfs"&gt;trpfs&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3830,19 +3367,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;packs&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Packinfo&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;
- Trinity FileSystem (trpfs)
- &lt;a class="anchor" href="#trinity-filesystem-trpfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFD&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity FileSystem (trpfs)</title><link>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/common/formats/trpfs/</guid><description>&lt;h1 id="trinity-filesystem-trpfs"&gt;Trinity FileSystem (trpfs)&lt;a class="anchor" href="#trinity-filesystem-trpfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The trpfs contains most of the game&amp;rsquo;s assets. The &lt;a href="../trpfd"&gt;trpfd&lt;/a&gt; is the descriptor that points to files in trpfs.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3867,19 +3395,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;file_offsets&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;uint64&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Ground Placement Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_groundplacecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_groundplacecomponent/</guid><description>&lt;h1 id="trinity-ground-placement-component"&gt;
- Trinity Ground Placement Component
- &lt;a class="anchor" href="#trinity-ground-placement-component"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPFS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Ground Placement Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_groundplacecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_groundplacecomponent/</guid><description>&lt;h1 id="trinity-ground-placement-component"&gt;Trinity Ground Placement Component&lt;a class="anchor" href="#trinity-ground-placement-component"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3903,19 +3422,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;index&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_GroundPlaceComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity LookupTables (trltt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trltt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trltt/</guid><description>&lt;h1 id="trinity-lookuptables-trltt"&gt;
- Trinity LookupTables (trltt)
- &lt;a class="anchor" href="#trinity-lookuptables-trltt"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_GroundPlaceComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity LookupTables (trltt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trltt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trltt/</guid><description>&lt;h1 id="trinity-lookuptables-trltt"&gt;Trinity LookupTables (trltt)&lt;a class="anchor" href="#trinity-lookuptables-trltt"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -3965,19 +3475,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;LookupTable&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRLTT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;
- Trinity Material (trmtr)
- &lt;a class="anchor" href="#trinity-material-trmtr"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRLTT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;Trinity Material (trmtr)&lt;a class="anchor" href="#trinity-material-trmtr"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains material stuff.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4092,19 +3593,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;material_passes&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MaterialPass&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;
- Trinity Material (trmtr)
- &lt;a class="anchor" href="#trinity-material-trmtr"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;Trinity Material (trmtr)&lt;a class="anchor" href="#trinity-material-trmtr"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains material stuff.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4224,19 +3716,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;materials&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Material&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity MDT (trmdt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmdt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmdt/</guid><description>&lt;h1 id="trinity-mdt-trmdt"&gt;
- Trinity MDT (trmdt)
- &lt;a class="anchor" href="#trinity-mdt-trmdt"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity MDT (trmdt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmdt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmdt/</guid><description>&lt;h1 id="trinity-mdt-trmdt"&gt;Trinity MDT (trmdt)&lt;a class="anchor" href="#trinity-mdt-trmdt"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4260,19 +3743,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;
- Trinity Mesh (trmsh)
- &lt;a class="anchor" href="#trinity-mesh-trmsh"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;Trinity Mesh (trmsh)&lt;a class="anchor" href="#trinity-mesh-trmsh"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4381,19 +3855,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMSH&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;
- Trinity Mesh (trmsh)
- &lt;a class="anchor" href="#trinity-mesh-trmsh"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;Trinity Mesh (trmsh)&lt;a class="anchor" href="#trinity-mesh-trmsh"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4573,19 +4038,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMSH&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;
- Trinity Model (trmdl)
- &lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;Trinity Model (trmdl)&lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains model stuff.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4632,19 +4088,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sperical_bounds&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Sphere&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;
- Trinity Model (trmdl)
- &lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;Trinity Model (trmdl)&lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains model stuff.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4715,19 +4162,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDL&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;
- Trinity Model Buffer (trmbf)
- &lt;a class="anchor" href="#trinity-model-buffer-trmbf"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;Trinity Model Buffer (trmbf)&lt;a class="anchor" href="#trinity-model-buffer-trmbf"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4763,19 +4201,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;buffers&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MeshBuffer&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;
- Trinity Model Buffer (trmbf)
- &lt;a class="anchor" href="#trinity-model-buffer-trmbf"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;Trinity Model Buffer (trmbf)&lt;a class="anchor" href="#trinity-model-buffer-trmbf"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4824,19 +4253,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;buffers&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;Buffer&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;
- Trinity Model Material Table (trmmt)
- &lt;a class="anchor" href="#trinity-model-material-table-trmmt"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;Trinity Model Material Table (trmmt)&lt;a class="anchor" href="#trinity-model-material-table-trmmt"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4896,19 +4316,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;material&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MaterialTable&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;
- Trinity Model Material Table (trmmt)
- &lt;a class="anchor" href="#trinity-model-material-table-trmmt"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;Trinity Model Material Table (trmmt)&lt;a class="anchor" href="#trinity-model-material-table-trmmt"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -4968,19 +4379,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;material&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MMT&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Object Template</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_objecttemplate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_objecttemplate/</guid><description>&lt;h1 id="trinity-object-template"&gt;
- Trinity Object Template
- &lt;a class="anchor" href="#trinity-object-template"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Object Template</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_objecttemplate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_objecttemplate/</guid><description>&lt;h1 id="trinity-object-template"&gt;Trinity Object Template&lt;a class="anchor" href="#trinity-object-template"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5009,19 +4411,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;object_bytes&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;uint8&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ObjectTemplate&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Particle Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trintity_particlecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trintity_particlecomponent/</guid><description>&lt;h1 id="trinity-particle-component"&gt;
- Trinity Particle Component
- &lt;a class="anchor" href="#trinity-particle-component"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ObjectTemplate&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Particle Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trintity_particlecomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trintity_particlecomponent/</guid><description>&lt;h1 id="trinity-particle-component"&gt;Trinity Particle Component&lt;a class="anchor" href="#trinity-particle-component"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5049,19 +4442,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;particle_parent&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trintity_ParticleComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;
- Trinity Pokeconfig (trpokecfg)
- &lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trintity_ParticleComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;Trinity Pokeconfig (trpokecfg)&lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5112,19 +4496,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;
- Trinity Pokeconfig (trpokecfg)
- &lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;Trinity Pokeconfig (trpokecfg)&lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5175,19 +4550,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Property Sheet</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</guid><description>&lt;h1 id="trinity-property-sheet"&gt;
- Trinity Property Sheet
- &lt;a class="anchor" href="#trinity-property-sheet"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Property Sheet</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_propertysheet/</guid><description>&lt;h1 id="trinity-property-sheet"&gt;Trinity Property Sheet&lt;a class="anchor" href="#trinity-property-sheet"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5228,19 +4594,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Entry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_PropertySheet&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Object</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_sceneobject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_sceneobject/</guid><description>&lt;h1 id="trinity-scene-object"&gt;
- Trinity Scene Object
- &lt;a class="anchor" href="#trinity-scene-object"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_PropertySheet&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Object</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_sceneobject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_sceneobject/</guid><description>&lt;h1 id="trinity-scene-object"&gt;Trinity Scene Object&lt;a class="anchor" href="#trinity-scene-object"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5274,19 +4631,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;	&lt;span style="color:#a6e22e"&gt;unk7&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_SceneObject&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Point</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scenepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scenepoint/</guid><description>&lt;h1 id="trinity-scene-point"&gt;
- Trinity Scene Point
- &lt;a class="anchor" href="#trinity-scene-point"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_SceneObject&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene Point</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scenepoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scenepoint/</guid><description>&lt;h1 id="trinity-scene-point"&gt;Trinity Scene Point&lt;a class="anchor" href="#trinity-scene-point"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5314,14 +4662,8 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;point_unk&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint8&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScenePoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene/Template (trscn/trsot)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scene/</guid><description>&lt;h1 id="trinity-scenetemplate-trscntrsot"&gt;
- Trinity Scene/Template (trscn/trsot)
- &lt;a class="anchor" href="#trinity-scenetemplate-trscntrsot"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScenePoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Scene/Template (trscn/trsot)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scene/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scene/</guid><description>&lt;h1 id="trinity-scenetemplate-trscntrsot"&gt;Trinity Scene/Template (trscn/trsot)&lt;a class="anchor" href="#trinity-scenetemplate-trscntrsot"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Trinity scene graph that contains the following nested types:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="../trinity_sceneobject"&gt;trinity_SceneObject&lt;/a&gt;&lt;/li&gt;
@@ -5333,10 +4675,7 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;li&gt;&lt;a href="../trinity_objecttemplate"&gt;trinity_ObjectTemplate&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="../trinity_groundplacecomponent"&gt;trinity_GroundPlaceComponent&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5538,19 +4877,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk_6&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint8&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_Scene&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Script Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scriptcomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scriptcomponent/</guid><description>&lt;h1 id="trinity-script-component"&gt;
- Trinity Script Component
- &lt;a class="anchor" href="#trinity-script-component"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_Scene&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Script Component</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scriptcomponent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_scriptcomponent/</guid><description>&lt;h1 id="trinity-script-component"&gt;Trinity Script Component&lt;a class="anchor" href="#trinity-script-component"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5579,19 +4909,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;class_name&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScriptComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Shader (trsha)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trsha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trsha/</guid><description>&lt;h1 id="trinity-shader-trsha"&gt;
- Trinity Shader (trsha)
- &lt;a class="anchor" href="#trinity-shader-trsha"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_ScriptComponent&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Shader (trsha)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trsha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trsha/</guid><description>&lt;h1 id="trinity-shader-trsha"&gt;Trinity Shader (trsha)&lt;a class="anchor" href="#trinity-shader-trsha"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5634,19 +4955,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;has_global_param&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;bool&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//maybe contains global_param
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSHA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;
- Trinity Skeleton (trskl)
- &lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSHA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;Trinity Skeleton (trskl)&lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5718,19 +5030,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;rig_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;
- Trinity Skeleton (trskl)
- &lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;Trinity Skeleton (trskl)&lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5819,19 +5122,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;rig_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;
- Trinity SPB (trspb)
- &lt;a class="anchor" href="#trinity-spb-trspb"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;Trinity SPB (trspb)&lt;a class="anchor" href="#trinity-spb-trspb"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5867,19 +5161,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSPB&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;
- Trinity SPB (trspb)
- &lt;a class="anchor" href="#trinity-spb-trspb"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;Trinity SPB (trspb)&lt;a class="anchor" href="#trinity-spb-trspb"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5915,19 +5200,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSPB&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Streaming Point</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_streamingpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_streamingpoint/</guid><description>&lt;h1 id="trinity-streaming-point"&gt;
- Trinity Streaming Point
- &lt;a class="anchor" href="#trinity-streaming-point"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Streaming Point</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_streamingpoint/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trinity_streamingpoint/</guid><description>&lt;h1 id="trinity-streaming-point"&gt;Trinity Streaming Point&lt;a class="anchor" href="#trinity-streaming-point"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -5968,19 +5244,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Entry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_StreamingPoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Technique (trtch)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trtch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trtch/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
- Trinity Technique (trtch)
- &lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;trinity_StreamingPoint&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Technique (trtch)</title><link>https://pkzukan.github.io/docs/documentation/titan/formats/trtch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/formats/trtch/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;Trinity Technique (trtch)&lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -6009,19 +5276,10 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;technique&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Technique&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRTCH&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Waza Binary (wazabin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</guid><description>&lt;h1 id="waza-binary-wazabin"&gt;
- Waza Binary (wazabin)
- &lt;a class="anchor" href="#waza-binary-wazabin"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRTCH&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Waza Binary (wazabin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</guid><description>&lt;h1 id="waza-binary-wazabin"&gt;Waza Binary (wazabin)&lt;a class="anchor" href="#waza-binary-wazabin"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -7707,38 +6965,23 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;WBIN&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sequence&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;WazaSeq&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;WBIN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/romfs/</guid><description>&lt;h1 id="legends-arceus-romfs"&gt;
- Legends Arceus (RomFS)
- &lt;a class="anchor" href="#legends-arceus-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;WBIN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/romfs/</guid><description>&lt;h1 id="legends-arceus-romfs"&gt;Legends Arceus (RomFS)&lt;a class="anchor" href="#legends-arceus-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Hayabusa&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;&lt;th&gt;Path&lt;/th&gt;&lt;th&gt;File Type&lt;/th&gt;&lt;th&gt;Notes&lt;/th&gt;&lt;/tr&gt;
  &lt;/thead&gt;
  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/personal/personal_data_total.perbin&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/perbin"&gt;perbin&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Previously known as personal_total.bin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/evolution/evolution_data_total.evobin&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/evobin"&gt;evobin&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;/bin/pml/waza/wazaXXXX.wazabin&lt;/td&gt;&lt;td&gt;&lt;a href="../formats/wazabin"&gt;wazabin&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Dummy&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</guid><description>&lt;h1 id="legends-z-a-romfs"&gt;
- Legends Z-A (RomFS)
- &lt;a class="anchor" href="#legends-z-a-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/ikkaku/romfs/</guid><description>&lt;h1 id="legends-z-a-romfs"&gt;Legends Z-A (RomFS)&lt;a class="anchor" href="#legends-z-a-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;ikkaku&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="vscode-folder-tree"&gt;&lt;details class="vscode-folder-item"&gt;
  &lt;summary class="vscode-folder-summary"&gt;
  &lt;span class="folder-name"&gt;avalon&lt;/span&gt;&lt;/summary&gt;
@@ -7984,22 +7227,13 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
  padding: 0;
 }
 &lt;/style&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Uses Onepack (trpfs) file system.&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/titan/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/romfs/</guid><description>&lt;h1 id="scarlet--violet-romfs"&gt;
- Scarlet &amp;amp; Violet (RomFS)
- &lt;a class="anchor" href="#scarlet--violet-romfs"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>RomFS</title><link>https://pkzukan.github.io/docs/documentation/titan/romfs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/titan/romfs/</guid><description>&lt;h1 id="scarlet--violet-romfs"&gt;Scarlet &amp;amp; Violet (RomFS)&lt;a class="anchor" href="#scarlet--violet-romfs"&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Titan&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="romfs-contents"&gt;
- Romfs contents:
- &lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="romfs-contents"&gt;Romfs contents:&lt;a class="anchor" href="#romfs-contents"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="vscode-folder-tree"&gt;&lt;details class="vscode-folder-item"&gt;
  &lt;summary class="vscode-folder-summary"&gt;
  &lt;span class="folder-name"&gt;avalon&lt;/span&gt;&lt;/summary&gt;
@@ -8233,10 +7467,7 @@ The engine uses the trpfd (file descriptor) to find the trpak the file belongs t
  padding: 0;
 }
 &lt;/style&gt;
-&lt;h3 id="notes"&gt;
- Notes:
- &lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="notes"&gt;Notes:&lt;a class="anchor" href="#notes"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Uses new &lt;a href="https://pkzukan.github.io/docs/documentation/common/onepack/"&gt;Onepack&lt;/a&gt; file system.&lt;/li&gt;
 &lt;li&gt;Migrating models from PLA described &lt;a href="https://pkzukan.github.io/docs/guides/titan/"&gt;here&lt;/a&gt;.&lt;/li&gt;

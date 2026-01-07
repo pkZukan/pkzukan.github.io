@@ -1,55 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on Zukan Docs</title><link>https://pkzukan.github.io/docs/tools/</link><description>Recent content in Tools on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Asset Assistant</title><link>https://pkzukan.github.io/docs/tools/assetassistant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/assetassistant/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on Zukan Docs</title><link>https://pkzukan.github.io/docs/tools/</link><description>Recent content in Tools on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Asset Assistant</title><link>https://pkzukan.github.io/docs/tools/assetassistant/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/assetassistant/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A WIP re-impl of the AssetAssistant lib used in BDSP.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/AssetAssistant"&gt;https://github.com/Reisyukaku/AssetAssistant&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Blender Importer</title><link>https://pkzukan.github.io/docs/tools/blenderimporter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/blenderimporter/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/AssetAssistant"&gt;https://github.com/Reisyukaku/AssetAssistant&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Blender Importer</title><link>https://pkzukan.github.io/docs/tools/blenderimporter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/blenderimporter/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Import scripts for Blender for switch Pokemon model formats.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/"&gt;https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>FlatbufferToolkit</title><link>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/"&gt;https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/&lt;/a&gt;&lt;/p&gt;</description></item><item><title>FlatbufferToolkit</title><link>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/flatbuffertoolkit/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A tool to aid in reverse engineering of Google&amp;rsquo;s flatbuffers used in modern pokemon games.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/FlatbufferToolkit"&gt;https://github.com/Reisyukaku/FlatbufferToolkit&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GFTool</title><link>https://pkzukan.github.io/docs/tools/gftool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/gftool/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/Reisyukaku/FlatbufferToolkit"&gt;https://github.com/Reisyukaku/FlatbufferToolkit&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GFTool</title><link>https://pkzukan.github.io/docs/tools/gftool/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/gftool/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A monorepo of tools used for mod management, asset extraction, scene parsing, etc.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/pkZukan/gftool"&gt;https://github.com/pkZukan/gftool&lt;/a&gt;&lt;/p&gt;</description></item><item><title>PkNx</title><link>https://pkzukan.github.io/docs/tools/pknx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/pknx/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/pkZukan/gftool"&gt;https://github.com/pkZukan/gftool&lt;/a&gt;&lt;/p&gt;</description></item><item><title>PkNx</title><link>https://pkzukan.github.io/docs/tools/pknx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/pknx/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A package of Pokémon (Nintendo Switch) ROM Editing Tools, programmed in C#.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/kwsch/pkNX"&gt;https://github.com/kwsch/pkNX&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Switch Tool Box</title><link>https://pkzukan.github.io/docs/tools/switchtoolbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/switchtoolbox/</guid><description>&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/kwsch/pkNX"&gt;https://github.com/kwsch/pkNX&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Switch Tool Box</title><link>https://pkzukan.github.io/docs/tools/switchtoolbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/tools/switchtoolbox/</guid><description>&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A tool to edit many formats of Nintendo Switch, 3DS and Wii U.&lt;/p&gt;
-&lt;h3 id="link"&gt;
- Link:
- &lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="link"&gt;Link:&lt;a class="anchor" href="#link"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://github.com/KillzXGaming/Switch-Toolbox"&gt;https://github.com/KillzXGaming/Switch-Toolbox&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

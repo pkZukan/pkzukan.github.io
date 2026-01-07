@@ -1,16 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Legends Arceus Formats on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/</link><description>Recent content in Legends Arceus Formats on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/hayabusa/formats/index.xml" rel="self" type="application/rss+xml"/><item><title>Evolution Binary (evobin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</guid><description>&lt;h1 id="evolution-binary-evobin"&gt;
- Evolution Binary (evobin)
- &lt;a class="anchor" href="#evolution-binary-evobin"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Legends Arceus Formats on Zukan Docs</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/</link><description>Recent content in Legends Arceus Formats on Zukan Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://pkzukan.github.io/docs/documentation/hayabusa/formats/index.xml" rel="self" type="application/rss+xml"/><item><title>Evolution Binary (evobin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/evobin/</guid><description>&lt;h1 id="evolution-binary-evobin"&gt;Evolution Binary (evobin)&lt;a class="anchor" href="#evolution-binary-evobin"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -50,19 +41,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;evos&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;Evo&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;EvoBin&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal Binary (perbin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</guid><description>&lt;h1 id="personal-binary-perbin"&gt;
- Personal Binary (perbin)
- &lt;a class="anchor" href="#personal-binary-perbin"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;EvoBin&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Personal Binary (perbin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/perbin/</guid><description>&lt;h1 id="personal-binary-perbin"&gt;Personal Binary (perbin)&lt;a class="anchor" href="#personal-binary-perbin"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -164,19 +146,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;table&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;entries&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt;[&lt;span style="color:#a6e22e"&gt;PersonalData&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;
- Trinity Animation (tranm)
- &lt;a class="anchor" href="#trinity-animation-tranm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;PersonalTable&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation (tranm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tranm/</guid><description>&lt;h1 id="trinity-animation-tranm"&gt;Trinity Animation (tranm)&lt;a class="anchor" href="#trinity-animation-tranm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -302,19 +275,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRANM&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;
- Trinity Animation Channels (tracl)
- &lt;a class="anchor" href="#trinity-animation-channels-tracl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Channels (tracl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracl/</guid><description>&lt;h1 id="trinity-animation-channels-tracl"&gt;Trinity Animation Channels (tracl)&lt;a class="anchor" href="#trinity-animation-channels-tracl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -372,19 +336,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Node_Root&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;
- Trinity Animation CM (tracm)
- &lt;a class="anchor" href="#trinity-animation-cm-tracm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CM (tracm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracm/</guid><description>&lt;h1 id="trinity-animation-cm-tracm"&gt;Trinity Animation CM (tracm)&lt;a class="anchor" href="#trinity-animation-cm-tracm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -489,19 +444,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;len_2&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint8&lt;/span&gt;; &lt;span style="color:#75715e"&gt;//Related to length of tracks?
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;
- Trinity Animation CN (tracn)
- &lt;a class="anchor" href="#trinity-animation-cn-tracn"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CN (tracn)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracn/</guid><description>&lt;h1 id="trinity-animation-cn-tracn"&gt;Trinity Animation CN (tracn)&lt;a class="anchor" href="#trinity-animation-cn-tracn"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -532,19 +478,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;list&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;AnimationEntry&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;
- Trinity Animation CP (tracp)
- &lt;a class="anchor" href="#trinity-animation-cp-tracp"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACN&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CP (tracp)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracp/</guid><description>&lt;h1 id="trinity-animation-cp-tracp"&gt;Trinity Animation CP (tracp)&lt;a class="anchor" href="#trinity-animation-cp-tracp"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -600,19 +537,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;root_node&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Entry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;
- Trinity Animation CR (tracr)
- &lt;a class="anchor" href="#trinity-animation-cr-tracr"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACP&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CR (tracr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracr/</guid><description>&lt;h1 id="trinity-animation-cr-tracr"&gt;Trinity Animation CR (tracr)&lt;a class="anchor" href="#trinity-animation-cr-tracr"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -666,19 +594,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;track_list&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;TrackList&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;
- Trinity Technique (trtch)
- &lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation CS (tracs)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tracs/</guid><description>&lt;h1 id="trinity-technique-trtch"&gt;Trinity Technique (trtch)&lt;a class="anchor" href="#trinity-technique-trtch"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -805,19 +724,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;states&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;ChannelStates&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;
- Trinity Animation Effect (traef)
- &lt;a class="anchor" href="#trinity-animation-effect-traef"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRACS&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation Effect (traef)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/traef/</guid><description>&lt;h1 id="trinity-animation-effect-traef"&gt;Trinity Animation Effect (traef)&lt;a class="anchor" href="#trinity-animation-effect-traef"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -880,19 +790,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRAEF&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;
- Trinity Animation LK (tralk)
- &lt;a class="anchor" href="#trinity-animation-lk-tralk"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Animation LK (tralk)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/tralk/</guid><description>&lt;h1 id="trinity-animation-lk-tralk"&gt;Trinity Animation LK (tralk)&lt;a class="anchor" href="#trinity-animation-lk-tralk"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -954,19 +855,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bone_name&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;string&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;
- Trinity Bone IK (trbik)
- &lt;a class="anchor" href="#trinity-bone-ik-trbik"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRALK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Bone IK (trbik)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbik/</guid><description>&lt;h1 id="trinity-bone-ik-trbik"&gt;Trinity Bone IK (trbik)&lt;a class="anchor" href="#trinity-bone-ik-trbik"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1043,19 +935,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;bones&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;IKBone&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;
- Trinity BSM (trbsm)
- &lt;a class="anchor" href="#trinity-bsm-trbsm"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBIK&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity BSM (trbsm)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trbsm/</guid><description>&lt;h1 id="trinity-bsm-trbsm"&gt;Trinity BSM (trbsm)&lt;a class="anchor" href="#trinity-bsm-trbsm"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1104,19 +987,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;unk&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;UnkEntry&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;
- Trinity Camera Animation (trcma)
- &lt;a class="anchor" href="#trinity-camera-animation-trcma"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRBSM&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Camera Animation (trcma)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trcma/</guid><description>&lt;h1 id="trinity-camera-animation-trcma"&gt;Trinity Camera Animation (trcma)&lt;a class="anchor" href="#trinity-camera-animation-trcma"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1252,19 +1126,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;anim&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;CamAnimation&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRCMA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;
- Trinity Material (trmtr)
- &lt;a class="anchor" href="#trinity-material-trmtr"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRCMA&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Material (trmtr)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmtr/</guid><description>&lt;h1 id="trinity-material-trmtr"&gt;Trinity Material (trmtr)&lt;a class="anchor" href="#trinity-material-trmtr"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains material stuff.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1379,19 +1244,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;material_passes&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MaterialPass&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;
- Trinity Mesh (trmsh)
- &lt;a class="anchor" href="#trinity-mesh-trmsh"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMTR&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Mesh (trmsh)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmsh/</guid><description>&lt;h1 id="trinity-mesh-trmsh"&gt;Trinity Mesh (trmsh)&lt;a class="anchor" href="#trinity-mesh-trmsh"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1500,19 +1356,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMSH&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;
- Trinity Model (trmdl)
- &lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model (trmdl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmdl/</guid><description>&lt;h1 id="trinity-model-trmdl"&gt;Trinity Model (trmdl)&lt;a class="anchor" href="#trinity-model-trmdl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Contains model stuff.&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1559,19 +1406,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sperical_bounds&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;Sphere&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;
- Trinity Model Buffer (trmbf)
- &lt;a class="anchor" href="#trinity-model-buffer-trmbf"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMDL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Buffer (trmbf)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmbf/</guid><description>&lt;h1 id="trinity-model-buffer-trmbf"&gt;Trinity Model Buffer (trmbf)&lt;a class="anchor" href="#trinity-model-buffer-trmbf"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1607,19 +1445,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;buffers&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MeshBuffer&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;
- Trinity Model Material Table (trmmt)
- &lt;a class="anchor" href="#trinity-model-material-table-trmmt"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMBF&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Model Material Table (trmmt)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trmmt/</guid><description>&lt;h1 id="trinity-model-material-table-trmmt"&gt;Trinity Model Material Table (trmmt)&lt;a class="anchor" href="#trinity-model-material-table-trmmt"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1679,19 +1508,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;material&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#a6e22e"&gt;MaterialTable&lt;/span&gt;];
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;
- Trinity Pokeconfig (trpokecfg)
- &lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRMMT&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Pokeconfig (trpokecfg)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trpokecfg/</guid><description>&lt;h1 id="trinity-pokeconfig-trpokecfg"&gt;Trinity Pokeconfig (trpokecfg)&lt;a class="anchor" href="#trinity-pokeconfig-trpokecfg"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1742,19 +1562,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRPOKECFG&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;
- Trinity Skeleton (trskl)
- &lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity Skeleton (trskl)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trskl/</guid><description>&lt;h1 id="trinity-skeleton-trskl"&gt;Trinity Skeleton (trskl)&lt;a class="anchor" href="#trinity-skeleton-trskl"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1826,19 +1637,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;rig_offset&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;uint32&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;
- Trinity SPB (trspb)
- &lt;a class="anchor" href="#trinity-spb-trspb"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSKL&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Trinity SPB (trspb)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/trspb/</guid><description>&lt;h1 id="trinity-spb-trspb"&gt;Trinity SPB (trspb)&lt;a class="anchor" href="#trinity-spb-trspb"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
@@ -1874,19 +1676,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;root_type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;TRSPB&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Waza Binary (wazabin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</guid><description>&lt;h1 id="waza-binary-wazabin"&gt;
- Waza Binary (wazabin)
- &lt;a class="anchor" href="#waza-binary-wazabin"&gt;#&lt;/a&gt;
-&lt;/h1&gt;
-&lt;h3 id="description"&gt;
- Description:
- &lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Waza Binary (wazabin)</title><link>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pkzukan.github.io/docs/documentation/hayabusa/formats/wazabin/</guid><description>&lt;h1 id="waza-binary-wazabin"&gt;Waza Binary (wazabin)&lt;a class="anchor" href="#waza-binary-wazabin"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="description"&gt;Description:&lt;a class="anchor" href="#description"&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Stub&lt;/p&gt;
-&lt;h3 id="schema"&gt;
- Schema:
- &lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;
-&lt;/h3&gt;
+&lt;h3 id="schema"&gt;Schema:&lt;a class="anchor" href="#schema"&gt;#&lt;/a&gt;&lt;/h3&gt;
 
 
 
