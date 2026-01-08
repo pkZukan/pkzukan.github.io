@@ -67,7 +67,7 @@
                           "name": "dll_util.blua",
                           "is_file": true,
                           "type": "—",
-                          "desc": "—"
+                          "desc": "Binary lua containing math and helper functions"
                         }
                       ]
                     },
@@ -79,7 +79,7 @@
                           "name": "event_ik.blua",
                           "is_file": true,
                           "type": "—",
-                          "desc": "—"
+                          "desc": "Binary lua containing event scripts"
                         }
                       ]
                     },
@@ -91,7 +91,7 @@
                           "name": "main_dynamic.blua",
                           "is_file": true,
                           "type": "—",
-                          "desc": "—"
+                          "desc": "Binary lua containing haxe boilerplate"
                         }
                       ]
                     },
@@ -103,11 +103,53 @@
                           "name": "main.blua",
                           "is_file": true,
                           "type": "—",
-                          "desc": "—"
+                          "desc": "Binary lua containing core game logic"
                         }
                       ]
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ui",
+      "is_file": false,
+      "children": [
+        {
+          "name": "data",
+          "is_file": false,
+          "children": [
+            {
+              "name": "hair_salon",
+              "is_file": false,
+              "children": [
+                {
+                  "name": "view_hair_salon_ofsc_00.truiv",
+                  "is_file": true,
+                  "type": "—",
+                  "desc": "Hair salon offscreen view"
+                },
+                {
+                  "name": "hair_salon_ofsc_00.arc",
+                  "is_file": true,
+                  "type": "—",
+                  "desc": "Hair salon offscreen layouts"
+                },
+                {
+                  "name": "view_hair_salon_itemlist_00.truiv",
+                  "is_file": true,
+                  "type": "—",
+                  "desc": "Hair salon itemlist view"
+                },
+                {
+                  "name": "hair_salon_itemlist_00.arc",
+                  "is_file": true,
+                  "type": "—",
+                  "desc": "Hair salon itemlist layouts"
                 }
               ]
             }
