@@ -1,0 +1,31 @@
+{{- $csv := .Get "csv" -}}
+{{- if not $csv -}}
+  {{- errorf "shortcode romfs-tree: missing required parameter 'csv' (e.g. data/orion/romfs_full.csv)" -}}
+{{- end -}}
+{{- $publish := .Get "publish" | default "" -}}
+{{- $title := .Get "title" | default "RomFS Browser" -}}
+
+{{- /* If `csv` is an asset path (e.g. data/orion/romfs_full.csv), publish it so fetch() works. */ -}}
+{{- $csvUrl := $csv -}}
+{{- if and (not (hasPrefix $csv "http://")) (not (hasPrefix $csv "https://")) (not (hasPrefix $csv "/")) -}}
+  {{- with resources.Get $csv -}}
+    {{- $dest := $publish | default $csv -}}
+    {{- $dest = strings.TrimPrefix "/" $dest -}}
+    {{- $published := resources.Copy $dest . -}}
+    {{- $csvUrl = $published.RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+
+<div
+  class="romfs-tree"
+  data-romfs-tree
+  data-romfs-csv="{{ $csvUrl }}"
+  data-romfs-title="{{ $title | htmlEscape }}"
+></div>
+
+{{- with resources.Get "js/romfs-tree.js" -}}
+  {{- $js := . | resources.Minify | resources.Fingerprint -}}
+  <script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- else -}}
+  {{- errorf "shortcode romfs-tree: missing asset js/romfs-tree.js" -}}
+{{- end -}}

@@ -1,6 +1,6 @@
 ---
-title: "Legends: Z-A Guides"
-weight: 1
+title: "Legends Z-A"
+weight: 5
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
@@ -8,6 +8,24 @@ bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Legends: Z-A Guides
+# Legends Z-A
 
- - [Exporting TRMBF and TRMSH](https://github.com/ChicoEevee/Pokemon-Switch-Model-Importer-Blender/wiki/Exporting-TRMBF-and-TRMSH)
+*Ikkaku*
+
+------------------------------
+
+#### Legends Z-A Info:
+
+TitleID: 0100F43008C44000
+
+Size: 4.1 GB
+
+Release Date: 10-16-2025
+
+![ZA](/z-a.jpg)
+
+#### Guides:
+
+- Model importing: `/docs/guides/ikkaku/modelimporting/`
+- Materials: `/docs/guides/ikkaku/materials/`
+- Materials/textures workflow: `/docs/guides/ikkaku/materialstextures/`

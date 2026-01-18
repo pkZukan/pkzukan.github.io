@@ -1,6 +1,6 @@
 ---
 title: "Legends Z-A"
-weight: 6
+weight: 5
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
@@ -23,3 +23,9 @@ Size: 4.1 GB
 Release Date: 10-16-2025
 
 ![ZA](/z-a.jpg)
+
+#### Guides:
+
+- Model importing: `/docs/guides/ikkaku/modelimporting/`
+- Materials: `/docs/guides/ikkaku/materials/`
+- Materials/textures workflow: `/docs/guides/ikkaku/materialstextures/`
