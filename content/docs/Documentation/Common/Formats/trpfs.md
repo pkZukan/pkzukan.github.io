@@ -1,5 +1,5 @@
 ---
-title: "Trinity FileSystem (trpfs)"
+title: "Trinity Pack FileSystem (trpfs)"
 weight: 1
 # bookFlatSection: false
 # bookToc: true

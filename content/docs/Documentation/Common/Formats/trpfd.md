@@ -1,5 +1,5 @@
 ---
-title: "Trinity File Descriptor (trpfd)"
+title: "Trinity Pack File Descriptor (trpfd)"
 weight: 1
 # bookFlatSection: false
 # bookToc: true
