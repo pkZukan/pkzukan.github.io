@@ -10,7 +10,7 @@ bookCollapseSection: false
 ---
 # Onepack filesystem
 
-### Description:
+### Overview:
 
 A file system used in the trinity engine. It's comprised of [trpfs](../formats/trpfs) & [trpfd](../formats/trpfd) files.
 The engine uses the trpfd (file descriptor) to find the [trpak](../formats/trpak) the file belongs to and then reads the trpfs for the trpak. 
